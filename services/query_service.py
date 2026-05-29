@@ -68,8 +68,17 @@ class ArkQueryService:
         )
         self.resources = self._load_json("resources.json")
         self.maps = self._load_json("maps.json")
-        self.loot_crates = self._load_json("loot_crates.json")
-        self.loot_crate_items = self._load_json("loot_crate_items.json")
+        self.loot_crates = self._load_merged_dataset(
+            "loot_crates.json",
+            "loot_crates.generated.json",
+            key_fields=("crate_id", "name_en", "name_zh", "source_url"),
+        )
+        self.loot_crate_items = self._load_merged_dataset(
+            "loot_crate_items.json",
+            "loot_crate_items.generated.json",
+            key_fields=("crate_id", "item_name_en", "item_name_zh", "source_url"),
+            use_composite_key=True,
+        )
         self.item_sources = self._load_merged_dataset(
             "item_sources.json",
             "item_sources.generated.json",
@@ -98,6 +107,7 @@ class ArkQueryService:
         generated_filename: str,
         key_fields: tuple[str, ...],
         fallback_generated_filename: str | None = None,
+        use_composite_key: bool = False,
     ) -> list[dict[str, Any]]:
         manual_rows = self._load_json(manual_filename)
         generated_rows = self._load_optional_json(generated_filename)
@@ -107,12 +117,12 @@ class ArkQueryService:
 
         merged: dict[str, dict[str, Any]] = {}
         for row in generated_rows:
-            key = self._row_merge_key(row, key_fields)
+            key = self._row_merge_key(row, key_fields, use_composite_key=use_composite_key)
             if key:
                 merged[key] = row
 
         for row in manual_rows:
-            key = self._row_merge_key(row, key_fields)
+            key = self._row_merge_key(row, key_fields, use_composite_key=use_composite_key)
             if not key:
                 continue
             if key in merged:
@@ -225,7 +235,21 @@ class ArkQueryService:
                     display.setdefault(key, str(label))
         return display
 
-    def _row_merge_key(self, row: dict[str, Any], key_fields: tuple[str, ...]) -> str:
+    def _row_merge_key(
+        self,
+        row: dict[str, Any],
+        key_fields: tuple[str, ...],
+        use_composite_key: bool = False,
+    ) -> str:
+        if use_composite_key:
+            parts = []
+            for field in key_fields:
+                value = row.get(field)
+                if value is None or value == "":
+                    continue
+                parts.append(f"{field}={_normalize(str(value))}")
+            return "|".join(parts)
+
         for field in key_fields:
             value = row.get(field)
             if value is None or value == "":
@@ -378,8 +402,8 @@ class ArkQueryService:
     def _build_resource_index(self) -> dict[str, list[dict[str, Any]]]:
         index: dict[str, list[dict[str, Any]]] = {}
         for row in self.resources:
-            canonical_names = [row.get("resource_name", "")]
-            alias_names = list(row.get("aliases", []))
+            canonical_names = list(dict.fromkeys([row.get("resource_name", "")]))
+            alias_names = list(dict.fromkeys(row.get("aliases", [])))
             for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
@@ -409,8 +433,8 @@ class ArkQueryService:
     def _build_crate_index(self) -> dict[str, list[dict[str, Any]]]:
         index: dict[str, list[dict[str, Any]]] = {}
         for row in self.loot_crates:
-            canonical_names = [row.get("name_zh", ""), row.get("name_en", ""), row.get("crate_id", "")]
-            alias_names = list(row.get("aliases", []))
+            canonical_names = list(dict.fromkeys([row.get("name_zh", ""), row.get("name_en", ""), row.get("crate_id", "")]))
+            alias_names = list(dict.fromkeys(row.get("aliases", [])))
             for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
@@ -424,7 +448,11 @@ class ArkQueryService:
     def _build_crate_display_map(self) -> dict[str, str]:
         display: dict[str, str] = {}
         for row in self.loot_crates:
-            label = f"{row.get('map_name', '未知地图')} - {row.get('name_zh', '未知宝箱')}"
+            tier = str(row.get("tier", "")).strip()
+            if tier:
+                label = f"{row.get('map_name', '未知地图')} - {tier} - {row.get('name_zh', '未知宝箱')}"
+            else:
+                label = f"{row.get('map_name', '未知地图')} - {row.get('name_zh', '未知宝箱')}"
             canonical_names = [row.get("name_zh", ""), row.get("name_en", ""), row.get("crate_id", "")]
             alias_names = list(row.get("aliases", []))
             for name in canonical_names:
@@ -922,7 +950,13 @@ class ArkQueryService:
             return self._not_found("宝箱", raw_query, self.crate_index, self.crate_display)
 
         if len(crate_candidates) > 1:
-            choices = [f"{row['map_name']} - {row['name_zh']}" for row in crate_candidates[: self.max_suggestions]]
+            choices = []
+            for row in crate_candidates[: self.max_suggestions]:
+                tier = str(row.get("tier", "")).strip()
+                if tier:
+                    choices.append(f"{row['map_name']} - {tier} - {row['name_zh']}")
+                else:
+                    choices.append(f"{row['map_name']} - {row['name_zh']}")
             return QueryResult(
                 f"找到了多个宝箱，请说得更具体一些：{_join(choices, ', ')}",
                 found=False,

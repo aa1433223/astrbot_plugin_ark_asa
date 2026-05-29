@@ -419,8 +419,65 @@ def probe_asa(client: WikiClient, output_dir: Path, profile_path: Path) -> dict[
 
 
 def rebuild_item_sources(data_dir: Path, output_file: Path) -> list[dict[str, Any]]:
-    loot_crates = json.loads((data_dir / "loot_crates.json").read_text(encoding="utf-8"))
-    loot_items = json.loads((data_dir / "loot_crate_items.json").read_text(encoding="utf-8"))
+    def _load_rows(name: str) -> list[dict[str, Any]]:
+        path = data_dir / name
+        if not path.exists():
+            return []
+        return json.loads(path.read_text(encoding="utf-8"))
+
+    def _merge_rows(
+        manual_name: str,
+        generated_name: str,
+        key_fields: tuple[str, ...],
+        use_composite_key: bool = False,
+    ) -> list[dict[str, Any]]:
+        def make_key(row: dict[str, Any]) -> str:
+            if use_composite_key:
+                parts = []
+                for field in key_fields:
+                    value = str(row.get(field, "")).strip()
+                    if value:
+                        parts.append(f"{field}:{value}")
+                return "|".join(parts)
+
+            for field in key_fields:
+                value = str(row.get(field, "")).strip()
+                if value:
+                    return f"{field}:{value}"
+            return ""
+
+        merged: dict[str, dict[str, Any]] = {}
+        for row in _load_rows(generated_name):
+            merge_key = make_key(row)
+            if merge_key:
+                merged[merge_key] = dict(row)
+
+        for row in _load_rows(manual_name):
+            merge_key = make_key(row)
+            if not merge_key:
+                continue
+            if merge_key in merged:
+                current = merged[merge_key]
+                for key, value in row.items():
+                    if isinstance(value, list):
+                        current[key] = _dedupe_list(list(current.get(key, [])) + list(value))
+                    elif value not in ("", None, [], {}):
+                        current[key] = value
+            else:
+                merged[merge_key] = dict(row)
+        return list(merged.values())
+
+    loot_crates = _merge_rows(
+        "loot_crates.json",
+        "loot_crates.generated.json",
+        ("crate_id", "name_en", "name_zh"),
+    )
+    loot_items = _merge_rows(
+        "loot_crate_items.json",
+        "loot_crate_items.generated.json",
+        ("crate_id", "item_name_en", "item_name_zh"),
+        use_composite_key=True,
+    )
 
     crate_lookup = {row["crate_id"]: row for row in loot_crates}
     grouped: dict[str, dict[str, Any]] = {}
@@ -428,7 +485,7 @@ def rebuild_item_sources(data_dir: Path, output_file: Path) -> list[dict[str, An
     for row in loot_items:
         item_name_zh = row.get("item_name_zh", "")
         item_name_en = row.get("item_name_en", "")
-        key = item_name_zh or item_name_en
+        key = item_name_en or item_name_zh
         if not key:
             continue
 
@@ -445,6 +502,10 @@ def rebuild_item_sources(data_dir: Path, output_file: Path) -> list[dict[str, An
                 "source_url": row.get("source_url", ""),
             },
         )
+        if item_name_zh and item_name_zh != item_name_en:
+            source["name_zh"] = item_name_zh
+        if item_name_en and not source.get("name_en"):
+            source["name_en"] = item_name_en
 
         crate = crate_lookup.get(row["crate_id"], {})
         source["crate_sources"].append(
