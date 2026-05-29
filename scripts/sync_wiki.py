@@ -27,6 +27,33 @@ ENGLISH_BASE_ALIASES = {
     "mosasaur": "Mosasaurus",
     "spinosaurus": "Spino",
 }
+RESOURCE_NAME_OVERRIDES_EN_TO_ZH = {
+    "black pearl": "黑珍珠",
+    "blue gem": "蓝宝石",
+    "crystal": "水晶",
+    "element ore": "元素矿石",
+    "fungal wood": "真菌木",
+    "gas vein": "气脉",
+    "green gem": "绿宝石",
+    "metal": "金属",
+    "metal (rich deposit)": "富金属矿",
+    "obsidian": "黑曜石",
+    "oil": "石油",
+    "red gem": "红宝石",
+    "salt": "盐",
+    "sand": "沙子",
+    "silica pearls": "硅珍珠",
+    "sulfur": "硫磺",
+}
+MAP_NAME_EN_TO_ZH = {
+    "The Island": "孤岛",
+    "Scorched Earth": "焦土",
+    "The Center": "中心岛",
+    "Aberration": "畸变",
+    "Extinction": "灭绝",
+    "Ragnarok": "仙境",
+    "Valguero": "瓦尔盖罗",
+}
 MANUAL_CREATURE_ZH = {
     "Abominable Snowman": "雪怪",
     "Amargasaurus": "阿玛加龙",
@@ -310,6 +337,34 @@ class WikiClient:
             }
         )
 
+    def query_datamap(
+        self,
+        page_id: int,
+        revid: int | None = None,
+        layers: list[str] | None = None,
+        continue_token: str | None = None,
+        limit: int | None = 500,
+        sector: str | None = None,
+        cb: str | int | None = None,
+    ) -> dict[str, Any]:
+        params: dict[str, Any] = {
+            "action": "queryDataMap",
+            "pageid": str(page_id),
+        }
+        if revid is not None:
+            params["revid"] = str(revid)
+        if layers:
+            params["layers"] = "|".join(layer for layer in layers if str(layer).strip())
+        if continue_token:
+            params["continue"] = str(continue_token)
+        if limit:
+            params["limit"] = str(limit)
+        if sector:
+            params["sector"] = str(sector)
+        if cb not in (None, ""):
+            params["cb"] = str(cb)
+        return self.request(params)
+
 
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -478,13 +533,34 @@ def rebuild_item_sources(data_dir: Path, output_file: Path) -> list[dict[str, An
         ("crate_id", "item_name_en", "item_name_zh"),
         use_composite_key=True,
     )
+    items_rows = _merge_rows(
+        "items.json",
+        "items.generated.zh.json",
+        ("item_code", "name_en", "name_zh"),
+    )
+    if not items_rows:
+        items_rows = _merge_rows(
+            "items.json",
+            "items.generated.json",
+            ("item_code", "name_en", "name_zh"),
+        )
 
     crate_lookup = {row["crate_id"]: row for row in loot_crates}
+    item_lookup = {
+        _normalize_english_lookup(str(row.get("name_en", "")).strip()): row
+        for row in items_rows
+        if str(row.get("name_en", "")).strip()
+    }
     grouped: dict[str, dict[str, Any]] = {}
 
     for row in loot_items:
         item_name_zh = row.get("item_name_zh", "")
         item_name_en = row.get("item_name_en", "")
+        resolved_item = item_lookup.get(_normalize_english_lookup(item_name_en))
+        if resolved_item:
+            resolved_name_zh = str(resolved_item.get("name_zh", "")).strip()
+            if resolved_name_zh and (not item_name_zh or item_name_zh == item_name_en):
+                item_name_zh = resolved_name_zh
         key = item_name_en or item_name_zh
         if not key:
             continue
@@ -522,6 +598,34 @@ def rebuild_item_sources(data_dir: Path, output_file: Path) -> list[dict[str, An
     return result
 
 
+def localize_loot_crate_items(
+    items_input: Path,
+    loot_items_input: Path,
+    output_file: Path,
+) -> list[dict[str, Any]]:
+    items_rows = json.loads(items_input.read_text(encoding="utf-8"))
+    loot_items = json.loads(loot_items_input.read_text(encoding="utf-8"))
+    item_lookup = {
+        _normalize_english_lookup(str(row.get("name_en", "")).strip()): row
+        for row in items_rows
+        if str(row.get("name_en", "")).strip()
+    }
+
+    localized_rows: list[dict[str, Any]] = []
+    for row in loot_items:
+        current = dict(row)
+        item_name_en = str(current.get("item_name_en", "")).strip()
+        resolved = item_lookup.get(_normalize_english_lookup(item_name_en))
+        if resolved:
+            resolved_name_zh = str(resolved.get("name_zh", "")).strip()
+            if resolved_name_zh:
+                current["item_name_zh"] = resolved_name_zh
+        localized_rows.append(current)
+
+    write_json(output_file, localized_rows)
+    return localized_rows
+
+
 def fetch_langlinks_for_titles(
     client: WikiClient,
     titles: list[str],
@@ -543,6 +647,434 @@ def fetch_langlinks_for_titles(
             if title:
                 mapping[title] = translated
     return mapping
+
+
+def _build_manual_item_name_map(manual_items: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    mapping: dict[str, dict[str, Any]] = {}
+    for row in manual_items:
+        name_en = str(row.get("name_en", "")).strip()
+        if not name_en:
+            continue
+        aliases = _dedupe_list(list(row.get("aliases", [])))
+        mapping[name_en] = {
+            "name_zh": str(row.get("name_zh", "")).strip(),
+            "aliases": aliases,
+        }
+    return mapping
+
+
+def merge_item_translations(
+    items_input: Path,
+    langlinks_input: Path,
+    manual_items_input: Path | None,
+    output_file: Path,
+) -> list[dict[str, Any]]:
+    items = json.loads(items_input.read_text(encoding="utf-8"))
+    langlinks = json.loads(langlinks_input.read_text(encoding="utf-8"))
+    manual_items = []
+    if manual_items_input and manual_items_input.exists():
+        manual_items = json.loads(manual_items_input.read_text(encoding="utf-8"))
+    manual_lookup = _build_manual_item_name_map(manual_items)
+
+    merged_rows: list[dict[str, Any]] = []
+    for row in items:
+        current = dict(row)
+        name_en = str(current.get("name_en", "")).strip()
+        translated = str(langlinks.get(name_en, "")).replace("_", " ").strip()
+        manual_entry = manual_lookup.get(name_en, {})
+        manual_name_zh = str(manual_entry.get("name_zh", "")).strip()
+        zh_name = translated or manual_name_zh or str(current.get("name_zh", "")).strip()
+        aliases = _dedupe_list(list(current.get("aliases", [])) + list(manual_entry.get("aliases", [])))
+        if zh_name:
+            current["name_zh"] = zh_name
+            aliases = _dedupe_list([zh_name, *aliases])
+        current["aliases"] = aliases
+        merged_rows.append(current)
+
+    write_json(output_file, merged_rows)
+    return merged_rows
+
+
+def build_item_translation_report(
+    items_input: Path,
+    translated_input: Path,
+    output_file: Path,
+    template_output: Path | None = None,
+) -> dict[str, Any]:
+    base_rows = json.loads(items_input.read_text(encoding="utf-8"))
+    translated_rows = json.loads(translated_input.read_text(encoding="utf-8"))
+    translated_lookup = {
+        str(row.get("name_en", "")).strip(): row
+        for row in translated_rows
+        if str(row.get("name_en", "")).strip()
+    }
+
+    missing_rows: list[dict[str, str]] = []
+    translated_count = 0
+    for row in base_rows:
+        name_en = str(row.get("name_en", "")).strip()
+        translated_row = translated_lookup.get(name_en, {})
+        name_zh = str(translated_row.get("name_zh", "")).strip()
+        if name_zh and name_zh != name_en:
+            translated_count += 1
+        else:
+            missing_rows.append({"name_en": name_en, "name_zh": ""})
+
+    total = len(base_rows)
+    report = {
+        "total": total,
+        "translated": translated_count,
+        "missing": len(missing_rows),
+        "coverage_ratio": (translated_count / total) if total else 0.0,
+    }
+    write_json(output_file, report)
+    if template_output is not None:
+        write_json(template_output, missing_rows)
+    return report
+
+
+def autofill_item_translations(
+    client: WikiClient,
+    items_input: Path,
+    manual_items_input: Path | None,
+    langlinks_output: Path,
+    translated_output: Path,
+    report_output: Path,
+    template_output: Path | None = None,
+) -> dict[str, Any]:
+    items = json.loads(items_input.read_text(encoding="utf-8"))
+    titles = [
+        str(row.get("name_en", "")).strip()
+        for row in items
+        if str(row.get("name_en", "")).strip()
+    ]
+    mapping = fetch_langlinks_for_titles(client, titles, "zh")
+    write_json(langlinks_output, mapping)
+    merge_item_translations(items_input, langlinks_output, manual_items_input, translated_output)
+    return build_item_translation_report(
+        items_input,
+        translated_output,
+        report_output,
+        template_output=template_output,
+    )
+
+
+def _extract_datamap_config(parse_payload: dict[str, Any]) -> dict[str, Any]:
+    text = parse_payload.get("parse", {}).get("text", "")
+    if isinstance(text, dict):
+        text = text.get("*", "")
+    html_text = str(text)
+
+    datamap_id_match = re.search(r'data-datamap-id="(\d+)"', html_text)
+    config_match = re.search(
+        r'<script type="application/datamap\+json" data-purpose="config">(.*?)</script>',
+        html_text,
+        re.I | re.S,
+    )
+    config = {}
+    if config_match:
+        config = json.loads(html.unescape(config_match.group(1)))
+
+    return {
+        "page": parse_payload.get("parse", {}).get("title", ""),
+        "pageid": parse_payload.get("parse", {}).get("pageid"),
+        "datamap_id": int(datamap_id_match.group(1)) if datamap_id_match else None,
+        "config": config,
+    }
+
+
+def _extract_datamap_markers(payload: Any) -> list[dict[str, Any]]:
+    markers: list[dict[str, Any]] = []
+
+    if isinstance(payload, dict):
+        grouped_markers = payload.get("query", {}).get("markers")
+        if isinstance(grouped_markers, dict):
+            for group_name, entries in grouped_markers.items():
+                if not isinstance(entries, list):
+                    continue
+                for entry in entries:
+                    if not isinstance(entry, list) or len(entry) < 2:
+                        continue
+                    marker: dict[str, Any] = {
+                        "group": str(group_name).strip(),
+                        "lat": entry[0],
+                        "lng": entry[1],
+                    }
+                    if len(entry) >= 3 and isinstance(entry[2], dict):
+                        marker.update(entry[2])
+                    markers.append(marker)
+            if markers:
+                return markers
+
+    def visit(node: Any) -> None:
+        if isinstance(node, list):
+            for item in node:
+                visit(item)
+            return
+        if not isinstance(node, dict):
+            return
+
+        keys = set(node.keys())
+        if (
+            {"group", "lat", "lng"} <= keys
+            or {"group", "x", "y"} <= keys
+            or {"g", "x", "y"} <= keys
+            or "markers" in keys
+        ):
+            if {"group", "lat", "lng"} <= keys or {"group", "x", "y"} <= keys or {"g", "x", "y"} <= keys:
+                markers.append(node)
+            for value in node.values():
+                visit(value)
+            return
+
+        for value in node.values():
+            visit(value)
+
+    visit(payload)
+    return markers
+
+
+def _extract_datamap_continue_token(payload: dict[str, Any]) -> str:
+    for key in ("continue", "continuation", "next"):
+        value = payload.get(key)
+        if value not in (None, "", 0):
+            return str(value)
+
+    for nested_key in ("query", "queryDataMap", "data"):
+        nested = payload.get(nested_key)
+        if isinstance(nested, dict):
+            for key in ("continue", "continuation", "next"):
+                value = nested.get(key)
+                if value not in (None, "", 0):
+                    return str(value)
+    return ""
+
+
+def fetch_datamap_markers(
+    client: WikiClient,
+    page: str,
+    output_file: Path,
+    layers: list[str] | None = None,
+    limit: int = 500,
+) -> dict[str, Any]:
+    parse_payload = client.parse_page(page)
+    config_info = _extract_datamap_config(parse_payload)
+    datamap_id = config_info.get("datamap_id")
+    config = config_info.get("config", {})
+    if not datamap_id:
+        raise RuntimeError(f"did not find datamap id for page: {page}")
+
+    revid = config.get("version")
+    cb = config.get("lastPurgeTimestamp") or 0
+    markers: list[dict[str, Any]] = []
+    raw_pages: list[dict[str, Any]] = []
+    seen_tokens: set[str] = set()
+    continue_token = ""
+
+    while True:
+        payload = client.query_datamap(
+            page_id=int(datamap_id),
+            revid=int(revid) if revid not in (None, "") else None,
+            layers=layers,
+            continue_token=continue_token or None,
+            limit=limit,
+            cb=cb,
+        )
+        raw_pages.append(payload)
+        markers.extend(_extract_datamap_markers(payload))
+
+        next_token = _extract_datamap_continue_token(payload)
+        if not next_token or next_token in seen_tokens:
+            break
+        seen_tokens.add(next_token)
+        continue_token = next_token
+
+    result = {
+        "page": page,
+        "map_name": str(page).split("/", 1)[1].replace("_", " ") if "/" in str(page) else str(page),
+        "datamap_id": datamap_id,
+        "config": config,
+        "marker_count": len(markers),
+        "markers": markers,
+        "raw_pages": raw_pages,
+    }
+    write_json(output_file, result)
+    return result
+
+
+def fetch_datamap_markers_batch(
+    client: WikiClient,
+    pages_json: Path,
+    output_dir: Path,
+    limit: int = 500,
+) -> list[dict[str, Any]]:
+    pages = json.loads(pages_json.read_text(encoding="utf-8"))
+    output_dir.mkdir(parents=True, exist_ok=True)
+    manifest: list[dict[str, Any]] = []
+
+    for page in pages:
+        output_file = output_dir / f"{_safe_filename(str(page))}.json"
+        result = fetch_datamap_markers(client, str(page), output_file, limit=limit)
+        manifest.append(
+            {
+                "page": str(page),
+                "output": str(output_file),
+                "marker_count": result.get("marker_count", 0),
+            }
+        )
+
+    return manifest
+
+
+def _to_float(value: Any) -> float | None:
+    if value in (None, ""):
+        return None
+    try:
+        return float(value)
+    except Exception:
+        return None
+
+
+def _normalize_marker_coordinates(marker: dict[str, Any]) -> tuple[float | None, float | None]:
+    if isinstance(marker.get("position"), list) and len(marker["position"]) >= 2:
+        return _to_float(marker["position"][0]), _to_float(marker["position"][1])
+    if isinstance(marker.get("pos"), list) and len(marker["pos"]) >= 2:
+        return _to_float(marker["pos"][0]), _to_float(marker["pos"][1])
+
+    x = _to_float(marker.get("x"))
+    y = _to_float(marker.get("y"))
+    if x is not None or y is not None:
+        return x, y
+
+    lng = _to_float(marker.get("lng"))
+    lat = _to_float(marker.get("lat"))
+    if lng is not None or lat is not None:
+        return lng, lat
+
+    return None, None
+
+
+def _format_marker_coordinate(x: float | None, y: float | None) -> str:
+    if x is None or y is None:
+        return ""
+    return f"{y:.1f},{x:.1f}"
+
+
+def _build_item_translation_lookup(items_rows: list[dict[str, Any]]) -> dict[str, str]:
+    mapping: dict[str, str] = {}
+    for row in items_rows:
+        name_en = str(row.get("name_en", "")).strip()
+        name_zh = str(row.get("name_zh", "")).strip()
+        if not name_zh or name_zh == name_en:
+            continue
+        for candidate in [name_en, name_zh, *row.get("aliases", [])]:
+            key = _normalize_english_lookup(candidate)
+            if key and key not in mapping:
+                mapping[key] = name_zh
+    return mapping
+
+
+def _build_resource_translation_lookup(
+    resources_rows: list[dict[str, Any]],
+    items_rows: list[dict[str, Any]],
+) -> dict[str, str]:
+    mapping = {
+        _normalize_english_lookup(name): value
+        for name, value in RESOURCE_NAME_OVERRIDES_EN_TO_ZH.items()
+    }
+
+    for row in resources_rows:
+        name_zh = str(row.get("resource_name", "")).strip()
+        if not name_zh:
+            continue
+        for candidate in [name_zh, *row.get("aliases", [])]:
+            key = _normalize_english_lookup(candidate)
+            if key and key not in mapping:
+                mapping[key] = name_zh
+
+    for key, value in _build_item_translation_lookup(items_rows).items():
+        mapping.setdefault(key, value)
+
+    return mapping
+
+
+def build_resource_map_dataset(
+    pages_json: Path,
+    payload_dir: Path,
+    resources_input: Path,
+    items_input: Path,
+    output_file: Path,
+) -> list[dict[str, Any]]:
+    pages = json.loads(pages_json.read_text(encoding="utf-8"))
+    resources_rows = json.loads(resources_input.read_text(encoding="utf-8")) if resources_input.exists() else []
+    items_rows = json.loads(items_input.read_text(encoding="utf-8")) if items_input.exists() else []
+    translation_lookup = _build_resource_translation_lookup(resources_rows, items_rows)
+
+    grouped: dict[tuple[str, str], dict[str, Any]] = {}
+    excluded_groups = {"blue obelisk", "green obelisk", "red obelisk", "cave entrance"}
+
+    for page in pages:
+        payload_path = payload_dir / f"{_safe_filename(str(page))}.json"
+        if not payload_path.exists():
+            continue
+
+        payload = json.loads(payload_path.read_text(encoding="utf-8"))
+        raw_map_name = str(payload.get("map_name", "") or str(page).split("/", 1)[1].replace("_", " ")).strip()
+        map_name = MAP_NAME_EN_TO_ZH.get(raw_map_name, raw_map_name)
+        config = payload.get("config", {})
+        group_meta = config.get("groups", {})
+
+        for marker in payload.get("markers", []):
+            group_id = str(marker.get("group") or marker.get("g") or "").strip()
+            group_name_en = str(
+                marker.get("label")
+                or marker.get("name")
+                or group_meta.get(group_id, {}).get("name")
+                or group_id
+            ).strip()
+            if not group_name_en:
+                continue
+            if group_name_en.lower() in excluded_groups:
+                continue
+
+            group_key = _normalize_english_lookup(group_name_en)
+            resource_name = translation_lookup.get(group_key, group_name_en)
+            row_key = (map_name, resource_name)
+            row = grouped.setdefault(
+                row_key,
+                {
+                    "map_name": map_name,
+                    "resource_name": resource_name,
+                    "aliases": _dedupe_list([group_name_en]),
+                    "areas": [],
+                    "coordinates": [],
+                    "risk_level": "待补充",
+                    "notes": f"自动同步自 {page}",
+                    "source_url": f"https://ark.wiki.gg/wiki/{urllib.parse.quote(str(page).replace(' ', '_'))}",
+                    "resource_name_en": group_name_en,
+                    "node_count": 0,
+                },
+            )
+            row["aliases"] = _dedupe_list(list(row.get("aliases", [])) + [group_name_en])
+            row["node_count"] = int(row.get("node_count", 0)) + 1
+
+            x, y = _normalize_marker_coordinates(marker)
+            coordinate = _format_marker_coordinate(x, y)
+            if coordinate:
+                row["coordinates"] = _dedupe_list(list(row.get("coordinates", [])) + [coordinate])
+
+        for row in grouped.values():
+            if row["map_name"] != map_name:
+                continue
+            if row.get("node_count"):
+                row["areas"] = [f"共 {row['node_count']} 个资源点"]
+                shown = min(len(row.get("coordinates", [])), 12)
+                row["notes"] = f"自动同步资源点数据，共 {row['node_count']} 个点位，当前保留前 {shown} 个坐标示例。"
+                row["coordinates"] = list(row.get("coordinates", []))[:12]
+
+    result = sorted(grouped.values(), key=lambda row: (str(row.get("resource_name", "")), str(row.get("map_name", ""))))
+    write_json(output_file, result)
+    return result
 
 
 def extract_dossiers_creature_map(
@@ -1020,6 +1552,26 @@ def parse_args() -> argparse.Namespace:
     langlinks_parser.add_argument("--output", required=True)
     langlinks_parser.add_argument("--lang", default="zh")
 
+    merge_item_translations_parser = subparsers.add_parser("merge-item-translations", help="Merge translated item names into a generated item dataset.")
+    merge_item_translations_parser.add_argument("--items-input", required=True)
+    merge_item_translations_parser.add_argument("--langlinks-input", required=True)
+    merge_item_translations_parser.add_argument("--manual-items", default="")
+    merge_item_translations_parser.add_argument("--output", required=True)
+
+    item_translation_report_parser = subparsers.add_parser("build-item-translation-report", help="Build an item translation coverage report and optional manual template.")
+    item_translation_report_parser.add_argument("--items-input", required=True)
+    item_translation_report_parser.add_argument("--translated-input", required=True)
+    item_translation_report_parser.add_argument("--output", required=True)
+    item_translation_report_parser.add_argument("--template-output", default="")
+
+    autofill_item_translations_parser = subparsers.add_parser("autofill-item-translations", help="Run the full item Chinese translation autofill pipeline from langlinks and manual item names.")
+    autofill_item_translations_parser.add_argument("--items-input", required=True)
+    autofill_item_translations_parser.add_argument("--manual-items", default="")
+    autofill_item_translations_parser.add_argument("--langlinks-output", required=True)
+    autofill_item_translations_parser.add_argument("--translated-output", required=True)
+    autofill_item_translations_parser.add_argument("--report-output", required=True)
+    autofill_item_translations_parser.add_argument("--template-output", default="")
+
     overrides_parser = subparsers.add_parser("build-creature-name-overrides", help="Build a creature translation and alias override map.")
     overrides_parser.add_argument("--creatures-input", required=True)
     overrides_parser.add_argument("--langlinks-input", required=True)
@@ -1063,6 +1615,28 @@ def parse_args() -> argparse.Namespace:
     loot_dataset_parser.add_argument("--payload-dir", required=True)
     loot_dataset_parser.add_argument("--crates-output", required=True)
     loot_dataset_parser.add_argument("--items-output", required=True)
+
+    localize_loot_items_parser = subparsers.add_parser("localize-loot-crate-items", help="Backfill Chinese item names into generated loot crate item rows.")
+    localize_loot_items_parser.add_argument("--items-input", required=True)
+    localize_loot_items_parser.add_argument("--loot-items-input", required=True)
+    localize_loot_items_parser.add_argument("--output", required=True)
+
+    datamap_parser = subparsers.add_parser("fetch-datamap-markers", help="Fetch marker payloads for a resource data map page.")
+    datamap_parser.add_argument("--page", required=True)
+    datamap_parser.add_argument("--output", required=True)
+    datamap_parser.add_argument("--limit", type=int, default=500)
+
+    datamap_batch_parser = subparsers.add_parser("fetch-datamap-markers-batch", help="Fetch marker payloads for a batch of resource data map pages.")
+    datamap_batch_parser.add_argument("--pages-json", required=True)
+    datamap_batch_parser.add_argument("--output-dir", required=True)
+    datamap_batch_parser.add_argument("--limit", type=int, default=500)
+
+    resource_map_dataset_parser = subparsers.add_parser("build-resource-map-dataset", help="Build generated map resource rows from fetched datamap marker payloads.")
+    resource_map_dataset_parser.add_argument("--pages-json", required=True)
+    resource_map_dataset_parser.add_argument("--payload-dir", required=True)
+    resource_map_dataset_parser.add_argument("--resources-input", required=True)
+    resource_map_dataset_parser.add_argument("--items-input", required=True)
+    resource_map_dataset_parser.add_argument("--output", required=True)
 
     rebuild_parser = subparsers.add_parser("rebuild-item-sources", help="Rebuild reverse item source index from loot data.")
     rebuild_parser.add_argument("--data-dir", required=True)
@@ -1467,6 +2041,47 @@ def main() -> int:
         print(f"fetched {len(mapping)} langlinks")
         return 0
 
+    if args.command == "merge-item-translations":
+        rows = merge_item_translations(
+            Path(args.items_input),
+            Path(args.langlinks_input),
+            Path(args.manual_items) if args.manual_items else None,
+            Path(args.output),
+        )
+        print(f"generated {len(rows)} translated item rows")
+        return 0
+
+    if args.command == "build-item-translation-report":
+        report = build_item_translation_report(
+            Path(args.items_input),
+            Path(args.translated_input),
+            Path(args.output),
+            template_output=Path(args.template_output) if args.template_output else None,
+        )
+        print(
+            f"generated item translation report: "
+            f"{report['translated']}/{report['total']} translated "
+            f"({report['coverage_ratio']:.2%})"
+        )
+        return 0
+
+    if args.command == "autofill-item-translations":
+        report = autofill_item_translations(
+            client,
+            Path(args.items_input),
+            Path(args.manual_items) if args.manual_items else None,
+            Path(args.langlinks_output),
+            Path(args.translated_output),
+            Path(args.report_output),
+            template_output=Path(args.template_output) if args.template_output else None,
+        )
+        print(
+            f"autofill complete: "
+            f"{report['translated']}/{report['total']} translated "
+            f"({report['coverage_ratio']:.2%})"
+        )
+        return 0
+
     if args.command == "build-creature-name-overrides":
         overrides = build_creature_name_overrides(
             Path(args.creatures_input),
@@ -1545,6 +2160,46 @@ def main() -> int:
             Path(args.items_output),
         )
         print(f"generated {len(crate_rows)} crate rows and {len(item_rows)} item rows")
+        return 0
+
+    if args.command == "localize-loot-crate-items":
+        rows = localize_loot_crate_items(
+            Path(args.items_input),
+            Path(args.loot_items_input),
+            Path(args.output),
+        )
+        print(f"localized {len(rows)} loot crate item rows")
+        return 0
+
+    if args.command == "fetch-datamap-markers":
+        result = fetch_datamap_markers(
+            client,
+            args.page,
+            Path(args.output),
+            limit=args.limit,
+        )
+        print(f"fetched {result.get('marker_count', 0)} datamap markers")
+        return 0
+
+    if args.command == "fetch-datamap-markers-batch":
+        manifest = fetch_datamap_markers_batch(
+            client,
+            Path(args.pages_json),
+            Path(args.output_dir),
+            limit=args.limit,
+        )
+        print(f"fetched {len(manifest)} datamap payloads")
+        return 0
+
+    if args.command == "build-resource-map-dataset":
+        rows = build_resource_map_dataset(
+            Path(args.pages_json),
+            Path(args.payload_dir),
+            Path(args.resources_input),
+            Path(args.items_input),
+            Path(args.output),
+        )
+        print(f"generated {len(rows)} resource map rows")
         return 0
 
     if args.command == "rebuild-item-sources":

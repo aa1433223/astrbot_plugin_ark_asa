@@ -63,10 +63,16 @@ class ArkQueryService:
         )
         self.items = self._load_merged_dataset(
             "items.json",
-            "items.generated.json",
+            "items.generated.zh.json",
             key_fields=("item_code", "name_en", "name_zh", "source_url"),
+            fallback_generated_filename="items.generated.json",
         )
-        self.resources = self._load_json("resources.json")
+        self.resources = self._load_merged_dataset(
+            "resources.json",
+            "resource_maps.generated.json",
+            key_fields=("map_name", "resource_name"),
+            use_composite_key=True,
+        )
         self.maps = self._load_json("maps.json")
         self.loot_crates = self._load_merged_dataset(
             "loot_crates.json",
@@ -193,6 +199,7 @@ class ArkQueryService:
         self.creature_display = self._build_display_map(self.creatures)
         self.item_display = self._build_display_map(self.items)
         self.item_source_display = self._build_display_map(self.item_sources)
+        self.item_name_index = self._build_item_name_index()
 
     def _build_index(
         self,
@@ -410,8 +417,10 @@ class ArkQueryService:
                     index.setdefault(key, []).append(row)
             for name in alias_names:
                 key = _normalize(str(name))
-                if key and key not in index:
-                    index[key] = [row]
+                if key:
+                    bucket = index.setdefault(key, [])
+                    if row not in bucket:
+                        bucket.append(row)
         return index
 
     def _build_resource_display_map(self) -> dict[str, str]:
@@ -472,6 +481,44 @@ class ArkQueryService:
             if crate_id:
                 grouped.setdefault(crate_id, []).append(row)
         return grouped
+
+    def _build_item_name_index(self) -> dict[str, dict[str, Any]]:
+        index: dict[str, dict[str, Any]] = {}
+        for row in self.items:
+            candidates = [row.get("name_zh", ""), row.get("name_en", ""), *row.get("aliases", [])]
+            for candidate in candidates:
+                key = _normalize(str(candidate))
+                if key and key not in index:
+                    index[key] = row
+        return index
+
+    def _resolve_item_display_name(self, name_zh: str, name_en: str) -> str:
+        lookup_row = None
+        for candidate in (name_zh, name_en):
+            key = _normalize(candidate)
+            if key:
+                lookup_row = self.item_name_index.get(key)
+            if lookup_row:
+                break
+
+        if lookup_row:
+            resolved_zh = str(lookup_row.get("name_zh", "")).strip()
+            resolved_en = str(lookup_row.get("name_en", "")).strip()
+            if resolved_zh and resolved_en and _normalize(resolved_zh) != _normalize(resolved_en):
+                return f"{resolved_zh} / {resolved_en}"
+            return resolved_zh or resolved_en or name_zh or name_en or "未知物品"
+
+        if name_zh and name_en and _normalize(name_zh) != _normalize(name_en):
+            return f"{name_zh} / {name_en}"
+        return name_zh or name_en or "未知物品"
+
+    def _format_resource_coordinates(self, row: dict[str, Any], limit: int = 8) -> str:
+        coordinates = [str(value).strip() for value in row.get("coordinates", []) if str(value).strip()]
+        if not coordinates:
+            return "暂无"
+        if len(coordinates) <= limit:
+            return _join(coordinates, ", ")
+        return f"{_join(coordinates[:limit], ', ')} 等 {len(coordinates)} 处"
 
     def help_text(self) -> str:
         return self.help_result().message
@@ -1107,14 +1154,25 @@ class ArkQueryService:
         rows = self.resource_index.get(keys[0], []) if keys else []
         if canonical_map is None:
             return rows
-        return [row for row in rows if row["map_name"] == canonical_map]
+        return [row for row in rows if self._matches_canonical_map(str(row.get("map_name", "")), canonical_map)]
 
     def _find_crates(self, raw_query: str, canonical_map: str | None = None) -> list[dict[str, Any]]:
         keys = self._match_keys(raw_query, self.crate_index)
         rows = self.crate_index.get(keys[0], []) if keys else []
         if canonical_map is None:
             return rows
-        return [row for row in rows if row["map_name"] == canonical_map]
+        return [row for row in rows if self._matches_canonical_map(str(row.get("map_name", "")), canonical_map)]
+
+    def _matches_canonical_map(self, row_map_name: str, canonical_map: str) -> bool:
+        if row_map_name == canonical_map:
+            return True
+        if _normalize(row_map_name) == _normalize(canonical_map):
+            return True
+
+        map_row = self._find_one(row_map_name, self.map_index, allow_fuzzy=False)
+        if not map_row:
+            return False
+        return _normalize(str(map_row.get("name_zh", ""))) == _normalize(canonical_map)
 
     def _split_map_query(self, raw_query: str) -> tuple[str, str] | None:
         parts = raw_query.split()

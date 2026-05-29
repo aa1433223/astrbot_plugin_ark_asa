@@ -5,5 +5,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 data/*.generated.json
+!data/items.generated.zh.json
+!data/resource_maps.generated.json
 exports/
 sync_probe/
