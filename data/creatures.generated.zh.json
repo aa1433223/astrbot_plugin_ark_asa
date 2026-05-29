@@ -337,9 +337,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Aberrant_Equus"
   },
   {
-    "name_zh": "Aberrant Fasolasuchus",
+    "name_zh": "畸变法索拉鳄",
     "name_en": "Aberrant Fasolasuchus",
-    "aliases": [],
+    "aliases": [
+      "畸变法索拉鳄"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -367,9 +369,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Aberrant_Gigantopithecus"
   },
   {
-    "name_zh": "Aberrant Gigantoraptor",
+    "name_zh": "畸变巨盗龙",
     "name_en": "Aberrant Gigantoraptor",
-    "aliases": [],
+    "aliases": [
+      "畸变巨盗龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -621,10 +625,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Aberrant_Purlovia"
   },
   {
-    "name_zh": "畸变迅猛龙（犹他盗龙）",
+    "name_zh": "畸变迅猛龙",
     "name_en": "Aberrant Raptor",
     "aliases": [
-      "畸变迅猛龙（犹他盗龙）"
+      "畸变迅猛龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -637,9 +641,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Aberrant_Raptor"
   },
   {
-    "name_zh": "Aberrant Salmon",
+    "name_zh": "畸变鲑鱼",
     "name_en": "Aberrant Salmon",
-    "aliases": [],
+    "aliases": [
+      "畸变鲑鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -667,9 +673,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Aberrant_Sarco"
   },
   {
-    "name_zh": "Aberrant Spino",
+    "name_zh": "畸变棘背龙",
     "name_en": "Aberrant Spino",
-    "aliases": [],
+    "aliases": [
+      "畸变棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -713,10 +721,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Aberrant_Titanoboa"
   },
   {
-    "name_zh": "畸变三角龙",
+    "name_zh": "畸变角龙",
     "name_en": "Aberrant Triceratops",
     "aliases": [
-      "畸变三角龙"
+      "畸变角龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -745,9 +753,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Aberrant_Trilobite"
   },
   {
-    "name_zh": "Abominable Snowman",
+    "name_zh": "雪怪",
     "name_en": "Abominable Snowman",
-    "aliases": [],
+    "aliases": [
+      "雪怪"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -759,9 +769,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Abominable_Snowman"
   },
   {
-    "name_zh": "Abyssal Alpha T-Rex",
+    "name_zh": "深渊精英霸王龙",
     "name_en": "Abyssal Alpha T-Rex",
-    "aliases": [],
+    "aliases": [
+      "深渊精英霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -821,9 +833,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Abyssal_Procoptodon"
   },
   {
-    "name_zh": "Abyssal Reaper King",
+    "name_zh": "深渊死神国王",
     "name_en": "Abyssal Reaper King",
-    "aliases": [],
+    "aliases": [
+      "深渊死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -835,9 +849,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Abyssal_Reaper_King"
   },
   {
-    "name_zh": "Abyssal Reaper Offspring",
+    "name_zh": "深渊死神后代",
     "name_en": "Abyssal Reaper Offspring",
-    "aliases": [],
+    "aliases": [
+      "深渊死神后代"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -849,9 +865,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Abyssal_Reaper_Offspring"
   },
   {
-    "name_zh": "Abyssal Reaper Queen",
+    "name_zh": "深渊死神女王",
     "name_en": "Abyssal Reaper Queen",
-    "aliases": [],
+    "aliases": [
+      "深渊死神女王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -927,10 +945,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Abyssal_Thylacoleo"
   },
   {
-    "name_zh": "深渊羽王龙",
+    "name_zh": "深渊羽暴龙",
     "name_en": "Abyssal Yutyrannus",
     "aliases": [
-      "深渊羽王龙"
+      "深渊羽暴龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -971,9 +989,13 @@
     "source_url": "https://ark.wiki.gg/wiki/Achatina"
   },
   {
-    "name_zh": "Acrocanthosaurus",
+    "name_zh": "高棘龙",
     "name_en": "Acrocanthosaurus",
-    "aliases": [],
+    "aliases": [
+      "高棘龙",
+      "高棘",
+      "acro"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1031,9 +1053,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Basilisk"
   },
   {
-    "name_zh": "Alpha Blood Crystal Wyvern",
+    "name_zh": "精英血晶飞龙",
     "name_en": "Alpha Blood Crystal Wyvern",
-    "aliases": [],
+    "aliases": [
+      "精英血晶飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1074,9 +1098,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Carnotaurus"
   },
   {
-    "name_zh": "Alpha Chrysaora",
+    "name_zh": "精英海刺水母",
     "name_en": "Alpha Chrysaora",
-    "aliases": [],
+    "aliases": [
+      "精英海刺水母"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1088,9 +1114,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Chrysaora"
   },
   {
-    "name_zh": "Alpha Corrupted Master Controller",
+    "name_zh": "腐化主控者",
     "name_en": "Corrupted Master Controller",
-    "aliases": [],
+    "aliases": [
+      "腐化主控者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1102,9 +1130,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Corrupted_Master_Controller"
   },
   {
-    "name_zh": "Alpha Dakosaurus",
+    "name_zh": "精英达科龙",
     "name_en": "Alpha Dakosaurus",
-    "aliases": [],
+    "aliases": [
+      "精英达科龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1134,9 +1164,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Deathworm"
   },
   {
-    "name_zh": "Alpha Fire Wyvern",
+    "name_zh": "精英火焰飞龙",
     "name_en": "Alpha Fire Wyvern",
-    "aliases": [],
+    "aliases": [
+      "精英火焰飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1152,9 +1184,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Fire_Wyvern"
   },
   {
-    "name_zh": "Alpha Hulking Revenant",
+    "name_zh": "精英巨躯亡魂",
     "name_en": "Alpha Hulking Revenant",
-    "aliases": [],
+    "aliases": [
+      "精英巨躯亡魂"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1227,9 +1261,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Leedsichthys"
   },
   {
-    "name_zh": "Alpha Malleocephalus",
+    "name_zh": "精英马勒头龙",
     "name_en": "Alpha Malleocephalus",
-    "aliases": [],
+    "aliases": [
+      "精英马勒头龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1266,9 +1302,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Megalodon"
   },
   {
-    "name_zh": "Alpha Moeder, Master of the Ocean",
+    "name_zh": "海洋主宰莫德尔",
     "name_en": "Moeder, Master of the Ocean",
-    "aliases": [],
+    "aliases": [
+      "海洋主宰莫德尔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1280,9 +1318,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Moeder%2C_Master_of_the_Ocean"
   },
   {
-    "name_zh": "Alpha Mosasaur",
+    "name_zh": "精英沧龙",
     "name_en": "Alpha Mosasaur",
-    "aliases": [],
+    "aliases": [
+      "精英沧龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1303,9 +1343,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Mosasaur"
   },
   {
-    "name_zh": "Alpha Ossidon",
+    "name_zh": "精英奥西登",
     "name_en": "Alpha Ossidon",
-    "aliases": [],
+    "aliases": [
+      "精英奥西登"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1317,10 +1359,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Ossidon"
   },
   {
-    "name_zh": "精英迅猛龙（犹他盗龙）",
+    "name_zh": "精英迅猛龙",
     "name_en": "Alpha Raptor",
     "aliases": [
-      "精英迅猛龙（犹他盗龙）"
+      "精英迅猛龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -1343,9 +1385,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Raptor"
   },
   {
-    "name_zh": "Alpha Surface Reaper King",
+    "name_zh": "精英地表死神国王",
     "name_en": "Alpha Surface Reaper King",
-    "aliases": [],
+    "aliases": [
+      "精英地表死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1359,9 +1403,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Surface_Reaper_King"
   },
   {
-    "name_zh": "Alpha T-Rex",
+    "name_zh": "精英霸王龙",
     "name_en": "Alpha T-Rex",
-    "aliases": [],
+    "aliases": [
+      "精英霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1383,9 +1429,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_T-Rex"
   },
   {
-    "name_zh": "Alpha Tridacna",
+    "name_zh": "精英砗磲",
     "name_en": "Alpha Tridacna",
-    "aliases": [],
+    "aliases": [
+      "精英砗磲"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1423,9 +1471,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Tusoteuthis"
   },
   {
-    "name_zh": "Alpha Water Wyvern",
+    "name_zh": "精英水飞龙",
     "name_en": "Alpha Water Wyvern",
-    "aliases": [],
+    "aliases": [
+      "精英水飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1437,9 +1487,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_Water_Wyvern"
   },
   {
-    "name_zh": "Alpha X-Triceratops",
+    "name_zh": "精英X-角龙",
     "name_en": "Alpha X-Triceratops",
-    "aliases": [],
+    "aliases": [
+      "精英X-角龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1451,9 +1503,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Alpha_X-Triceratops"
   },
   {
-    "name_zh": "Amargasaurus",
+    "name_zh": "阿玛加龙",
     "name_en": "Amargasaurus",
-    "aliases": [],
+    "aliases": [
+      "阿玛加龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1493,9 +1547,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Ammonite"
   },
   {
-    "name_zh": "Andrewsarchus",
+    "name_zh": "安氏中兽",
     "name_en": "Andrewsarchus",
-    "aliases": [],
+    "aliases": [
+      "安氏中兽"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1654,9 +1710,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Archaeopteryx"
   },
   {
-    "name_zh": "Archelon",
+    "name_zh": "古巨龟",
     "name_en": "Archelon",
-    "aliases": [],
+    "aliases": [
+      "古巨龟"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1715,9 +1773,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Argentavis_Ghost"
   },
   {
-    "name_zh": "Armadoggo",
+    "name_zh": "犰狳狗",
     "name_en": "Armadoggo",
-    "aliases": [],
+    "aliases": [
+      "犰狳狗"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1758,9 +1818,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Arthropluera"
   },
   {
-    "name_zh": "Astral Argentavis",
+    "name_zh": "星界阿根廷巨鹰",
     "name_en": "Astral Argentavis",
-    "aliases": [],
+    "aliases": [
+      "星界阿根廷巨鹰"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1772,9 +1834,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Argentavis"
   },
   {
-    "name_zh": "Astral Carnotaurus",
+    "name_zh": "星界食肉牛龙",
     "name_en": "Astral Carnotaurus",
-    "aliases": [],
+    "aliases": [
+      "星界食肉牛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1786,9 +1850,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Carnotaurus"
   },
   {
-    "name_zh": "Astral Deinosuchus",
+    "name_zh": "星界帝鳄",
     "name_en": "Astral Deinosuchus",
-    "aliases": [],
+    "aliases": [
+      "星界帝鳄"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1800,9 +1866,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Deinosuchus"
   },
   {
-    "name_zh": "Astral Direwolf",
+    "name_zh": "星界恐狼",
     "name_en": "Astral Direwolf",
-    "aliases": [],
+    "aliases": [
+      "星界恐狼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1814,9 +1882,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Direwolf"
   },
   {
-    "name_zh": "Astral Mammoth",
+    "name_zh": "星界猛犸",
     "name_en": "Astral Mammoth",
-    "aliases": [],
+    "aliases": [
+      "星界猛犸"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1828,9 +1898,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Mammoth"
   },
   {
-    "name_zh": "Astral Megalodon",
+    "name_zh": "星界巨齿鲨",
     "name_en": "Astral Megalodon",
-    "aliases": [],
+    "aliases": [
+      "星界巨齿鲨"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1842,9 +1914,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Megalodon"
   },
   {
-    "name_zh": "Astral Mosasaur",
+    "name_zh": "星界沧龙",
     "name_en": "Astral Mosasaur",
-    "aliases": [],
+    "aliases": [
+      "星界沧龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1856,9 +1930,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Mosasaur"
   },
   {
-    "name_zh": "Astral Pulmonoscorpius Monarch",
+    "name_zh": "星界肺蝎君主",
     "name_en": "Astral Pulmonoscorpius Monarch",
-    "aliases": [],
+    "aliases": [
+      "星界肺蝎君主"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1870,9 +1946,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Pulmonoscorpius_Monarch"
   },
   {
-    "name_zh": "Astral Raptor",
+    "name_zh": "星界迅猛龙",
     "name_en": "Astral Raptor",
-    "aliases": [],
+    "aliases": [
+      "星界迅猛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1884,9 +1962,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Raptor"
   },
   {
-    "name_zh": "Astral Rock Drake",
+    "name_zh": "星界岩龙",
     "name_en": "Astral Rock Drake",
-    "aliases": [],
+    "aliases": [
+      "星界岩龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1898,9 +1978,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Rock_Drake"
   },
   {
-    "name_zh": "Astral T-Rex",
+    "name_zh": "星界霸王龙",
     "name_en": "Astral T-Rex",
-    "aliases": [],
+    "aliases": [
+      "星界霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1912,9 +1994,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_T-Rex"
   },
   {
-    "name_zh": "Astral Tusoteuthis",
+    "name_zh": "星界托斯特巨鱿",
     "name_en": "Astral Tusoteuthis",
-    "aliases": [],
+    "aliases": [
+      "星界托斯特巨鱿"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1926,9 +2010,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astral_Tusoteuthis"
   },
   {
-    "name_zh": "Astrocetus",
+    "name_zh": "星鲸",
     "name_en": "Astrocetus",
-    "aliases": [],
+    "aliases": [
+      "星鲸"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1943,9 +2029,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astrocetus"
   },
   {
-    "name_zh": "Astrodelphis",
+    "name_zh": "星海豚",
     "name_en": "Astrodelphis",
-    "aliases": [],
+    "aliases": [
+      "星海豚"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1959,9 +2047,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Astrodelphis"
   },
   {
-    "name_zh": "Attack Drone",
+    "name_zh": "攻击无人机",
     "name_en": "Attack Drone",
-    "aliases": [],
+    "aliases": [
+      "攻击无人机"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1973,9 +2063,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Attack_Drone"
   },
   {
-    "name_zh": "Aureliax",
+    "name_zh": "奥瑞利亚克斯",
     "name_en": "Aureliax",
-    "aliases": [],
+    "aliases": [
+      "奥瑞利亚克斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -1987,9 +2079,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Aureliax"
   },
   {
-    "name_zh": "Autumn Drakeling",
+    "name_zh": "秋季幼龙",
     "name_en": "Autumn Drakeling",
-    "aliases": [],
+    "aliases": [
+      "秋季幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2001,9 +2095,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Autumn_Drakeling"
   },
   {
-    "name_zh": "Autumn Drakeling Ghost",
+    "name_zh": "秋季幽灵幼龙",
     "name_en": "Autumn Drakeling Ghost",
-    "aliases": [],
+    "aliases": [
+      "秋季幽灵幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2136,9 +2232,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Beelzebufo"
   },
   {
-    "name_zh": "Beta Corrupted Master Controller",
+    "name_zh": "腐化主控者",
     "name_en": "Corrupted Master Controller",
-    "aliases": [],
+    "aliases": [
+      "腐化主控者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2150,9 +2248,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Beta_Corrupted_Master_Controller"
   },
   {
-    "name_zh": "Beta King Titan",
+    "name_zh": "贝塔机械君王泰坦",
     "name_en": "Beta King Titan",
-    "aliases": [],
+    "aliases": [
+      "贝塔机械君王泰坦"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2164,9 +2264,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Beta_King_Titan"
   },
   {
-    "name_zh": "Beta Moeder, Master of the Ocean",
+    "name_zh": "海洋主宰莫德尔",
     "name_en": "Moeder, Master of the Ocean",
-    "aliases": [],
+    "aliases": [
+      "海洋主宰莫德尔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2178,9 +2280,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Beta_Moeder%2C_Master_of_the_Ocean"
   },
   {
-    "name_zh": "Beyla",
+    "name_zh": "贝拉",
     "name_en": "Beyla",
-    "aliases": [],
+    "aliases": [
+      "贝拉"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2192,9 +2296,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Beyla"
   },
   {
-    "name_zh": "Beyla Spawn",
+    "name_zh": "贝拉召唤物",
     "name_en": "Beyla Spawn",
-    "aliases": [],
+    "aliases": [
+      "贝拉召唤物"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2206,9 +2312,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Beyla_Spawn"
   },
   {
-    "name_zh": "Bison",
+    "name_zh": "野牛",
     "name_en": "Bison",
-    "aliases": [],
+    "aliases": [
+      "野牛"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2220,9 +2328,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Bison"
   },
   {
-    "name_zh": "Bloated Revenant",
+    "name_zh": "臃肿亡魂",
     "name_en": "Bloated Revenant",
-    "aliases": [],
+    "aliases": [
+      "臃肿亡魂"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2234,9 +2344,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Bloated_Revenant"
   },
   {
-    "name_zh": "Blood Crystal Wyvern",
+    "name_zh": "血晶飞龙",
     "name_en": "Blood Crystal Wyvern",
-    "aliases": [],
+    "aliases": [
+      "血晶飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2248,9 +2360,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Blood_Crystal_Wyvern"
   },
   {
-    "name_zh": "Bloodstalker",
+    "name_zh": "血蛛",
     "name_en": "Bloodstalker",
-    "aliases": [],
+    "aliases": [
+      "血蛛"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2265,9 +2379,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Bloodstalker"
   },
   {
-    "name_zh": "Boaratos",
+    "name_zh": "博阿拉托斯",
     "name_en": "Boaratos",
-    "aliases": [],
+    "aliases": [
+      "博阿拉托斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2322,9 +2438,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Broodmother_Lysrix"
   },
   {
-    "name_zh": "Broodmother Lysrix (Alpha)",
+    "name_zh": "育母蜘蛛（Alpha）",
     "name_en": "Broodmother Lysrix (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "育母蜘蛛（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2336,9 +2454,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Broodmother_Lysrix_%28Alpha%29"
   },
   {
-    "name_zh": "Broodmother Lysrix (Beta)",
+    "name_zh": "育母蜘蛛（Beta）",
     "name_en": "Broodmother Lysrix (Beta)",
-    "aliases": [],
+    "aliases": [
+      "育母蜘蛛（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2350,9 +2470,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Broodmother_Lysrix_%28Beta%29"
   },
   {
-    "name_zh": "Broodmother Lysrix (Gamma)",
+    "name_zh": "育母蜘蛛（Gamma）",
     "name_en": "Broodmother Lysrix (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "育母蜘蛛（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2380,9 +2502,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Araneo"
   },
   {
-    "name_zh": "Brute Astrocetus",
+    "name_zh": "残暴星鲸",
     "name_en": "Brute Astrocetus",
-    "aliases": [],
+    "aliases": [
+      "残暴星鲸"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2410,9 +2534,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Basilosaurus"
   },
   {
-    "name_zh": "Brute Bloodstalker",
+    "name_zh": "残暴血蛛",
     "name_en": "Brute Bloodstalker",
-    "aliases": [],
+    "aliases": [
+      "残暴血蛛"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2424,9 +2550,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Bloodstalker"
   },
   {
-    "name_zh": "Brute Ferox",
+    "name_zh": "残暴费洛克斯",
     "name_en": "Brute Ferox",
-    "aliases": [],
+    "aliases": [
+      "残暴费洛克斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2438,9 +2566,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Ferox"
   },
   {
-    "name_zh": "Brute Fire Wyvern",
+    "name_zh": "残暴火焰飞龙",
     "name_en": "Brute Fire Wyvern",
-    "aliases": [],
+    "aliases": [
+      "残暴火焰飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2468,9 +2598,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Leedsichthys"
   },
   {
-    "name_zh": "Brute Magmasaur",
+    "name_zh": "残暴岩浆龙",
     "name_en": "Brute Magmasaur",
-    "aliases": [],
+    "aliases": [
+      "残暴岩浆龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2482,9 +2614,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Magmasaur"
   },
   {
-    "name_zh": "Brute Malfunctioned Tek Giganotosaurus",
+    "name_zh": "残暴故障泰克南方巨兽龙",
     "name_en": "Brute Malfunctioned Tek Giganotosaurus",
-    "aliases": [],
+    "aliases": [
+      "残暴故障泰克南方巨兽龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2496,9 +2630,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Malfunctioned_Tek_Giganotosaurus"
   },
   {
-    "name_zh": "Brute Malfunctioned Tek Rex",
+    "name_zh": "残暴故障泰克霸王龙",
     "name_en": "Brute Malfunctioned Tek Rex",
-    "aliases": [],
+    "aliases": [
+      "残暴故障泰克霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2558,9 +2694,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Plesiosaur"
   },
   {
-    "name_zh": "Brute Reaper King",
+    "name_zh": "残暴死神国王",
     "name_en": "Brute Reaper King",
-    "aliases": [],
+    "aliases": [
+      "残暴死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2620,9 +2758,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_Tusoteuthis"
   },
   {
-    "name_zh": "Brute X-Allosaurus",
+    "name_zh": "残暴X-异龙",
     "name_en": "Brute X-Allosaurus",
-    "aliases": [],
+    "aliases": [
+      "残暴X-异龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2634,9 +2774,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_X-Allosaurus"
   },
   {
-    "name_zh": "Brute X-Megalodon",
+    "name_zh": "残暴X-巨齿鲨",
     "name_en": "Brute X-Megalodon",
-    "aliases": [],
+    "aliases": [
+      "残暴X-巨齿鲨"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2648,9 +2790,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_X-Megalodon"
   },
   {
-    "name_zh": "Brute X-Mosasaurus",
+    "name_zh": "残暴X-沧龙",
     "name_en": "Brute X-Mosasaurus",
-    "aliases": [],
+    "aliases": [
+      "残暴X-沧龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2662,9 +2806,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_X-Mosasaurus"
   },
   {
-    "name_zh": "Brute X-Raptor",
+    "name_zh": "残暴X-迅猛龙",
     "name_en": "Brute X-Raptor",
-    "aliases": [],
+    "aliases": [
+      "残暴X-迅猛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2676,9 +2822,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_X-Raptor"
   },
   {
-    "name_zh": "Brute X-Rex",
+    "name_zh": "残暴X-霸王龙",
     "name_en": "Brute X-Rex",
-    "aliases": [],
+    "aliases": [
+      "残暴X-霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2690,9 +2838,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_X-Rex"
   },
   {
-    "name_zh": "Brute X-Rock Elemental",
+    "name_zh": "残暴X-岩石巨人",
     "name_en": "Brute X-Rock Elemental",
-    "aliases": [],
+    "aliases": [
+      "残暴X-岩石巨人"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2704,9 +2854,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_X-Rock_Elemental"
   },
   {
-    "name_zh": "Brute X-Spino",
+    "name_zh": "残暴X-棘背龙",
     "name_en": "Brute X-Spino",
-    "aliases": [],
+    "aliases": [
+      "残暴X-棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2718,9 +2870,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Brute_X-Spino"
   },
   {
-    "name_zh": "Brute X-Yutyrannus",
+    "name_zh": "残暴X-羽暴龙",
     "name_en": "Brute X-Yutyrannus",
-    "aliases": [],
+    "aliases": [
+      "残暴X-羽暴龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2770,9 +2924,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Bulbdog_Ghost"
   },
   {
-    "name_zh": "Bunny Dodo",
+    "name_zh": "兔子渡渡鸟（愚鸠）",
     "name_en": "Bunny Dodo",
-    "aliases": [],
+    "aliases": [
+      "兔子渡渡鸟（愚鸠）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2784,9 +2940,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Bunny_Dodo"
   },
   {
-    "name_zh": "Bunny Oviraptor",
+    "name_zh": "兔子窃蛋龙",
     "name_en": "Bunny Oviraptor",
-    "aliases": [],
+    "aliases": [
+      "兔子窃蛋龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2808,9 +2966,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Bunny_Oviraptor"
   },
   {
-    "name_zh": "Burrowbuck",
+    "name_zh": "掘穴鹿",
     "name_en": "Burrowbuck",
-    "aliases": [],
+    "aliases": [
+      "掘穴鹿"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2850,9 +3010,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Carbonemys"
   },
   {
-    "name_zh": "Carcharodontosaurus",
+    "name_zh": "鲨齿龙",
     "name_en": "Carcharodontosaurus",
-    "aliases": [],
+    "aliases": [
+      "鲨齿龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2930,9 +3092,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Castoroides"
   },
   {
-    "name_zh": "Cat",
+    "name_zh": "猫",
     "name_en": "Cat",
-    "aliases": [],
+    "aliases": [
+      "猫"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2944,9 +3108,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cat"
   },
   {
-    "name_zh": "Cat (Feline Form Skill)",
+    "name_zh": "猫（猫形态技能）",
     "name_en": "Cat (Feline Form Skill)",
-    "aliases": [],
+    "aliases": [
+      "猫（猫形态技能）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2958,9 +3124,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cat_%28Feline_Form_Skill%29"
   },
   {
-    "name_zh": "Cat Ghost",
+    "name_zh": "幽灵猫",
     "name_en": "Cat Ghost",
-    "aliases": [],
+    "aliases": [
+      "幽灵猫"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2972,9 +3140,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cat_Ghost"
   },
   {
-    "name_zh": "Ceratosaurus",
+    "name_zh": "角鼻龙",
     "name_en": "Ceratosaurus",
-    "aliases": [],
+    "aliases": [
+      "角鼻龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -2986,9 +3156,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Ceratosaurus"
   },
   {
-    "name_zh": "Ceratosaurus Ghost",
+    "name_zh": "幽灵角鼻龙",
     "name_en": "Ceratosaurus Ghost",
-    "aliases": [],
+    "aliases": [
+      "幽灵角鼻龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3000,9 +3172,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Ceratosaurus_Ghost"
   },
   {
-    "name_zh": "Cerberax",
+    "name_zh": "刻耳柏拉克斯",
     "name_en": "Cerberax",
-    "aliases": [],
+    "aliases": [
+      "刻耳柏拉克斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3057,9 +3231,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Chalk_Golem"
   },
   {
-    "name_zh": "Chrysaora",
+    "name_zh": "海刺水母",
     "name_en": "Chrysaora",
-    "aliases": [],
+    "aliases": [
+      "海刺水母"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3169,9 +3345,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Arthropluera"
   },
   {
-    "name_zh": "Corrupted Avatar",
+    "name_zh": "腐化化身",
     "name_en": "Corrupted Avatar",
-    "aliases": [],
+    "aliases": [
+      "腐化化身"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3279,9 +3457,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Giganotosaurus"
   },
   {
-    "name_zh": "Corrupted Master Controller",
+    "name_zh": "腐化主控者",
     "name_en": "Corrupted Master Controller",
-    "aliases": [],
+    "aliases": [
+      "腐化主控者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3309,10 +3489,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Paraceratherium"
   },
   {
-    "name_zh": "腐化无齿翼龙",
+    "name_zh": "腐化翼龙",
     "name_en": "Corrupted Pteranodon",
     "aliases": [
-      "腐化无齿翼龙"
+      "腐化翼龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -3325,10 +3505,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Pteranodon"
   },
   {
-    "name_zh": "腐化迅猛龙（犹他盗龙）",
+    "name_zh": "腐化迅猛龙",
     "name_en": "Corrupted Raptor",
     "aliases": [
-      "腐化迅猛龙（犹他盗龙）"
+      "腐化迅猛龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -3341,9 +3521,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Raptor"
   },
   {
-    "name_zh": "Corrupted Reaper King",
+    "name_zh": "腐化死神国王",
     "name_en": "Corrupted Reaper King",
-    "aliases": [],
+    "aliases": [
+      "腐化死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3387,9 +3569,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Rock_Drake"
   },
   {
-    "name_zh": "Corrupted Spino",
+    "name_zh": "腐化棘背龙",
     "name_en": "Corrupted Spino",
-    "aliases": [],
+    "aliases": [
+      "腐化棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3417,9 +3601,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Stegosaurus"
   },
   {
-    "name_zh": "Corrupted Survivor",
+    "name_zh": "腐化幸存者",
     "name_en": "Corrupted Survivor",
-    "aliases": [],
+    "aliases": [
+      "腐化幸存者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3431,10 +3617,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Survivor"
   },
   {
-    "name_zh": "腐化三角龙",
+    "name_zh": "腐化角龙",
     "name_en": "Corrupted Triceratops",
     "aliases": [
-      "腐化三角龙"
+      "腐化角龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -3463,9 +3649,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Corrupted_Wyvern"
   },
   {
-    "name_zh": "Cosmo",
+    "name_zh": "科斯莫",
     "name_en": "Cosmo",
-    "aliases": [],
+    "aliases": [
+      "科斯莫"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3477,9 +3665,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cosmo"
   },
   {
-    "name_zh": "Cryolophosaurus",
+    "name_zh": "冰脊龙",
     "name_en": "Cryolophosaurus",
-    "aliases": [],
+    "aliases": [
+      "冰脊龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3491,9 +3681,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cryolophosaurus"
   },
   {
-    "name_zh": "Crystal Wyvern",
+    "name_zh": "水晶飞龙",
     "name_en": "Crystal Wyvern",
-    "aliases": [],
+    "aliases": [
+      "水晶飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3507,9 +3699,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Crystal_Wyvern"
   },
   {
-    "name_zh": "Crystal Wyvern Queen",
+    "name_zh": "水晶飞龙女王",
     "name_en": "Crystal Wyvern Queen",
-    "aliases": [],
+    "aliases": [
+      "水晶飞龙女王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3521,9 +3715,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Crystal_Wyvern_Queen"
   },
   {
-    "name_zh": "Crystal Wyvern Queen (Alpha)",
+    "name_zh": "水晶飞龙女王（Alpha）",
     "name_en": "Crystal Wyvern Queen (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "水晶飞龙女王（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3535,9 +3731,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Crystal_Wyvern_Queen_%28Alpha%29"
   },
   {
-    "name_zh": "Crystal Wyvern Queen (Beta)",
+    "name_zh": "水晶飞龙女王（Beta）",
     "name_en": "Crystal Wyvern Queen (Beta)",
-    "aliases": [],
+    "aliases": [
+      "水晶飞龙女王（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3549,9 +3747,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Crystal_Wyvern_Queen_%28Beta%29"
   },
   {
-    "name_zh": "Crystal Wyvern Queen (Gamma)",
+    "name_zh": "水晶飞龙女王（Gamma）",
     "name_en": "Crystal Wyvern Queen (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "水晶飞龙女王（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3563,9 +3763,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Crystal_Wyvern_Queen_%28Gamma%29"
   },
   {
-    "name_zh": "Cymathoa",
+    "name_zh": "锡马托亚",
     "name_en": "Cymathoa",
-    "aliases": [],
+    "aliases": [
+      "锡马托亚"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3577,9 +3779,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cymathoa"
   },
   {
-    "name_zh": "Cymathoa (Alpha)",
+    "name_zh": "锡马托亚（Alpha）",
     "name_en": "Cymathoa (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "锡马托亚（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3591,9 +3795,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cymathoa_%28Alpha%29"
   },
   {
-    "name_zh": "Cymathoa (Beta)",
+    "name_zh": "锡马托亚（Beta）",
     "name_en": "Cymathoa (Beta)",
-    "aliases": [],
+    "aliases": [
+      "锡马托亚（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3605,9 +3811,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Cymathoa_%28Beta%29"
   },
   {
-    "name_zh": "Cymathoa (Gamma)",
+    "name_zh": "锡马托亚（Gamma）",
     "name_en": "Cymathoa (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "锡马托亚（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3647,9 +3855,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Daeodon"
   },
   {
-    "name_zh": "Dakosaurus",
+    "name_zh": "达科龙",
     "name_en": "Dakosaurus",
-    "aliases": [],
+    "aliases": [
+      "达科龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3681,9 +3891,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Deathworm"
   },
   {
-    "name_zh": "Defense Unit",
+    "name_zh": "防御单元",
     "name_en": "Defense Unit",
-    "aliases": [],
+    "aliases": [
+      "防御单元"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3695,9 +3907,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Defense_Unit"
   },
   {
-    "name_zh": "Deinonychus",
+    "name_zh": "恐爪龙",
     "name_en": "Deinonychus",
-    "aliases": [],
+    "aliases": [
+      "恐爪龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3712,9 +3926,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Deinonychus"
   },
   {
-    "name_zh": "Deinonychus Ghost",
+    "name_zh": "幽灵恐爪龙",
     "name_en": "Deinonychus Ghost",
-    "aliases": [],
+    "aliases": [
+      "幽灵恐爪龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3726,9 +3942,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Deinonychus_Ghost"
   },
   {
-    "name_zh": "Deinosuchus",
+    "name_zh": "帝鳄",
     "name_en": "Deinosuchus",
-    "aliases": [],
+    "aliases": [
+      "帝鳄"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3740,9 +3958,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Deinosuchus"
   },
   {
-    "name_zh": "Deinotherium",
+    "name_zh": "恐象",
     "name_en": "Deinotherium",
-    "aliases": [],
+    "aliases": [
+      "恐象"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3770,9 +3990,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Desert_Titan"
   },
   {
-    "name_zh": "Desert Titan Flock",
+    "name_zh": "沙漠泰坦群",
     "name_en": "Desert Titan Flock",
-    "aliases": [],
+    "aliases": [
+      "沙漠泰坦群"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3784,9 +4006,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Desert_Titan_Flock"
   },
   {
-    "name_zh": "Desmodus",
+    "name_zh": "吸血蝠",
     "name_en": "Desmodus",
-    "aliases": [],
+    "aliases": [
+      "吸血蝠"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3883,9 +4107,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dimorphodon"
   },
   {
-    "name_zh": "Dinopithecus",
+    "name_zh": "恐猿",
     "name_en": "Dinopithecus",
-    "aliases": [],
+    "aliases": [
+      "恐猿"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3899,9 +4125,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dinopithecus"
   },
   {
-    "name_zh": "Dinopithecus King",
+    "name_zh": "恐猿之王",
     "name_en": "Dinopithecus King",
-    "aliases": [],
+    "aliases": [
+      "恐猿之王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3913,9 +4141,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dinopithecus_King"
   },
   {
-    "name_zh": "Dinopithecus King (Alpha)",
+    "name_zh": "恐猿之王",
     "name_en": "Dinopithecus King",
-    "aliases": [],
+    "aliases": [
+      "恐猿之王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3927,9 +4157,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dinopithecus_King_%28Alpha%29"
   },
   {
-    "name_zh": "Dinopithecus King (Beta)",
+    "name_zh": "恐猿之王",
     "name_en": "Dinopithecus King",
-    "aliases": [],
+    "aliases": [
+      "恐猿之王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -3941,9 +4173,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dinopithecus_King_%28Beta%29"
   },
   {
-    "name_zh": "Dinopithecus King (Gamma)",
+    "name_zh": "恐猿之王",
     "name_en": "Dinopithecus King",
-    "aliases": [],
+    "aliases": [
+      "恐猿之王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4038,9 +4272,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dire_Bear"
   },
   {
-    "name_zh": "Dire Polar Bear",
+    "name_zh": "凶暴北极熊",
     "name_en": "Dire Polar Bear",
-    "aliases": [],
+    "aliases": [
+      "凶暴北极熊"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4217,9 +4453,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dragon"
   },
   {
-    "name_zh": "Dragon (Alpha)",
+    "name_zh": "喷火龙（Alpha）",
     "name_en": "Dragon (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "喷火龙（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4231,9 +4469,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dragon_%28Alpha%29"
   },
   {
-    "name_zh": "Dragon (Beta)",
+    "name_zh": "喷火龙（Beta）",
     "name_en": "Dragon (Beta)",
-    "aliases": [],
+    "aliases": [
+      "喷火龙（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4245,9 +4485,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dragon_%28Beta%29"
   },
   {
-    "name_zh": "Dragon (Gamma)",
+    "name_zh": "喷火龙（Gamma）",
     "name_en": "Dragon (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "喷火龙（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4259,9 +4501,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dragon_%28Gamma%29"
   },
   {
-    "name_zh": "Drakeling",
+    "name_zh": "幼龙",
     "name_en": "Drakeling",
-    "aliases": [],
+    "aliases": [
+      "幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4273,9 +4517,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Drakeling"
   },
   {
-    "name_zh": "Dreadmare",
+    "name_zh": "惧魇马",
     "name_en": "Dreadmare",
-    "aliases": [],
+    "aliases": [
+      "惧魇马"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4287,9 +4533,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dreadmare"
   },
   {
-    "name_zh": "Dreadnoughtus",
+    "name_zh": "无畏龙",
     "name_en": "Dreadnoughtus",
-    "aliases": [],
+    "aliases": [
+      "无畏龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4356,9 +4604,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Dunkleosteus"
   },
   {
-    "name_zh": "Eel Minion",
+    "name_zh": "鳗鱼仆从",
     "name_en": "Eel Minion",
-    "aliases": [],
+    "aliases": [
+      "鳗鱼仆从"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4370,9 +4620,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Eel_Minion"
   },
   {
-    "name_zh": "Elderclaw",
+    "name_zh": "长老爪",
     "name_en": "Elderclaw",
-    "aliases": [],
+    "aliases": [
+      "长老爪"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4411,9 +4663,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Electrophorus"
   },
   {
-    "name_zh": "Elemental Reaper King",
+    "name_zh": "元素死神国王",
     "name_en": "Elemental Reaper King",
-    "aliases": [],
+    "aliases": [
+      "元素死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4425,9 +4679,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Elemental_Reaper_King"
   },
   {
-    "name_zh": "Ember Crystal Wyvern",
+    "name_zh": "余烬水晶飞龙",
     "name_en": "Ember Crystal Wyvern",
-    "aliases": [],
+    "aliases": [
+      "余烬水晶飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4439,9 +4695,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Ember_Crystal_Wyvern"
   },
   {
-    "name_zh": "Enforcer",
+    "name_zh": "执法者",
     "name_en": "Enforcer",
-    "aliases": [],
+    "aliases": [
+      "执法者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4456,9 +4714,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Enforcer"
   },
   {
-    "name_zh": "Enigmasaur",
+    "name_zh": "谜龙",
     "name_en": "Enigmasaur",
-    "aliases": [],
+    "aliases": [
+      "谜龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4470,9 +4730,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Enigmasaur"
   },
   {
-    "name_zh": "Enraged Corrupted Rex",
+    "name_zh": "狂暴腐化霸王龙",
     "name_en": "Enraged Corrupted Rex",
-    "aliases": [],
+    "aliases": [
+      "狂暴腐化霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4484,9 +4746,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Enraged_Corrupted_Rex"
   },
   {
-    "name_zh": "Enraged Lightning Rex",
+    "name_zh": "狂暴闪电霸王龙",
     "name_en": "Enraged Lightning Rex",
-    "aliases": [],
+    "aliases": [
+      "狂暴闪电霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4498,9 +4762,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Enraged_Lightning_Rex"
   },
   {
-    "name_zh": "Enraged Lightning Triceratops",
+    "name_zh": "狂暴闪电角龙",
     "name_en": "Enraged Lightning Triceratops",
-    "aliases": [],
+    "aliases": [
+      "狂暴闪电角龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4512,10 +4778,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Enraged_Lightning_Triceratops"
   },
   {
-    "name_zh": "狂暴三角龙",
+    "name_zh": "狂暴角龙",
     "name_en": "Enraged Triceratops",
     "aliases": [
-      "狂暴三角龙"
+      "狂暴角龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -4557,9 +4823,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Equus"
   },
   {
-    "name_zh": "Erymanthian & Kalydonios",
+    "name_zh": "厄律曼托斯与卡吕多尼俄斯",
     "name_en": "Erymanthian & Kalydonios",
-    "aliases": [],
+    "aliases": [
+      "厄律曼托斯与卡吕多尼俄斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4597,9 +4865,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Eurypterid"
   },
   {
-    "name_zh": "Exo-Mek",
+    "name_zh": "外骨骼机甲",
     "name_en": "Exo-Mek",
-    "aliases": [],
+    "aliases": [
+      "外骨骼机甲"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4611,9 +4881,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Exo-Mek"
   },
   {
-    "name_zh": "Experimental Giganotosaurus",
+    "name_zh": "实验体南方巨兽龙",
     "name_en": "Experimental Giganotosaurus",
-    "aliases": [],
+    "aliases": [
+      "实验体南方巨兽龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4625,9 +4897,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Experimental_Giganotosaurus"
   },
   {
-    "name_zh": "Fasolasuchus",
+    "name_zh": "法索拉鳄",
     "name_en": "Fasolasuchus",
-    "aliases": [],
+    "aliases": [
+      "法索拉鳄"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4662,9 +4936,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Featherlight"
   },
   {
-    "name_zh": "Fenrir",
+    "name_zh": "芬里尔",
     "name_en": "Fenrir",
-    "aliases": [],
+    "aliases": [
+      "芬里尔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4676,9 +4952,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Fenrir"
   },
   {
-    "name_zh": "Fenrisúlfr",
+    "name_zh": "芬里斯狼",
     "name_en": "Fenrisúlfr",
-    "aliases": [],
+    "aliases": [
+      "芬里斯狼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4732,9 +5010,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Fenris%C3%BAlfr_%28Gamma%29"
   },
   {
-    "name_zh": "Ferox",
+    "name_zh": "费洛克斯",
     "name_en": "Ferox",
-    "aliases": [],
+    "aliases": [
+      "费洛克斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4751,9 +5031,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Ferox"
   },
   {
-    "name_zh": "Ferox (Large)",
+    "name_zh": "费洛克斯",
     "name_en": "Ferox",
-    "aliases": [],
+    "aliases": [
+      "费洛克斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4781,9 +5063,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Fire_Wyvern"
   },
   {
-    "name_zh": "Fjordhawk",
+    "name_zh": "峡湾鹰",
     "name_en": "Fjordhawk",
-    "aliases": [],
+    "aliases": [
+      "峡湾鹰"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4797,9 +5081,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Fjordhawk"
   },
   {
-    "name_zh": "Flovis",
+    "name_zh": "弗洛维斯",
     "name_en": "Flovis",
-    "aliases": [],
+    "aliases": [
+      "弗洛维斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4827,9 +5113,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Forest_Titan"
   },
   {
-    "name_zh": "Forest Wyvern",
+    "name_zh": "森林飞龙",
     "name_en": "Forest Wyvern",
-    "aliases": [],
+    "aliases": [
+      "森林飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4841,9 +5129,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Forest_Wyvern"
   },
   {
-    "name_zh": "Fractalis",
+    "name_zh": "弗拉克塔利斯",
     "name_en": "Fractalis",
-    "aliases": [],
+    "aliases": [
+      "弗拉克塔利斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4855,9 +5145,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Fractalis"
   },
   {
-    "name_zh": "Fractalis (Alpha)",
+    "name_zh": "弗拉克塔利斯（Alpha）",
     "name_en": "Fractalis (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "弗拉克塔利斯（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4869,9 +5161,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Fractalis_%28Alpha%29"
   },
   {
-    "name_zh": "Fractalis (Beta)",
+    "name_zh": "弗拉克塔利斯（Beta）",
     "name_en": "Fractalis (Beta)",
-    "aliases": [],
+    "aliases": [
+      "弗拉克塔利斯（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4883,9 +5177,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Fractalis_%28Beta%29"
   },
   {
-    "name_zh": "Fractalis (Gamma)",
+    "name_zh": "弗拉克塔利斯（Gamma）",
     "name_en": "Fractalis (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "弗拉克塔利斯（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4917,9 +5213,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Gacha"
   },
   {
-    "name_zh": "GachaClaus",
+    "name_zh": "圣诞嘎查",
     "name_en": "GachaClaus",
-    "aliases": [],
+    "aliases": [
+      "圣诞嘎查"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4959,9 +5257,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Gallimimus"
   },
   {
-    "name_zh": "Gamma Corrupted Master Controller",
+    "name_zh": "腐化主控者",
     "name_en": "Corrupted Master Controller",
-    "aliases": [],
+    "aliases": [
+      "腐化主控者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4973,9 +5273,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Gamma_Corrupted_Master_Controller"
   },
   {
-    "name_zh": "Gamma King Titan",
+    "name_zh": "伽马机械君王泰坦",
     "name_en": "Gamma King Titan",
-    "aliases": [],
+    "aliases": [
+      "伽马机械君王泰坦"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -4987,9 +5289,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Gamma_King_Titan"
   },
   {
-    "name_zh": "Gamma Moeder, Master of the Ocean",
+    "name_zh": "海洋主宰莫德尔",
     "name_en": "Moeder, Master of the Ocean",
-    "aliases": [],
+    "aliases": [
+      "海洋主宰莫德尔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5050,9 +5354,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Giant_Bee"
   },
   {
-    "name_zh": "Giant Queen Bee",
+    "name_zh": "巨型蜂后",
     "name_en": "Giant Queen Bee",
-    "aliases": [],
+    "aliases": [
+      "巨型蜂后"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5064,9 +5370,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Giant_Queen_Bee"
   },
   {
-    "name_zh": "Giant Worker Bee",
+    "name_zh": "巨型工蜂",
     "name_en": "Giant Worker Bee",
-    "aliases": [],
+    "aliases": [
+      "巨型工蜂"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5078,9 +5386,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Giant_Worker_Bee"
   },
   {
-    "name_zh": "Gigadesmodus",
+    "name_zh": "巨型吸血蝠",
     "name_en": "Gigadesmodus",
-    "aliases": [],
+    "aliases": [
+      "巨型吸血蝠"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5146,9 +5456,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Gigantopithecus"
   },
   {
-    "name_zh": "Gigantoraptor",
+    "name_zh": "巨盗龙",
     "name_en": "Gigantoraptor",
-    "aliases": [],
+    "aliases": [
+      "巨盗龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5160,9 +5472,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Gigantoraptor"
   },
   {
-    "name_zh": "Gigantoraptor Ghost",
+    "name_zh": "幽灵巨盗龙",
     "name_en": "Gigantoraptor Ghost",
-    "aliases": [],
+    "aliases": [
+      "幽灵巨盗龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5174,9 +5488,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Gigantoraptor_Ghost"
   },
   {
-    "name_zh": "Gloon",
+    "name_zh": "格隆",
     "name_en": "Gloon",
-    "aliases": [],
+    "aliases": [
+      "格隆"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5234,9 +5550,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Glowtail"
   },
   {
-    "name_zh": "Golden Striped Brute Megalodon",
+    "name_zh": "金纹残暴巨齿鲨",
     "name_en": "Golden Striped Brute Megalodon",
-    "aliases": [],
+    "aliases": [
+      "金纹残暴巨齿鲨"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5248,9 +5566,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Golden_Striped_Brute_Megalodon"
   },
   {
-    "name_zh": "Golden Striped Megalodon",
+    "name_zh": "金纹巨齿鲨",
     "name_en": "Golden Striped Megalodon",
-    "aliases": [],
+    "aliases": [
+      "金纹巨齿鲨"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5262,9 +5582,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Golden_Striped_Megalodon"
   },
   {
-    "name_zh": "Grand Tortugar",
+    "name_zh": "巨型托图加",
     "name_en": "Grand Tortugar",
-    "aliases": [],
+    "aliases": [
+      "巨型托图加"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5276,9 +5598,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Grand_Tortugar"
   },
   {
-    "name_zh": "Grendel",
+    "name_zh": "格伦德尔",
     "name_en": "Grendel",
-    "aliases": [],
+    "aliases": [
+      "格伦德尔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5311,9 +5635,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Griffin"
   },
   {
-    "name_zh": "Hati and Sköll",
+    "name_zh": "哈提与斯库尔",
     "name_en": "Hati and Sköll",
-    "aliases": [],
+    "aliases": [
+      "哈提与斯库尔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5325,9 +5651,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hati_and_Sk%C3%B6ll"
   },
   {
-    "name_zh": "Helicoprion",
+    "name_zh": "螺旋齿鲨",
     "name_en": "Helicoprion",
-    "aliases": [],
+    "aliases": [
+      "螺旋齿鲨"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5339,9 +5667,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Helicoprion"
   },
   {
-    "name_zh": "Helper Wisp (Wisp of Industry Skill)",
+    "name_zh": "助手微光（工业微光技能）",
     "name_en": "Helper Wisp (Wisp of Industry Skill)",
-    "aliases": [],
+    "aliases": [
+      "助手微光（工业微光技能）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5380,9 +5710,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hesperornis"
   },
   {
-    "name_zh": "Homarus",
+    "name_zh": "龙虾",
     "name_en": "Homarus",
-    "aliases": [],
+    "aliases": [
+      "龙虾"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5394,9 +5726,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Homarus"
   },
   {
-    "name_zh": "Hover Skiff",
+    "name_zh": "悬浮艇",
     "name_en": "Hover Skiff",
-    "aliases": [],
+    "aliases": [
+      "悬浮艇"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5408,9 +5742,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hover_Skiff"
   },
   {
-    "name_zh": "Hulking Revenant",
+    "name_zh": "巨躯亡魂",
     "name_en": "Hulking Revenant",
-    "aliases": [],
+    "aliases": [
+      "巨躯亡魂"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5422,9 +5758,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hulking_Revenant"
   },
   {
-    "name_zh": "Human",
+    "name_zh": "人类",
     "name_en": "Human",
-    "aliases": [],
+    "aliases": [
+      "人类"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5463,9 +5801,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hyaenodon"
   },
   {
-    "name_zh": "Hydraskos",
+    "name_zh": "海德拉斯科斯",
     "name_en": "Hydraskos",
-    "aliases": [],
+    "aliases": [
+      "海德拉斯科斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5477,9 +5817,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hydraskos"
   },
   {
-    "name_zh": "Hydraskos (Alpha)",
+    "name_zh": "海德拉斯科斯（Alpha）",
     "name_en": "Hydraskos (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "海德拉斯科斯（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5491,9 +5833,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hydraskos_%28Alpha%29"
   },
   {
-    "name_zh": "Hydraskos (Beta)",
+    "name_zh": "海德拉斯科斯（Beta）",
     "name_en": "Hydraskos (Beta)",
-    "aliases": [],
+    "aliases": [
+      "海德拉斯科斯（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5505,9 +5849,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Hydraskos_%28Beta%29"
   },
   {
-    "name_zh": "Hydraskos (Gamma)",
+    "name_zh": "海德拉斯科斯（Gamma）",
     "name_en": "Hydraskos (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "海德拉斯科斯（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5567,9 +5913,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Ice_Wyvern"
   },
   {
-    "name_zh": "Iceworm Male",
+    "name_zh": "公冰虫",
     "name_en": "Iceworm Male",
-    "aliases": [],
+    "aliases": [
+      "公冰虫"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5583,9 +5931,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Iceworm_Male"
   },
   {
-    "name_zh": "Iceworm Queen",
+    "name_zh": "冰虫女王",
     "name_en": "Iceworm Queen",
-    "aliases": [],
+    "aliases": [
+      "冰虫女王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5679,9 +6029,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Iguanodon"
   },
   {
-    "name_zh": "Injured Brute Reaper King",
+    "name_zh": "受伤残暴死神国王",
     "name_en": "Injured Brute Reaper King",
-    "aliases": [],
+    "aliases": [
+      "受伤残暴死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5693,9 +6045,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Injured_Brute_Reaper_King"
   },
   {
-    "name_zh": "Insect Swarm",
+    "name_zh": "虫群",
     "name_en": "Insect Swarm",
-    "aliases": [],
+    "aliases": [
+      "虫群"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5711,9 +6065,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Insect_Swarm"
   },
   {
-    "name_zh": "Istiophorus",
+    "name_zh": "旗鱼",
     "name_en": "Istiophorus",
-    "aliases": [],
+    "aliases": [
+      "旗鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5748,9 +6104,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Jerboa"
   },
   {
-    "name_zh": "Jerboa Elf",
+    "name_zh": "精灵跳鼠",
     "name_en": "Jerboa Elf",
-    "aliases": [],
+    "aliases": [
+      "精灵跳鼠"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5863,9 +6221,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Karkinos"
   },
   {
-    "name_zh": "Kathreptis",
+    "name_zh": "卡斯雷普提斯",
     "name_en": "Kathreptis",
-    "aliases": [],
+    "aliases": [
+      "卡斯雷普提斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5921,9 +6281,11 @@
     "source_url": "https://ark.wiki.gg/wiki/King_Titan"
   },
   {
-    "name_zh": "Kirayli",
+    "name_zh": "基拉伊利",
     "name_en": "Kirayli",
-    "aliases": [],
+    "aliases": [
+      "基拉伊利"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -5958,9 +6320,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lamprey"
   },
   {
-    "name_zh": "Lava Elemental",
+    "name_zh": "熔岩元素",
     "name_en": "Lava Elemental",
-    "aliases": [],
+    "aliases": [
+      "熔岩元素"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6023,9 +6387,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Leedsichthys"
   },
   {
-    "name_zh": "Lightning Arthropluera",
+    "name_zh": "闪电古马陆（节胸蜈蚣）",
     "name_en": "Lightning Arthropluera",
-    "aliases": [],
+    "aliases": [
+      "闪电古马陆（节胸蜈蚣）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6037,9 +6403,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Arthropluera"
   },
   {
-    "name_zh": "Lightning Carnotaurus",
+    "name_zh": "闪电食肉牛龙",
     "name_en": "Lightning Carnotaurus",
-    "aliases": [],
+    "aliases": [
+      "闪电食肉牛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6051,9 +6419,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Carnotaurus"
   },
   {
-    "name_zh": "Lightning Chalicotherium",
+    "name_zh": "闪电砂犷兽（砾爪兽）",
     "name_en": "Lightning Chalicotherium",
-    "aliases": [],
+    "aliases": [
+      "闪电砂犷兽（砾爪兽）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6065,9 +6435,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Chalicotherium"
   },
   {
-    "name_zh": "Lightning Deathworm",
+    "name_zh": "闪电死亡蠕虫",
     "name_en": "Lightning Deathworm",
-    "aliases": [],
+    "aliases": [
+      "闪电死亡蠕虫"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6079,9 +6451,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Deathworm"
   },
   {
-    "name_zh": "Lightning Dilophosaur",
+    "name_zh": "闪电双嵴龙",
     "name_en": "Lightning Dilophosaur",
-    "aliases": [],
+    "aliases": [
+      "闪电双嵴龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6093,9 +6467,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Dilophosaur"
   },
   {
-    "name_zh": "Lightning Dimorphodon",
+    "name_zh": "闪电真双型齿龙",
     "name_en": "Lightning Dimorphodon",
-    "aliases": [],
+    "aliases": [
+      "闪电真双型齿龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6107,9 +6483,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Dimorphodon"
   },
   {
-    "name_zh": "Lightning Fire Wyvern",
+    "name_zh": "闪电火焰飞龙",
     "name_en": "Lightning Fire Wyvern",
-    "aliases": [],
+    "aliases": [
+      "闪电火焰飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6121,9 +6499,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Fire_Wyvern"
   },
   {
-    "name_zh": "Lightning Giganotosaurus",
+    "name_zh": "闪电南方巨兽龙",
     "name_en": "Lightning Giganotosaurus",
-    "aliases": [],
+    "aliases": [
+      "闪电南方巨兽龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6135,9 +6515,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Giganotosaurus"
   },
   {
-    "name_zh": "Lightning Infused Rex",
+    "name_zh": "闪电灌注霸王龙",
     "name_en": "Lightning Infused Rex",
-    "aliases": [],
+    "aliases": [
+      "闪电灌注霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6149,9 +6531,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Infused_Rex"
   },
   {
-    "name_zh": "Lightning Paraceratherium",
+    "name_zh": "闪电副巨犀",
     "name_en": "Lightning Paraceratherium",
-    "aliases": [],
+    "aliases": [
+      "闪电副巨犀"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6163,9 +6547,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Paraceratherium"
   },
   {
-    "name_zh": "Lightning Pteranodon",
+    "name_zh": "闪电翼龙",
     "name_en": "Lightning Pteranodon",
-    "aliases": [],
+    "aliases": [
+      "闪电翼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6177,9 +6563,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Pteranodon"
   },
   {
-    "name_zh": "Lightning Raptor",
+    "name_zh": "闪电迅猛龙",
     "name_en": "Lightning Raptor",
-    "aliases": [],
+    "aliases": [
+      "闪电迅猛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6191,9 +6579,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Raptor"
   },
   {
-    "name_zh": "Lightning Reaper King",
+    "name_zh": "闪电死神国王",
     "name_en": "Lightning Reaper King",
-    "aliases": [],
+    "aliases": [
+      "闪电死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6205,9 +6595,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Reaper_King"
   },
   {
-    "name_zh": "Lightning Rock Drake",
+    "name_zh": "闪电岩龙",
     "name_en": "Lightning Rock Drake",
-    "aliases": [],
+    "aliases": [
+      "闪电岩龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6219,9 +6611,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Rock_Drake"
   },
   {
-    "name_zh": "Lightning Spino",
+    "name_zh": "闪电棘背龙",
     "name_en": "Lightning Spino",
-    "aliases": [],
+    "aliases": [
+      "闪电棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6233,9 +6627,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lightning_Spino"
   },
   {
-    "name_zh": "Lightning Stegosaurus",
+    "name_zh": "闪电剑龙",
     "name_en": "Lightning Stegosaurus",
-    "aliases": [],
+    "aliases": [
+      "闪电剑龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6288,9 +6684,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Liopleurodon"
   },
   {
-    "name_zh": "Lost King",
+    "name_zh": "迷失之王",
     "name_en": "Lost King",
-    "aliases": [],
+    "aliases": [
+      "迷失之王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6302,9 +6700,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_King"
   },
   {
-    "name_zh": "Lost King (Alpha)",
+    "name_zh": "迷失之王（Alpha）",
     "name_en": "Lost King (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "迷失之王（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6316,9 +6716,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_King_%28Alpha%29"
   },
   {
-    "name_zh": "Lost King (Beta)",
+    "name_zh": "迷失之王（Beta）",
     "name_en": "Lost King (Beta)",
-    "aliases": [],
+    "aliases": [
+      "迷失之王（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6330,9 +6732,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_King_%28Beta%29"
   },
   {
-    "name_zh": "Lost King (Gamma)",
+    "name_zh": "迷失之王（Gamma）",
     "name_en": "Lost King (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "迷失之王（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6344,9 +6748,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_King_%28Gamma%29"
   },
   {
-    "name_zh": "Lost Queen",
+    "name_zh": "迷失女王",
     "name_en": "Lost Queen",
-    "aliases": [],
+    "aliases": [
+      "迷失女王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6358,9 +6764,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_Queen"
   },
   {
-    "name_zh": "Lost Queen (Alpha)",
+    "name_zh": "迷失女王（Alpha）",
     "name_en": "Lost Queen (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "迷失女王（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6372,9 +6780,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_Queen_%28Alpha%29"
   },
   {
-    "name_zh": "Lost Queen (Beta)",
+    "name_zh": "迷失女王（Beta）",
     "name_en": "Lost Queen (Beta)",
-    "aliases": [],
+    "aliases": [
+      "迷失女王（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6386,9 +6796,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_Queen_%28Beta%29"
   },
   {
-    "name_zh": "Lost Queen (Gamma)",
+    "name_zh": "迷失女王（Gamma）",
     "name_en": "Lost Queen (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "迷失女王（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6400,9 +6812,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lost_Queen_%28Gamma%29"
   },
   {
-    "name_zh": "Love Bird",
+    "name_zh": "爱心鸟",
     "name_en": "Love Bird",
-    "aliases": [],
+    "aliases": [
+      "爱心鸟"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6414,9 +6828,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Love_Bird"
   },
   {
-    "name_zh": "Love Bug",
+    "name_zh": "爱心虫",
     "name_en": "Love Bug",
-    "aliases": [],
+    "aliases": [
+      "爱心虫"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6481,9 +6897,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Lystrosaurus"
   },
   {
-    "name_zh": "Macro-Summoner",
+    "name_zh": "巨型召唤师",
     "name_en": "Macro-Summoner",
-    "aliases": [],
+    "aliases": [
+      "巨型召唤师"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6495,9 +6913,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Macro-Summoner"
   },
   {
-    "name_zh": "Macrophage",
+    "name_zh": "巨噬体",
     "name_en": "Macrophage",
-    "aliases": [],
+    "aliases": [
+      "巨噬体"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6511,9 +6931,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Macrophage"
   },
   {
-    "name_zh": "Maeguana",
+    "name_zh": "梅瓜纳",
     "name_en": "Maeguana",
-    "aliases": [],
+    "aliases": [
+      "梅瓜纳"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6525,9 +6947,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Maeguana"
   },
   {
-    "name_zh": "Maewing",
+    "name_zh": "护幼兽",
     "name_en": "Maewing",
-    "aliases": [],
+    "aliases": [
+      "护幼兽"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6543,9 +6967,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Maewing"
   },
   {
-    "name_zh": "Magmasaur",
+    "name_zh": "岩浆龙",
     "name_en": "Magmasaur",
-    "aliases": [],
+    "aliases": [
+      "岩浆龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6561,9 +6987,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Magmasaur"
   },
   {
-    "name_zh": "Malfunctioned Attack Drone",
+    "name_zh": "故障攻击无人机",
     "name_en": "Malfunctioned Attack Drone",
-    "aliases": [],
+    "aliases": [
+      "故障攻击无人机"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6575,9 +7003,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Attack_Drone"
   },
   {
-    "name_zh": "Malfunctioned Defense Unit",
+    "name_zh": "故障防御单元",
     "name_en": "Malfunctioned Defense Unit",
-    "aliases": [],
+    "aliases": [
+      "故障防御单元"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6589,9 +7019,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Defense_Unit"
   },
   {
-    "name_zh": "Malfunctioned Enforcer",
+    "name_zh": "故障执法者",
     "name_en": "Malfunctioned Enforcer",
-    "aliases": [],
+    "aliases": [
+      "故障执法者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6603,9 +7035,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Enforcer"
   },
   {
-    "name_zh": "Malfunctioned Mek Knight",
+    "name_zh": "故障机甲骑士",
     "name_en": "Malfunctioned Mek Knight",
-    "aliases": [],
+    "aliases": [
+      "故障机甲骑士"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6617,9 +7051,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Mek_Knight"
   },
   {
-    "name_zh": "Malfunctioned Tek Giganotosaurus",
+    "name_zh": "故障泰克南方巨兽龙",
     "name_en": "Malfunctioned Tek Giganotosaurus",
-    "aliases": [],
+    "aliases": [
+      "故障泰克南方巨兽龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6631,9 +7067,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Giganotosaurus"
   },
   {
-    "name_zh": "Malfunctioned Tek Parasaur",
+    "name_zh": "故障泰克副栉龙",
     "name_en": "Malfunctioned Tek Parasaur",
-    "aliases": [],
+    "aliases": [
+      "故障泰克副栉龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6645,9 +7083,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Parasaur"
   },
   {
-    "name_zh": "Malfunctioned Tek Quetzal",
+    "name_zh": "故障泰克风神翼龙",
     "name_en": "Malfunctioned Tek Quetzal",
-    "aliases": [],
+    "aliases": [
+      "故障泰克风神翼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6659,9 +7099,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Quetzal"
   },
   {
-    "name_zh": "Malfunctioned Tek Raptor",
+    "name_zh": "故障泰克迅猛龙",
     "name_en": "Malfunctioned Tek Raptor",
-    "aliases": [],
+    "aliases": [
+      "故障泰克迅猛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6673,9 +7115,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Raptor"
   },
   {
-    "name_zh": "Malfunctioned Tek Rex",
+    "name_zh": "故障泰克霸王龙",
     "name_en": "Malfunctioned Tek Rex",
-    "aliases": [],
+    "aliases": [
+      "故障泰克霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6687,9 +7131,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Rex"
   },
   {
-    "name_zh": "Malfunctioned Tek Stegosaurus",
+    "name_zh": "故障泰克剑龙",
     "name_en": "Malfunctioned Tek Stegosaurus",
-    "aliases": [],
+    "aliases": [
+      "故障泰克剑龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6701,9 +7147,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Stegosaurus"
   },
   {
-    "name_zh": "Malfunctioned Tek Stryder",
+    "name_zh": "故障泰克机甲牛",
     "name_en": "Malfunctioned Tek Stryder",
-    "aliases": [],
+    "aliases": [
+      "故障泰克机甲牛"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6715,9 +7163,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Stryder"
   },
   {
-    "name_zh": "Malfunctioned Tek Triceratops",
+    "name_zh": "故障泰克角龙",
     "name_en": "Malfunctioned Tek Triceratops",
-    "aliases": [],
+    "aliases": [
+      "故障泰克角龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6729,9 +7179,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malfunctioned_Tek_Triceratops"
   },
   {
-    "name_zh": "Malleocephalus",
+    "name_zh": "马勒头龙",
     "name_en": "Malleocephalus",
-    "aliases": [],
+    "aliases": [
+      "马勒头龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6743,9 +7195,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Malleocephalus"
   },
   {
-    "name_zh": "Malwyn",
+    "name_zh": "马尔温",
     "name_en": "Malwyn",
-    "aliases": [],
+    "aliases": [
+      "马尔温"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6847,9 +7301,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Manticore"
   },
   {
-    "name_zh": "Manticore (Alpha)",
+    "name_zh": "蝎狮（Alpha）",
     "name_en": "Manticore (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "蝎狮（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6861,9 +7317,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Manticore_%28Alpha%29"
   },
   {
-    "name_zh": "Manticore (Beta)",
+    "name_zh": "蝎狮（Beta）",
     "name_en": "Manticore (Beta)",
-    "aliases": [],
+    "aliases": [
+      "蝎狮（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6875,9 +7333,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Manticore_%28Beta%29"
   },
   {
-    "name_zh": "Manticore (Gamma)",
+    "name_zh": "蝎狮（Gamma）",
     "name_en": "Manticore (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "蝎狮（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6930,9 +7390,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mantis_Ghost"
   },
   {
-    "name_zh": "Mantis Shrimp",
+    "name_zh": "虾蛄",
     "name_en": "Mantis Shrimp",
-    "aliases": [],
+    "aliases": [
+      "虾蛄"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6944,9 +7406,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mantis_Shrimp"
   },
   {
-    "name_zh": "Mega Mek",
+    "name_zh": "巨型机甲",
     "name_en": "Mega Mek",
-    "aliases": [],
+    "aliases": [
+      "巨型机甲"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -6958,9 +7422,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mega_Mek"
   },
   {
-    "name_zh": "Megachelon",
+    "name_zh": "巨龟",
     "name_en": "Megachelon",
-    "aliases": [],
+    "aliases": [
+      "巨龟"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7141,9 +7607,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Megapithecus"
   },
   {
-    "name_zh": "Megapithecus (Alpha)",
+    "name_zh": "大金刚（Alpha）",
     "name_en": "Megapithecus (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "大金刚（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7155,9 +7623,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Megapithecus_%28Alpha%29"
   },
   {
-    "name_zh": "Megapithecus (Beta)",
+    "name_zh": "大金刚（Beta）",
     "name_en": "Megapithecus (Beta)",
-    "aliases": [],
+    "aliases": [
+      "大金刚（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7169,9 +7639,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Megapithecus_%28Beta%29"
   },
   {
-    "name_zh": "Megapithecus (Gamma)",
+    "name_zh": "大金刚（Gamma）",
     "name_en": "Megapithecus (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "大金刚（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7183,9 +7655,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Megapithecus_%28Gamma%29"
   },
   {
-    "name_zh": "Megaraptor",
+    "name_zh": "巨盗龙",
     "name_en": "Megaraptor",
-    "aliases": [],
+    "aliases": [
+      "巨盗龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7225,9 +7699,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Megatherium"
   },
   {
-    "name_zh": "Mek",
+    "name_zh": "机甲",
     "name_en": "Mek",
-    "aliases": [],
+    "aliases": [
+      "机甲"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7294,9 +7770,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Microraptor"
   },
   {
-    "name_zh": "Minotarchos",
+    "name_zh": "米诺塔科斯",
     "name_en": "Minotarchos",
-    "aliases": [],
+    "aliases": [
+      "米诺塔科斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7308,9 +7786,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Minotarchos"
   },
   {
-    "name_zh": "Minotaur",
+    "name_zh": "牛头怪",
     "name_en": "Minotaur",
-    "aliases": [],
+    "aliases": [
+      "牛头怪"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7452,9 +7932,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Alpha_Carno"
   },
   {
-    "name_zh": "Mobile:Eerie Alpha Mosasaur",
+    "name_zh": "怪异精英沧龙",
     "name_en": "Eerie Alpha Mosasaur",
-    "aliases": [],
+    "aliases": [
+      "怪异精英沧龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7466,9 +7948,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Alpha_Mosasaur"
   },
   {
-    "name_zh": "Mobile:Eerie Alpha Raptor",
+    "name_zh": "怪异精英迅猛龙",
     "name_en": "Eerie Alpha Raptor",
-    "aliases": [],
+    "aliases": [
+      "怪异精英迅猛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7480,9 +7964,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Alpha_Raptor"
   },
   {
-    "name_zh": "Mobile:Eerie Alpha T-Rex",
+    "name_zh": "怪异精英霸王龙",
     "name_en": "Eerie Alpha T-Rex",
-    "aliases": [],
+    "aliases": [
+      "怪异精英霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7650,9 +8136,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Beelzebufo"
   },
   {
-    "name_zh": "Mobile:Eerie Bronto",
+    "name_zh": "怪异雷龙",
     "name_en": "Eerie Bronto",
-    "aliases": [],
+    "aliases": [
+      "怪异雷龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -7868,9 +8356,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Dire_Bear"
   },
   {
-    "name_zh": "Mobile:Eerie Dire Wolf",
+    "name_zh": "怪异恐狼",
     "name_en": "Eerie Dire Wolf",
-    "aliases": [],
+    "aliases": [
+      "怪异恐狼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -8342,9 +8832,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Mesopithecus"
   },
   {
-    "name_zh": "Mobile:Eerie Mosasaur",
+    "name_zh": "怪异沧龙",
     "name_en": "Eerie Mosasaur",
-    "aliases": [],
+    "aliases": [
+      "怪异沧龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -8548,10 +9040,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Procoptodon"
   },
   {
-    "name_zh": "怪异无齿翼龙",
+    "name_zh": "怪异翼龙",
     "name_en": "Eerie Pteranodon",
     "aliases": [
-      "怪异无齿翼龙"
+      "怪异翼龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -8612,10 +9104,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Quetzal"
   },
   {
-    "name_zh": "怪异迅猛龙（犹他盗龙）",
+    "name_zh": "怪异迅猛龙",
     "name_en": "Eerie Raptor",
     "aliases": [
-      "怪异迅猛龙（犹他盗龙）"
+      "怪异迅猛龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -8692,9 +9184,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Sarco"
   },
   {
-    "name_zh": "Mobile:Eerie Spino",
+    "name_zh": "怪异棘背龙",
     "name_en": "Eerie Spino",
-    "aliases": [],
+    "aliases": [
+      "怪异棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -8706,9 +9200,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Spino"
   },
   {
-    "name_zh": "Mobile:Eerie Stego",
+    "name_zh": "怪异剑龙",
     "name_en": "Eerie Stego",
-    "aliases": [],
+    "aliases": [
+      "怪异剑龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -8828,10 +9324,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Titanosaur"
   },
   {
-    "name_zh": "怪异三角龙",
+    "name_zh": "怪异角龙",
     "name_en": "Eerie Triceratops",
     "aliases": [
-      "怪异三角龙"
+      "怪异角龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -8906,9 +9402,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3AEerie_Woolly_Rhinoceros"
   },
   {
-    "name_zh": "Mobile:Eerie Yeti",
+    "name_zh": "怪异雪怪",
     "name_en": "Eerie Yeti",
-    "aliases": [],
+    "aliases": [
+      "怪异雪怪"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -8990,9 +9488,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mobile%3ARoyal_Griffin"
   },
   {
-    "name_zh": "Moeder, Master of the Ocean",
+    "name_zh": "海洋主宰莫德尔",
     "name_en": "Moeder, Master of the Ocean",
-    "aliases": [],
+    "aliases": [
+      "海洋主宰莫德尔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9004,9 +9504,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Moeder%2C_Master_of_the_Ocean"
   },
   {
-    "name_zh": "Monodon",
+    "name_zh": "独角鲸",
     "name_en": "Monodon",
-    "aliases": [],
+    "aliases": [
+      "独角鲸"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9096,9 +9598,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Moschops"
   },
   {
-    "name_zh": "Mouser",
+    "name_zh": "捕鼠兽",
     "name_en": "Mouser",
-    "aliases": [],
+    "aliases": [
+      "捕鼠兽"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9110,9 +9614,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Mouser"
   },
   {
-    "name_zh": "Mudpuppy",
+    "name_zh": "泥狗龙",
     "name_en": "Mudpuppy",
-    "aliases": [],
+    "aliases": [
+      "泥狗龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9142,9 +9648,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Nameless"
   },
   {
-    "name_zh": "Natrix",
+    "name_zh": "纳特里克斯",
     "name_en": "Natrix",
-    "aliases": [],
+    "aliases": [
+      "纳特里克斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9156,9 +9664,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Natrix"
   },
   {
-    "name_zh": "Neophyte",
+    "name_zh": "新徒",
     "name_en": "Neophyte",
-    "aliases": [],
+    "aliases": [
+      "新徒"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9170,9 +9680,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Neophyte"
   },
   {
-    "name_zh": "Noglin",
+    "name_zh": "寄脑魔",
     "name_en": "Noglin",
-    "aliases": [],
+    "aliases": [
+      "寄脑魔"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9186,9 +9698,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Noglin"
   },
   {
-    "name_zh": "Nunatak",
+    "name_zh": "努纳塔克",
     "name_en": "Nunatak",
-    "aliases": [],
+    "aliases": [
+      "努纳塔克"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9200,9 +9714,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Nunatak"
   },
   {
-    "name_zh": "Nunatak (Alpha)",
+    "name_zh": "努纳塔克（Alpha）",
     "name_en": "Nunatak (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "努纳塔克（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9214,9 +9730,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Nunatak_%28Alpha%29"
   },
   {
-    "name_zh": "Nunatak (Beta)",
+    "name_zh": "努纳塔克（Beta）",
     "name_en": "Nunatak (Beta)",
-    "aliases": [],
+    "aliases": [
+      "努纳塔克（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9228,9 +9746,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Nunatak_%28Beta%29"
   },
   {
-    "name_zh": "Nunatak (Gamma)",
+    "name_zh": "努纳塔克（Gamma）",
     "name_en": "Nunatak (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "努纳塔克（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9242,9 +9762,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Nunatak_%28Gamma%29"
   },
   {
-    "name_zh": "Oasisaur",
+    "name_zh": "绿洲龙",
     "name_en": "Oasisaur",
-    "aliases": [],
+    "aliases": [
+      "绿洲龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9256,9 +9778,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Oasisaur"
   },
   {
-    "name_zh": "Ocepechelon",
+    "name_zh": "奥赛佩凯龙",
     "name_en": "Ocepechelon",
-    "aliases": [],
+    "aliases": [
+      "奥赛佩凯龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9286,9 +9810,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Oil_Jug_Bug"
   },
   {
-    "name_zh": "Onchopristis",
+    "name_zh": "锯鳐",
     "name_en": "Onchopristis",
-    "aliases": [],
+    "aliases": [
+      "锯鳐"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9327,9 +9853,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Onyc"
   },
   {
-    "name_zh": "Ossidon",
+    "name_zh": "奥西登",
     "name_en": "Ossidon",
-    "aliases": [],
+    "aliases": [
+      "奥西登"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9401,9 +9929,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Overseer"
   },
   {
-    "name_zh": "Overseer (Alpha)",
+    "name_zh": "监察者（Alpha）",
     "name_en": "Overseer (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "监察者（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9415,9 +9945,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Overseer_%28Alpha%29"
   },
   {
-    "name_zh": "Overseer (Beta)",
+    "name_zh": "监察者（Beta）",
     "name_en": "Overseer (Beta)",
-    "aliases": [],
+    "aliases": [
+      "监察者（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9429,9 +9961,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Overseer_%28Beta%29"
   },
   {
-    "name_zh": "Overseer (Gamma)",
+    "name_zh": "监察者（Gamma）",
     "name_en": "Overseer (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "监察者（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9552,9 +10086,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pachyrhinosaurus"
   },
   {
-    "name_zh": "Palaeoctopus",
+    "name_zh": "古章鱼",
     "name_en": "Palaeoctopus",
-    "aliases": [],
+    "aliases": [
+      "古章鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9595,9 +10131,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Paraceratherium"
   },
   {
-    "name_zh": "Parakeet Fish School",
+    "name_zh": "鹦嘴鱼群",
     "name_en": "Parakeet Fish School",
-    "aliases": [],
+    "aliases": [
+      "鹦嘴鱼群"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9643,9 +10181,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Parasaur"
   },
   {
-    "name_zh": "Party Dodo",
+    "name_zh": "派对渡渡鸟",
     "name_en": "Party Dodo",
-    "aliases": [],
+    "aliases": [
+      "派对渡渡鸟"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9684,9 +10224,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pegomastax"
   },
   {
-    "name_zh": "Pegomastax Grouch",
+    "name_zh": "暴躁似鸡龙",
     "name_en": "Pegomastax Grouch",
-    "aliases": [],
+    "aliases": [
+      "暴躁似鸡龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9838,9 +10380,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Poison_Wyvern"
   },
   {
-    "name_zh": "Polar Bear",
+    "name_zh": "北极熊",
     "name_en": "Polar Bear",
-    "aliases": [],
+    "aliases": [
+      "北极熊"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9954,9 +10498,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pulmonoscorpius"
   },
   {
-    "name_zh": "Pulmonoscorpius Monarch",
+    "name_zh": "肺蝎君主",
     "name_en": "Pulmonoscorpius Monarch",
-    "aliases": [],
+    "aliases": [
+      "肺蝎君主"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -9997,9 +10543,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Purlovia"
   },
   {
-    "name_zh": "Pygocentrus",
+    "name_zh": "食人鱼",
     "name_en": "Pygocentrus",
-    "aliases": [],
+    "aliases": [
+      "食人鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10011,9 +10559,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pygocentrus"
   },
   {
-    "name_zh": "Pygocentrus (Alpha)",
+    "name_zh": "食人鱼（Alpha）",
     "name_en": "Pygocentrus (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "食人鱼（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10025,9 +10575,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pygocentrus_%28Alpha%29"
   },
   {
-    "name_zh": "Pygocentrus (Beta)",
+    "name_zh": "食人鱼（Beta）",
     "name_en": "Pygocentrus (Beta)",
-    "aliases": [],
+    "aliases": [
+      "食人鱼（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10039,9 +10591,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pygocentrus_%28Beta%29"
   },
   {
-    "name_zh": "Pygocentrus (Gamma)",
+    "name_zh": "食人鱼（Gamma）",
     "name_en": "Pygocentrus (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "食人鱼（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10053,9 +10607,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pygocentrus_%28Gamma%29"
   },
   {
-    "name_zh": "Pyromane",
+    "name_zh": "炎鬃",
     "name_en": "Pyromane",
-    "aliases": [],
+    "aliases": [
+      "炎鬃"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10067,9 +10623,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Pyromane"
   },
   {
-    "name_zh": "Qarmoutus",
+    "name_zh": "卡尔穆图斯",
     "name_en": "Qarmoutus",
-    "aliases": [],
+    "aliases": [
+      "卡尔穆图斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10333,9 +10891,11 @@
     "source_url": "https://ark.wiki.gg/wiki/R-Quetzal"
   },
   {
-    "name_zh": "R-Reaper King",
+    "name_zh": "R-死神国王",
     "name_en": "R-Reaper King",
-    "aliases": [],
+    "aliases": [
+      "R-死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10347,9 +10907,11 @@
     "source_url": "https://ark.wiki.gg/wiki/R-Reaper_King"
   },
   {
-    "name_zh": "R-Reaper Queen",
+    "name_zh": "R-死神女王",
     "name_en": "R-Reaper Queen",
-    "aliases": [],
+    "aliases": [
+      "R-死神女王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10440,9 +11002,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Raptor"
   },
   {
-    "name_zh": "Rare X-Sabertooth Salmon",
+    "name_zh": "稀有X-剑齿鲑鱼",
     "name_en": "Rare X-Sabertooth Salmon",
-    "aliases": [],
+    "aliases": [
+      "稀有X-剑齿鲑鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10499,9 +11063,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Reaper"
   },
   {
-    "name_zh": "Reaper King",
+    "name_zh": "死神国王",
     "name_en": "Reaper King",
-    "aliases": [],
+    "aliases": [
+      "死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10513,9 +11079,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Reaper_King"
   },
   {
-    "name_zh": "Reaper Prince",
+    "name_zh": "死神王子",
     "name_en": "Reaper Prince",
-    "aliases": [],
+    "aliases": [
+      "死神王子"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10527,9 +11095,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Reaper_Prince"
   },
   {
-    "name_zh": "Reaper Queen",
+    "name_zh": "死神女王",
     "name_en": "Reaper Queen",
-    "aliases": [],
+    "aliases": [
+      "死神女王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10541,9 +11111,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Reaper_Queen"
   },
   {
-    "name_zh": "Reindeer",
+    "name_zh": "驯鹿",
     "name_en": "Reindeer",
-    "aliases": [],
+    "aliases": [
+      "驯鹿"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10555,9 +11127,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Reindeer"
   },
   {
-    "name_zh": "Revenant",
+    "name_zh": "亡魂",
     "name_en": "Revenant",
-    "aliases": [],
+    "aliases": [
+      "亡魂"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10569,9 +11143,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant"
   },
   {
-    "name_zh": "Revenant Brontosaurus",
+    "name_zh": "亡魂雷龙",
     "name_en": "Revenant Brontosaurus",
-    "aliases": [],
+    "aliases": [
+      "亡魂雷龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10583,9 +11159,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Brontosaurus"
   },
   {
-    "name_zh": "Revenant Carnotaurus",
+    "name_zh": "亡魂食肉牛龙",
     "name_en": "Revenant Carnotaurus",
-    "aliases": [],
+    "aliases": [
+      "亡魂食肉牛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10597,9 +11175,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Carnotaurus"
   },
   {
-    "name_zh": "Revenant Dilophosaur",
+    "name_zh": "亡魂双嵴龙",
     "name_en": "Revenant Dilophosaur",
-    "aliases": [],
+    "aliases": [
+      "亡魂双嵴龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10611,9 +11191,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Dilophosaur"
   },
   {
-    "name_zh": "Revenant Dimorphodon",
+    "name_zh": "亡魂真双型齿龙",
     "name_en": "Revenant Dimorphodon",
-    "aliases": [],
+    "aliases": [
+      "亡魂真双型齿龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10625,9 +11207,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Dimorphodon"
   },
   {
-    "name_zh": "Revenant Direwolf",
+    "name_zh": "亡魂恐狼",
     "name_en": "Revenant Direwolf",
-    "aliases": [],
+    "aliases": [
+      "亡魂恐狼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10639,9 +11223,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Direwolf"
   },
   {
-    "name_zh": "Revenant Iguanodon",
+    "name_zh": "亡魂禽龙",
     "name_en": "Revenant Iguanodon",
-    "aliases": [],
+    "aliases": [
+      "亡魂禽龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10653,9 +11239,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Iguanodon"
   },
   {
-    "name_zh": "Revenant Malwyn",
+    "name_zh": "亡魂马尔温",
     "name_en": "Revenant Malwyn",
-    "aliases": [],
+    "aliases": [
+      "亡魂马尔温"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10667,9 +11255,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Malwyn"
   },
   {
-    "name_zh": "Revenant Mammoth",
+    "name_zh": "亡魂猛犸",
     "name_en": "Revenant Mammoth",
-    "aliases": [],
+    "aliases": [
+      "亡魂猛犸"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10681,9 +11271,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Mammoth"
   },
   {
-    "name_zh": "Revenant Ossidon",
+    "name_zh": "亡魂奥西登",
     "name_en": "Revenant Ossidon",
-    "aliases": [],
+    "aliases": [
+      "亡魂奥西登"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10695,9 +11287,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Ossidon"
   },
   {
-    "name_zh": "Revenant Parasaur",
+    "name_zh": "亡魂副栉龙",
     "name_en": "Revenant Parasaur",
-    "aliases": [],
+    "aliases": [
+      "亡魂副栉龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10709,9 +11303,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Parasaur"
   },
   {
-    "name_zh": "Revenant Pteranodon",
+    "name_zh": "亡魂翼龙",
     "name_en": "Revenant Pteranodon",
-    "aliases": [],
+    "aliases": [
+      "亡魂翼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10723,9 +11319,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Pteranodon"
   },
   {
-    "name_zh": "Revenant Raptor",
+    "name_zh": "亡魂迅猛龙",
     "name_en": "Revenant Raptor",
-    "aliases": [],
+    "aliases": [
+      "亡魂迅猛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10737,9 +11335,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Raptor"
   },
   {
-    "name_zh": "Revenant Rex",
+    "name_zh": "亡魂霸王龙",
     "name_en": "Revenant Rex",
-    "aliases": [],
+    "aliases": [
+      "亡魂霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10751,9 +11351,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Rex"
   },
   {
-    "name_zh": "Revenant Sabertooth",
+    "name_zh": "亡魂剑齿虎（刃齿虎）",
     "name_en": "Revenant Sabertooth",
-    "aliases": [],
+    "aliases": [
+      "亡魂剑齿虎（刃齿虎）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10765,9 +11367,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Sabertooth"
   },
   {
-    "name_zh": "Revenant Spino",
+    "name_zh": "亡魂棘背龙",
     "name_en": "Revenant Spino",
-    "aliases": [],
+    "aliases": [
+      "亡魂棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10779,9 +11383,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Spino"
   },
   {
-    "name_zh": "Revenant Stegosaurus",
+    "name_zh": "亡魂剑龙",
     "name_en": "Revenant Stegosaurus",
-    "aliases": [],
+    "aliases": [
+      "亡魂剑龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10793,9 +11399,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Stegosaurus"
   },
   {
-    "name_zh": "Revenant Therizinosaur",
+    "name_zh": "亡魂镰刀龙",
     "name_en": "Revenant Therizinosaur",
-    "aliases": [],
+    "aliases": [
+      "亡魂镰刀龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10807,9 +11415,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Therizinosaur"
   },
   {
-    "name_zh": "Revenant Troodon",
+    "name_zh": "亡魂伤齿龙",
     "name_en": "Revenant Troodon",
-    "aliases": [],
+    "aliases": [
+      "亡魂伤齿龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10821,9 +11431,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Troodon"
   },
   {
-    "name_zh": "Revenant Veilwyn",
+    "name_zh": "亡魂维尔温",
     "name_en": "Revenant Veilwyn",
-    "aliases": [],
+    "aliases": [
+      "亡魂维尔温"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10835,9 +11447,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Revenant_Veilwyn"
   },
   {
-    "name_zh": "Revenant Yutyrannus",
+    "name_zh": "亡魂羽暴龙",
     "name_en": "Revenant Yutyrannus",
-    "aliases": [],
+    "aliases": [
+      "亡魂羽暴龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10896,9 +11510,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rex_Ghost"
   },
   {
-    "name_zh": "Rhyniognatha",
+    "name_zh": "莱尼虫",
     "name_en": "Rhyniognatha",
-    "aliases": [],
+    "aliases": [
+      "莱尼虫"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10913,9 +11529,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rhyniognatha"
   },
   {
-    "name_zh": "Rhyniognatha Drone",
+    "name_zh": "莱尼虫工蜂",
     "name_en": "Rhyniognatha Drone",
-    "aliases": [],
+    "aliases": [
+      "莱尼虫工蜂"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10927,9 +11545,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rhyniognatha_Drone"
   },
   {
-    "name_zh": "Riftcrawler",
+    "name_zh": "裂隙爬行者",
     "name_en": "Riftcrawler",
-    "aliases": [],
+    "aliases": [
+      "裂隙爬行者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -10941,9 +11561,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Riftcrawler"
   },
   {
-    "name_zh": "Riftwalker",
+    "name_zh": "裂隙行者",
     "name_en": "Riftwalker",
-    "aliases": [],
+    "aliases": [
+      "裂隙行者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11017,9 +11639,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell"
   },
   {
-    "name_zh": "Rockwell (Alpha)",
+    "name_zh": "罗克韦尔（Alpha）",
     "name_en": "Rockwell (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11031,9 +11655,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_%28Alpha%29"
   },
   {
-    "name_zh": "Rockwell (Beta)",
+    "name_zh": "罗克韦尔（Beta）",
     "name_en": "Rockwell (Beta)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11045,9 +11671,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_%28Beta%29"
   },
   {
-    "name_zh": "Rockwell (Gamma)",
+    "name_zh": "罗克韦尔（Gamma）",
     "name_en": "Rockwell (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11059,9 +11687,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_%28Gamma%29"
   },
   {
-    "name_zh": "Rockwell Node",
+    "name_zh": "罗克韦尔节点",
     "name_en": "Rockwell Node",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔节点"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11073,9 +11703,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_Node"
   },
   {
-    "name_zh": "Rockwell Node (Alpha)",
+    "name_zh": "罗克韦尔节点（Alpha）",
     "name_en": "Rockwell Node (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔节点（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11087,9 +11719,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_Node_%28Alpha%29"
   },
   {
-    "name_zh": "Rockwell Node (Beta)",
+    "name_zh": "罗克韦尔节点（Beta）",
     "name_en": "Rockwell Node (Beta)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔节点（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11101,9 +11735,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_Node_%28Beta%29"
   },
   {
-    "name_zh": "Rockwell Node (Gamma)",
+    "name_zh": "罗克韦尔节点（Gamma）",
     "name_en": "Rockwell Node (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔节点（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11115,9 +11751,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_Node_%28Gamma%29"
   },
   {
-    "name_zh": "Rockwell Prime",
+    "name_zh": "罗克韦尔本体",
     "name_en": "Rockwell Prime",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔本体"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11129,9 +11767,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_Prime"
   },
   {
-    "name_zh": "Rockwell Prime (Alpha)",
+    "name_zh": "罗克韦尔本体（Alpha）",
     "name_en": "Rockwell Prime (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔本体（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11143,9 +11783,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_Prime_%28Alpha%29"
   },
   {
-    "name_zh": "Rockwell Prime (Beta)",
+    "name_zh": "罗克韦尔本体（Beta）",
     "name_en": "Rockwell Prime (Beta)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔本体（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11157,9 +11799,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Rockwell_Prime_%28Beta%29"
   },
   {
-    "name_zh": "Rockwell Prime (Gamma)",
+    "name_zh": "罗克韦尔本体（Gamma）",
     "name_en": "Rockwell Prime (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "罗克韦尔本体（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11193,9 +11837,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Roll_Rat"
   },
   {
-    "name_zh": "Rubble Bear",
+    "name_zh": "碎岩熊",
     "name_en": "Rubble Bear",
-    "aliases": [],
+    "aliases": [
+      "碎岩熊"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11279,9 +11925,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Sabertooth_Salmon"
   },
   {
-    "name_zh": "Santa's Big Helper",
+    "name_zh": "圣诞老人的大帮手",
     "name_en": "Santa's Big Helper",
-    "aliases": [],
+    "aliases": [
+      "圣诞老人的大帮手"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11321,9 +11969,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Sarco"
   },
   {
-    "name_zh": "Scout",
+    "name_zh": "侦察者",
     "name_en": "Scout",
-    "aliases": [],
+    "aliases": [
+      "侦察者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11338,9 +11988,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Scout"
   },
   {
-    "name_zh": "Scrap Golem",
+    "name_zh": "废料魔像",
     "name_en": "Scrap Golem",
-    "aliases": [],
+    "aliases": [
+      "废料魔像"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11352,9 +12004,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Scrap_Golem"
   },
   {
-    "name_zh": "Seahorse",
+    "name_zh": "海马",
     "name_en": "Seahorse",
-    "aliases": [],
+    "aliases": [
+      "海马"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11390,9 +12044,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Seeker"
   },
   {
-    "name_zh": "Shadowmane",
+    "name_zh": "影鬃",
     "name_en": "Shadowmane",
-    "aliases": [],
+    "aliases": [
+      "影鬃"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11407,9 +12063,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Shadowmane"
   },
   {
-    "name_zh": "Shastasaurus",
+    "name_zh": "萨斯特鱼龙",
     "name_en": "Shastasaurus",
-    "aliases": [],
+    "aliases": [
+      "萨斯特鱼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11442,9 +12100,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Shinehorn"
   },
   {
-    "name_zh": "Sinomacrops",
+    "name_zh": "中国大翼兽",
     "name_en": "Sinomacrops",
-    "aliases": [],
+    "aliases": [
+      "中国大翼兽"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11458,9 +12118,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Sinomacrops"
   },
   {
-    "name_zh": "Sir-5rM8",
+    "name_zh": "西尔-5rM8",
     "name_en": "Sir-5rM8",
-    "aliases": [],
+    "aliases": [
+      "西尔-5rM8"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11472,9 +12134,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Sir-5rM8"
   },
   {
-    "name_zh": "Skeletal Bronto",
+    "name_zh": "骸骨雷龙",
     "name_en": "Skeletal Bronto",
-    "aliases": [],
+    "aliases": [
+      "骸骨雷龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11502,9 +12166,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeletal_Carnotaurus"
   },
   {
-    "name_zh": "Skeletal Fire Wyvern",
+    "name_zh": "骸骨火焰飞龙",
     "name_en": "Skeletal Fire Wyvern",
-    "aliases": [],
+    "aliases": [
+      "骸骨火焰飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11564,10 +12230,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeletal_Quetzal"
   },
   {
-    "name_zh": "骸骨迅猛龙（犹他盗龙）",
+    "name_zh": "骸骨迅猛龙",
     "name_en": "Skeletal Raptor",
     "aliases": [
-      "骸骨迅猛龙（犹他盗龙）"
+      "骸骨迅猛龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -11596,9 +12262,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeletal_Rex"
   },
   {
-    "name_zh": "Skeletal Stego",
+    "name_zh": "骸骨剑龙",
     "name_en": "Skeletal Stego",
-    "aliases": [],
+    "aliases": [
+      "骸骨剑龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11610,9 +12278,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeletal_Stego"
   },
   {
-    "name_zh": "Skeletal Trike",
+    "name_zh": "骸骨三角龙",
     "name_en": "Skeletal Trike",
-    "aliases": [],
+    "aliases": [
+      "骸骨三角龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11624,9 +12294,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeletal_Trike"
   },
   {
-    "name_zh": "Skeleton",
+    "name_zh": "骷髅",
     "name_en": "Skeleton",
-    "aliases": [],
+    "aliases": [
+      "骷髅"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11638,9 +12310,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeleton"
   },
   {
-    "name_zh": "Skeleton Piercer",
+    "name_zh": "骸骨穿刺者",
     "name_en": "Skeleton Piercer",
-    "aliases": [],
+    "aliases": [
+      "骸骨穿刺者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11652,9 +12326,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeleton_Piercer"
   },
   {
-    "name_zh": "Skeleton Snarer",
+    "name_zh": "骸骨诱捕者",
     "name_en": "Skeleton Snarer",
-    "aliases": [],
+    "aliases": [
+      "骸骨诱捕者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11666,9 +12342,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Skeleton_Snarer"
   },
   {
-    "name_zh": "Skeleton Warden",
+    "name_zh": "骸骨守卫者",
     "name_en": "Skeleton Warden",
-    "aliases": [],
+    "aliases": [
+      "骸骨守卫者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11731,9 +12409,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Snow_Owl_Ghost"
   },
   {
-    "name_zh": "Solwyn",
+    "name_zh": "索尔温",
     "name_en": "Solwyn",
-    "aliases": [],
+    "aliases": [
+      "索尔温"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11775,9 +12455,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Spino"
   },
   {
-    "name_zh": "Spino Ghost",
+    "name_zh": "幽灵棘背龙",
     "name_en": "Spino Ghost",
-    "aliases": [],
+    "aliases": [
+      "幽灵棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11837,9 +12519,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Spirit_Direwolf"
   },
   {
-    "name_zh": "Spirit Direwolf (Spirit Beasts Skill)",
+    "name_zh": "灵魂恐狼（灵兽技能）",
     "name_en": "Spirit Direwolf (Spirit Beasts Skill)",
-    "aliases": [],
+    "aliases": [
+      "灵魂恐狼（灵兽技能）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11851,9 +12535,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Spirit_Direwolf_%28Spirit_Beasts_Skill%29"
   },
   {
-    "name_zh": "Spring Drakeling",
+    "name_zh": "春季幼龙",
     "name_en": "Spring Drakeling",
-    "aliases": [],
+    "aliases": [
+      "春季幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11865,9 +12551,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Spring_Drakeling"
   },
   {
-    "name_zh": "Spring Drakeling Ghost",
+    "name_zh": "春季幽灵幼龙",
     "name_en": "Spring Drakeling Ghost",
-    "aliases": [],
+    "aliases": [
+      "春季幽灵幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11907,9 +12595,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Stegosaurus"
   },
   {
-    "name_zh": "Steinbjörn",
+    "name_zh": "斯坦比约恩",
     "name_en": "Steinbjörn",
-    "aliases": [],
+    "aliases": [
+      "斯坦比约恩"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11921,9 +12611,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Steinbj%C3%B6rn"
   },
   {
-    "name_zh": "Stereolepis",
+    "name_zh": "巨鲈",
     "name_en": "Stereolepis",
-    "aliases": [],
+    "aliases": [
+      "巨鲈"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11935,9 +12627,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Stereolepis"
   },
   {
-    "name_zh": "Subterranean Reaper King",
+    "name_zh": "地下死神国王",
     "name_en": "Subterranean Reaper King",
-    "aliases": [],
+    "aliases": [
+      "地下死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11949,9 +12643,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Subterranean_Reaper_King"
   },
   {
-    "name_zh": "Succumbed Revenant Rex",
+    "name_zh": "堕化亡魂霸王龙",
     "name_en": "Succumbed Revenant Rex",
-    "aliases": [],
+    "aliases": [
+      "堕化亡魂霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11963,9 +12659,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Succumbed_Revenant_Rex"
   },
   {
-    "name_zh": "Succumbed Revenant Therizinosaur",
+    "name_zh": "堕化亡魂镰刀龙",
     "name_en": "Succumbed Revenant Therizinosaur",
-    "aliases": [],
+    "aliases": [
+      "堕化亡魂镰刀龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11977,9 +12675,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Succumbed_Revenant_Therizinosaur"
   },
   {
-    "name_zh": "Summer Drakeling",
+    "name_zh": "夏季幼龙",
     "name_en": "Summer Drakeling",
-    "aliases": [],
+    "aliases": [
+      "夏季幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -11991,9 +12691,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Summer_Drakeling"
   },
   {
-    "name_zh": "Summer Drakeling Ghost",
+    "name_zh": "夏季幽灵幼龙",
     "name_en": "Summer Drakeling Ghost",
-    "aliases": [],
+    "aliases": [
+      "夏季幽灵幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12005,9 +12707,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Summer_Drakeling_Ghost"
   },
   {
-    "name_zh": "Summoner",
+    "name_zh": "召唤师",
     "name_en": "Summoner",
-    "aliases": [],
+    "aliases": [
+      "召唤师"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12021,9 +12725,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Summoner"
   },
   {
-    "name_zh": "Super Turkey",
+    "name_zh": "超级火鸡",
     "name_en": "Super Turkey",
-    "aliases": [],
+    "aliases": [
+      "超级火鸡"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12048,9 +12754,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Super_Turkey"
   },
   {
-    "name_zh": "Surface Reaper King",
+    "name_zh": "地表死神国王",
     "name_en": "Surface Reaper King",
-    "aliases": [],
+    "aliases": [
+      "地表死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12062,9 +12770,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Surface_Reaper_King"
   },
   {
-    "name_zh": "Surface Reaper King Ghost",
+    "name_zh": "地表幽灵死神国王",
     "name_en": "Surface Reaper King Ghost",
-    "aliases": [],
+    "aliases": [
+      "地表幽灵死神国王"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12076,9 +12786,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Surface_Reaper_King_Ghost"
   },
   {
-    "name_zh": "Takifugu",
+    "name_zh": "河豚",
     "name_en": "Takifugu",
-    "aliases": [],
+    "aliases": [
+      "河豚"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12164,10 +12876,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Tek_Quetzal"
   },
   {
-    "name_zh": "泰克迅猛龙（犹他盗龙）",
+    "name_zh": "泰克迅猛龙",
     "name_en": "Tek Raptor",
     "aliases": [
-      "泰克迅猛龙（犹他盗龙）"
+      "泰克迅猛龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -12212,9 +12924,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Tek_Stegosaurus"
   },
   {
-    "name_zh": "Tek Stryder",
+    "name_zh": "泰克机甲牛",
     "name_en": "Tek Stryder",
-    "aliases": [],
+    "aliases": [
+      "泰克机甲牛"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12228,10 +12942,10 @@
     "source_url": "https://ark.wiki.gg/wiki/Tek_Stryder"
   },
   {
-    "name_zh": "泰克三角龙",
+    "name_zh": "泰克角龙",
     "name_en": "Tek Triceratops",
     "aliases": [
-      "泰克三角龙"
+      "泰克角龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -12272,9 +12986,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Terror_Bird"
   },
   {
-    "name_zh": "Thanatos",
+    "name_zh": "塔纳托斯",
     "name_en": "Thanatos",
-    "aliases": [],
+    "aliases": [
+      "塔纳托斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12316,9 +13032,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Therizinosaur"
   },
   {
-    "name_zh": "Thodes",
+    "name_zh": "索德斯",
     "name_en": "Thodes",
-    "aliases": [],
+    "aliases": [
+      "索德斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12355,9 +13073,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thorny_Dragon"
   },
   {
-    "name_zh": "Thrall",
+    "name_zh": "奴仆",
     "name_en": "Thrall",
-    "aliases": [],
+    "aliases": [
+      "奴仆"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12369,9 +13089,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall"
   },
   {
-    "name_zh": "Thrall Archer",
+    "name_zh": "奴仆弓箭手",
     "name_en": "Thrall Archer",
-    "aliases": [],
+    "aliases": [
+      "奴仆弓箭手"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12383,9 +13105,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Archer"
   },
   {
-    "name_zh": "Thrall Bounty Hunter",
+    "name_zh": "奴仆赏金猎人",
     "name_en": "Thrall Bounty Hunter",
-    "aliases": [],
+    "aliases": [
+      "奴仆赏金猎人"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12397,9 +13121,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Bounty_Hunter"
   },
   {
-    "name_zh": "Thrall Cavalry Commander",
+    "name_zh": "奴仆骑兵指挥官",
     "name_en": "Thrall Cavalry Commander",
-    "aliases": [],
+    "aliases": [
+      "奴仆骑兵指挥官"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12411,9 +13137,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Cavalry_Commander"
   },
   {
-    "name_zh": "Thrall Deadeye",
+    "name_zh": "奴仆神射手",
     "name_en": "Thrall Deadeye",
-    "aliases": [],
+    "aliases": [
+      "奴仆神射手"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12425,9 +13153,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Deadeye"
   },
   {
-    "name_zh": "Thrall Demolisher",
+    "name_zh": "奴仆爆破手",
     "name_en": "Thrall Demolisher",
-    "aliases": [],
+    "aliases": [
+      "奴仆爆破手"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12439,9 +13169,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Demolisher"
   },
   {
-    "name_zh": "Thrall Enforcer",
+    "name_zh": "奴仆执法者",
     "name_en": "Thrall Enforcer",
-    "aliases": [],
+    "aliases": [
+      "奴仆执法者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12453,9 +13185,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Enforcer"
   },
   {
-    "name_zh": "Thrall Forgemaster",
+    "name_zh": "奴仆铸造大师",
     "name_en": "Thrall Forgemaster",
-    "aliases": [],
+    "aliases": [
+      "奴仆铸造大师"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12467,9 +13201,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Forgemaster"
   },
   {
-    "name_zh": "Thrall Gunslinger",
+    "name_zh": "奴仆枪手",
     "name_en": "Thrall Gunslinger",
-    "aliases": [],
+    "aliases": [
+      "奴仆枪手"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12481,9 +13217,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Gunslinger"
   },
   {
-    "name_zh": "Thrall Herald",
+    "name_zh": "奴仆先驱",
     "name_en": "Thrall Herald",
-    "aliases": [],
+    "aliases": [
+      "奴仆先驱"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12495,9 +13233,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Herald"
   },
   {
-    "name_zh": "Thrall Marauder",
+    "name_zh": "奴仆劫掠者",
     "name_en": "Thrall Marauder",
-    "aliases": [],
+    "aliases": [
+      "奴仆劫掠者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12509,9 +13249,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Marauder"
   },
   {
-    "name_zh": "Thrall Marksman",
+    "name_zh": "奴仆射手",
     "name_en": "Thrall Marksman",
-    "aliases": [],
+    "aliases": [
+      "奴仆射手"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12523,9 +13265,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Marksman"
   },
   {
-    "name_zh": "Thrall Piercer",
+    "name_zh": "奴仆穿刺者",
     "name_en": "Thrall Piercer",
-    "aliases": [],
+    "aliases": [
+      "奴仆穿刺者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12537,9 +13281,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Piercer"
   },
   {
-    "name_zh": "Thrall Scattershot",
+    "name_zh": "奴仆散射手",
     "name_en": "Thrall Scattershot",
-    "aliases": [],
+    "aliases": [
+      "奴仆散射手"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12551,9 +13297,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Scattershot"
   },
   {
-    "name_zh": "Thrall Snarer",
+    "name_zh": "奴仆诱捕者",
     "name_en": "Thrall Snarer",
-    "aliases": [],
+    "aliases": [
+      "奴仆诱捕者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12565,9 +13313,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Snarer"
   },
   {
-    "name_zh": "Thrall Subjugator",
+    "name_zh": "奴仆征服者",
     "name_en": "Thrall Subjugator",
-    "aliases": [],
+    "aliases": [
+      "奴仆征服者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12579,9 +13329,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Subjugator"
   },
   {
-    "name_zh": "Thrall Warden",
+    "name_zh": "奴仆守卫者",
     "name_en": "Thrall Warden",
-    "aliases": [],
+    "aliases": [
+      "奴仆守卫者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12593,9 +13345,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thrall_Warden"
   },
   {
-    "name_zh": "Thunnus",
+    "name_zh": "金枪鱼",
     "name_en": "Thunnus",
-    "aliases": [],
+    "aliases": [
+      "金枪鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12634,9 +13388,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Thylacoleo"
   },
   {
-    "name_zh": "Tidepup",
+    "name_zh": "潮汐幼崽",
     "name_en": "Tidepup",
-    "aliases": [],
+    "aliases": [
+      "潮汐幼崽"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12648,9 +13404,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Tidepup"
   },
   {
-    "name_zh": "Tiktaalik",
+    "name_zh": "提塔利克鱼",
     "name_en": "Tiktaalik",
-    "aliases": [],
+    "aliases": [
+      "提塔利克鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12777,9 +13535,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Triceratops"
   },
   {
-    "name_zh": "Tridacna",
+    "name_zh": "砗磲",
     "name_en": "Tridacna",
-    "aliases": [],
+    "aliases": [
+      "砗磲"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12845,9 +13605,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Troodon"
   },
   {
-    "name_zh": "Tropeognathus",
+    "name_zh": "喙嘴翼龙",
     "name_en": "Tropeognathus",
-    "aliases": [],
+    "aliases": [
+      "喙嘴翼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12862,9 +13624,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Tropeognathus"
   },
   {
-    "name_zh": "Tropical Crystal Wyvern",
+    "name_zh": "热带水晶飞龙",
     "name_en": "Tropical Crystal Wyvern",
-    "aliases": [],
+    "aliases": [
+      "热带水晶飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12902,9 +13666,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Tusoteuthis"
   },
   {
-    "name_zh": "Unicorn",
+    "name_zh": "独角兽",
     "name_en": "Unicorn",
-    "aliases": [],
+    "aliases": [
+      "独角兽"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12923,9 +13689,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Unicorn"
   },
   {
-    "name_zh": "Valentines Coelacanth",
+    "name_zh": "情人节腔棘鱼",
     "name_en": "Valentines Coelacanth",
-    "aliases": [],
+    "aliases": [
+      "情人节腔棘鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12937,9 +13705,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Valentines_Coelacanth"
   },
   {
-    "name_zh": "Veilwyn",
+    "name_zh": "维尔温",
     "name_en": "Veilwyn",
-    "aliases": [],
+    "aliases": [
+      "维尔温"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12951,9 +13721,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Veilwyn"
   },
   {
-    "name_zh": "Veilwyn Ghost",
+    "name_zh": "幽灵维尔温",
     "name_en": "Veilwyn Ghost",
-    "aliases": [],
+    "aliases": [
+      "幽灵维尔温"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -12985,9 +13757,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Velonasaur"
   },
   {
-    "name_zh": "Voidwyrm",
+    "name_zh": "虚空飞龙",
     "name_en": "Voidwyrm",
-    "aliases": [],
+    "aliases": [
+      "虚空飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13001,9 +13775,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Voidwyrm"
   },
   {
-    "name_zh": "VR Allosaurus",
+    "name_zh": "VR 异龙",
     "name_en": "VR Allosaurus",
-    "aliases": [],
+    "aliases": [
+      "VR 异龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13015,9 +13791,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Allosaurus"
   },
   {
-    "name_zh": "VR Araneo",
+    "name_zh": "VR 蜘蛛",
     "name_en": "VR Araneo",
-    "aliases": [],
+    "aliases": [
+      "VR 蜘蛛"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13029,9 +13807,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Araneo"
   },
   {
-    "name_zh": "VR Argentavis",
+    "name_zh": "VR 阿根廷巨鹰",
     "name_en": "VR Argentavis",
-    "aliases": [],
+    "aliases": [
+      "VR 阿根廷巨鹰"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13043,9 +13823,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Argentavis"
   },
   {
-    "name_zh": "VR Arthropluera",
+    "name_zh": "VR 古马陆（节胸蜈蚣）",
     "name_en": "VR Arthropluera",
-    "aliases": [],
+    "aliases": [
+      "VR 古马陆（节胸蜈蚣）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13057,9 +13839,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Arthropluera"
   },
   {
-    "name_zh": "VR Astrodelphis",
+    "name_zh": "VR 星海豚",
     "name_en": "VR Astrodelphis",
-    "aliases": [],
+    "aliases": [
+      "VR 星海豚"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13071,9 +13855,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Astrodelphis"
   },
   {
-    "name_zh": "VR Bloodstalker",
+    "name_zh": "VR 血蛛",
     "name_en": "VR Bloodstalker",
-    "aliases": [],
+    "aliases": [
+      "VR 血蛛"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13085,9 +13871,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Bloodstalker"
   },
   {
-    "name_zh": "VR Carnotaurus",
+    "name_zh": "VR 食肉牛龙",
     "name_en": "VR Carnotaurus",
-    "aliases": [],
+    "aliases": [
+      "VR 食肉牛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13099,9 +13887,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Carnotaurus"
   },
   {
-    "name_zh": "VR Chalicotherium",
+    "name_zh": "VR 砂犷兽（砾爪兽）",
     "name_en": "VR Chalicotherium",
-    "aliases": [],
+    "aliases": [
+      "VR 砂犷兽（砾爪兽）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13113,9 +13903,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Chalicotherium"
   },
   {
-    "name_zh": "VR Dilophosaur",
+    "name_zh": "VR 双嵴龙",
     "name_en": "VR Dilophosaur",
-    "aliases": [],
+    "aliases": [
+      "VR 双嵴龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13127,9 +13919,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Dilophosaur"
   },
   {
-    "name_zh": "VR Dimorphodon",
+    "name_zh": "VR 真双型齿龙",
     "name_en": "VR Dimorphodon",
-    "aliases": [],
+    "aliases": [
+      "VR 真双型齿龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13141,9 +13935,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Dimorphodon"
   },
   {
-    "name_zh": "VR Enforcer",
+    "name_zh": "VR 执法者",
     "name_en": "VR Enforcer",
-    "aliases": [],
+    "aliases": [
+      "VR 执法者"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13155,9 +13951,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Enforcer"
   },
   {
-    "name_zh": "VR Ferox",
+    "name_zh": "VR 费洛克斯",
     "name_en": "VR Ferox",
-    "aliases": [],
+    "aliases": [
+      "VR 费洛克斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13169,9 +13967,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Ferox"
   },
   {
-    "name_zh": "VR Kaprosuchus",
+    "name_zh": "VR 猪鳄",
     "name_en": "VR Kaprosuchus",
-    "aliases": [],
+    "aliases": [
+      "VR 猪鳄"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13183,9 +13983,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Kaprosuchus"
   },
   {
-    "name_zh": "VR Karkinos",
+    "name_zh": "VR 巨蟹",
     "name_en": "VR Karkinos",
-    "aliases": [],
+    "aliases": [
+      "VR 巨蟹"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13197,9 +13999,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Karkinos"
   },
   {
-    "name_zh": "VR Lymantria",
+    "name_zh": "VR 沙蛾（荒漠毒蛾）",
     "name_en": "VR Lymantria",
-    "aliases": [],
+    "aliases": [
+      "VR 沙蛾（荒漠毒蛾）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13211,9 +14015,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Lymantria"
   },
   {
-    "name_zh": "VR Mantis",
+    "name_zh": "VR 螳螂（锥螳）",
     "name_en": "VR Mantis",
-    "aliases": [],
+    "aliases": [
+      "VR 螳螂（锥螳）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13225,9 +14031,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Mantis"
   },
   {
-    "name_zh": "VR Megalania",
+    "name_zh": "VR 古巨蜥",
     "name_en": "VR Megalania",
-    "aliases": [],
+    "aliases": [
+      "VR 古巨蜥"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13239,9 +14047,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Megalania"
   },
   {
-    "name_zh": "VR Megatherium",
+    "name_zh": "VR 大地懒",
     "name_en": "VR Megatherium",
-    "aliases": [],
+    "aliases": [
+      "VR 大地懒"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13253,9 +14063,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Megatherium"
   },
   {
-    "name_zh": "VR Onyc",
+    "name_zh": "VR 爪蝠",
     "name_en": "VR Onyc",
-    "aliases": [],
+    "aliases": [
+      "VR 爪蝠"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13267,9 +14079,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Onyc"
   },
   {
-    "name_zh": "VR Pachy",
+    "name_zh": "VR 肿头龙",
     "name_en": "VR Pachy",
-    "aliases": [],
+    "aliases": [
+      "VR 肿头龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13281,9 +14095,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Pachy"
   },
   {
-    "name_zh": "VR Parasaur",
+    "name_zh": "VR 副栉龙",
     "name_en": "VR Parasaur",
-    "aliases": [],
+    "aliases": [
+      "VR 副栉龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13295,9 +14111,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Parasaur"
   },
   {
-    "name_zh": "VR Pulmonoscorpius",
+    "name_zh": "VR 巨蝎（普莫诺蝎）",
     "name_en": "VR Pulmonoscorpius",
-    "aliases": [],
+    "aliases": [
+      "VR 巨蝎（普莫诺蝎）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13309,9 +14127,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Pulmonoscorpius"
   },
   {
-    "name_zh": "VR Raptor",
+    "name_zh": "VR 迅猛龙",
     "name_en": "VR Raptor",
-    "aliases": [],
+    "aliases": [
+      "VR 迅猛龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13323,9 +14143,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Raptor"
   },
   {
-    "name_zh": "VR Ravager",
+    "name_zh": "VR 劫掠者（劫掠魔犬）",
     "name_en": "VR Ravager",
-    "aliases": [],
+    "aliases": [
+      "VR 劫掠者（劫掠魔犬）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13337,9 +14159,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Ravager"
   },
   {
-    "name_zh": "VR Rex",
+    "name_zh": "VR 霸王龙",
     "name_en": "VR Rex",
-    "aliases": [],
+    "aliases": [
+      "VR 霸王龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13351,9 +14175,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Rex"
   },
   {
-    "name_zh": "VR Shadowmane",
+    "name_zh": "VR 影鬃",
     "name_en": "VR Shadowmane",
-    "aliases": [],
+    "aliases": [
+      "VR 影鬃"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13365,9 +14191,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Shadowmane"
   },
   {
-    "name_zh": "VR Stegosaurus",
+    "name_zh": "VR 剑龙",
     "name_en": "VR Stegosaurus",
-    "aliases": [],
+    "aliases": [
+      "VR 剑龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13379,9 +14207,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Stegosaurus"
   },
   {
-    "name_zh": "VR Tapejara",
+    "name_zh": "VR 古神翼龙",
     "name_en": "VR Tapejara",
-    "aliases": [],
+    "aliases": [
+      "VR 古神翼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13393,9 +14223,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Tapejara"
   },
   {
-    "name_zh": "VR Terror Bird",
+    "name_zh": "VR 骇鸟",
     "name_en": "VR Terror Bird",
-    "aliases": [],
+    "aliases": [
+      "VR 骇鸟"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13407,9 +14239,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Terror_Bird"
   },
   {
-    "name_zh": "VR Titanoboa",
+    "name_zh": "VR 泰坦巨蟒（泰坦蚺）",
     "name_en": "VR Titanoboa",
-    "aliases": [],
+    "aliases": [
+      "VR 泰坦巨蟒（泰坦蚺）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13421,9 +14255,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Titanoboa"
   },
   {
-    "name_zh": "VR Triceratops",
+    "name_zh": "VR 角龙",
     "name_en": "VR Triceratops",
-    "aliases": [],
+    "aliases": [
+      "VR 角龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13435,9 +14271,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Triceratops"
   },
   {
-    "name_zh": "VR Velonasaur",
+    "name_zh": "VR 棘面穿针龙",
     "name_en": "VR Velonasaur",
-    "aliases": [],
+    "aliases": [
+      "VR 棘面穿针龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13449,9 +14287,11 @@
     "source_url": "https://ark.wiki.gg/wiki/VR_Velonasaur"
   },
   {
-    "name_zh": "Vulcanite",
+    "name_zh": "武尔卡耐特",
     "name_en": "Vulcanite",
-    "aliases": [],
+    "aliases": [
+      "武尔卡耐特"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13463,9 +14303,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Vulcanite"
   },
   {
-    "name_zh": "Vulcanithys",
+    "name_zh": "武尔卡尼西斯",
     "name_en": "Vulcanithys",
-    "aliases": [],
+    "aliases": [
+      "武尔卡尼西斯"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13477,9 +14319,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Vulcanithys"
   },
   {
-    "name_zh": "Vulcanithys (Alpha)",
+    "name_zh": "武尔卡尼西斯（Alpha）",
     "name_en": "Vulcanithys (Alpha)",
-    "aliases": [],
+    "aliases": [
+      "武尔卡尼西斯（Alpha）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13491,9 +14335,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Vulcanithys_%28Alpha%29"
   },
   {
-    "name_zh": "Vulcanithys (Beta)",
+    "name_zh": "武尔卡尼西斯（Beta）",
     "name_en": "Vulcanithys (Beta)",
-    "aliases": [],
+    "aliases": [
+      "武尔卡尼西斯（Beta）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13505,9 +14351,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Vulcanithys_%28Beta%29"
   },
   {
-    "name_zh": "Vulcanithys (Gamma)",
+    "name_zh": "武尔卡尼西斯（Gamma）",
     "name_en": "Vulcanithys (Gamma)",
-    "aliases": [],
+    "aliases": [
+      "武尔卡尼西斯（Gamma）"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13558,9 +14406,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Water_Jug_Bug"
   },
   {
-    "name_zh": "Water Wyvern",
+    "name_zh": "水飞龙",
     "name_en": "Water Wyvern",
-    "aliases": [],
+    "aliases": [
+      "水飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13572,9 +14422,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Water_Wyvern"
   },
   {
-    "name_zh": "Winter Drakeling",
+    "name_zh": "冬季幼龙",
     "name_en": "Winter Drakeling",
-    "aliases": [],
+    "aliases": [
+      "冬季幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13586,9 +14438,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Winter_Drakeling"
   },
   {
-    "name_zh": "Winter Drakeling Ghost",
+    "name_zh": "冬季幽灵幼龙",
     "name_en": "Winter Drakeling Ghost",
-    "aliases": [],
+    "aliases": [
+      "冬季幽灵幼龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13824,10 +14678,10 @@
     "source_url": "https://ark.wiki.gg/wiki/X-Parasaur"
   },
   {
-    "name_zh": "X-迅猛龙（犹他盗龙）",
+    "name_zh": "X-迅猛龙",
     "name_en": "X-Raptor",
     "aliases": [
-      "X-迅猛龙（犹他盗龙）"
+      "X-迅猛龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -13904,9 +14758,11 @@
     "source_url": "https://ark.wiki.gg/wiki/X-Sabertooth_Salmon"
   },
   {
-    "name_zh": "X-Spino",
+    "name_zh": "X-棘背龙",
     "name_en": "X-Spino",
-    "aliases": [],
+    "aliases": [
+      "X-棘背龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13934,10 +14790,10 @@
     "source_url": "https://ark.wiki.gg/wiki/X-Tapejara"
   },
   {
-    "name_zh": "X-三角龙",
+    "name_zh": "X-角龙",
     "name_en": "X-Triceratops",
     "aliases": [
-      "X-三角龙"
+      "X-角龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -13966,10 +14822,10 @@
     "source_url": "https://ark.wiki.gg/wiki/X-Woolly_Rhino"
   },
   {
-    "name_zh": "X-羽王龙",
+    "name_zh": "X-羽暴龙",
     "name_en": "X-Yutyrannus",
     "aliases": [
-      "X-羽王龙"
+      "X-羽暴龙"
     ],
     "tame_type": "待补充",
     "tame_food": "待补充",
@@ -13982,9 +14838,11 @@
     "source_url": "https://ark.wiki.gg/wiki/X-Yutyrannus"
   },
   {
-    "name_zh": "Xiphactinus",
+    "name_zh": "剑射鱼",
     "name_en": "Xiphactinus",
-    "aliases": [],
+    "aliases": [
+      "剑射鱼"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -13996,9 +14854,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Xiphactinus"
   },
   {
-    "name_zh": "Yeti",
+    "name_zh": "雪怪",
     "name_en": "Yeti",
-    "aliases": [],
+    "aliases": [
+      "雪怪"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -14010,9 +14870,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Yeti"
   },
   {
-    "name_zh": "Yi Ling",
+    "name_zh": "翼灵",
     "name_en": "Yi Ling",
-    "aliases": [],
+    "aliases": [
+      "翼灵"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -14024,9 +14886,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Yi_Ling"
   },
   {
-    "name_zh": "Yi Ling Ghost",
+    "name_zh": "幽灵翼灵",
     "name_en": "Yi Ling Ghost",
-    "aliases": [],
+    "aliases": [
+      "幽灵翼灵"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -14068,9 +14932,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Yutyrannus"
   },
   {
-    "name_zh": "Zombie Fire Wyvern",
+    "name_zh": "僵尸飞龙",
     "name_en": "Zombie Wyvern",
-    "aliases": [],
+    "aliases": [
+      "僵尸飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -14082,9 +14948,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Zombie_Fire_Wyvern"
   },
   {
-    "name_zh": "Zombie Lightning Wyvern",
+    "name_zh": "僵尸飞龙",
     "name_en": "Zombie Wyvern",
-    "aliases": [],
+    "aliases": [
+      "僵尸飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -14096,9 +14964,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Zombie_Lightning_Wyvern"
   },
   {
-    "name_zh": "Zombie Poison Wyvern",
+    "name_zh": "僵尸飞龙",
     "name_en": "Zombie Wyvern",
-    "aliases": [],
+    "aliases": [
+      "僵尸飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -14110,9 +14980,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Zombie_Poison_Wyvern"
   },
   {
-    "name_zh": "Zombie Wyvern",
+    "name_zh": "僵尸飞龙",
     "name_en": "Zombie Wyvern",
-    "aliases": [],
+    "aliases": [
+      "僵尸飞龙"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",
@@ -14129,9 +15001,11 @@
     "source_url": "https://ark.wiki.gg/wiki/Zombie_Wyvern"
   },
   {
-    "name_zh": "Zomdodo",
+    "name_zh": "僵尸渡渡鸟",
     "name_en": "Zomdodo",
-    "aliases": [],
+    "aliases": [
+      "僵尸渡渡鸟"
+    ],
     "tame_type": "待补充",
     "tame_food": "待补充",
     "knockout": "待补充",

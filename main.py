@@ -36,6 +36,11 @@ class ArkAsaWikiPlugin(Star):
             show_source_url=bool(_safe_config_get(config, "show_source_url", True)),
             max_crate_items_display=int(_safe_config_get(config, "max_crate_items_display", 12)),
             show_map_status=bool(_safe_config_get(config, "show_map_status", True)),
+            list_default_limit=int(_safe_config_get(config, "list_default_limit", 15)),
+            allow_runtime_alias_edit=bool(_safe_config_get(config, "allow_runtime_alias_edit", True)),
+            alias_storage_filename=str(_safe_config_get(config, "alias_storage_filename", "custom_aliases.json")),
+            fuzzy_cjk_cutoff=float(_safe_config_get(config, "fuzzy_cjk_cutoff", 0.72)),
+            fuzzy_latin_cutoff=float(_safe_config_get(config, "fuzzy_latin_cutoff", 0.6)),
         )
         logger.info("[ARK ASA] plugin loaded")
 
@@ -89,6 +94,16 @@ class ArkAsaWikiPlugin(Star):
         async for result in self._run_simple(event, "source"):
             yield result
 
+    @filter.command("列表")
+    async def list_command(self, event: AstrMessageEvent):
+        async for result in self._run_simple(event, "list"):
+            yield result
+
+    @filter.command("别名")
+    async def alias_command(self, event: AstrMessageEvent):
+        async for result in self._run_simple(event, "alias"):
+            yield result
+
     @filter.command("地图列表")
     async def maps_command(self, event: AstrMessageEvent):
         async for result in self._run_simple(event, "maps"):
@@ -127,6 +142,10 @@ class ArkAsaWikiPlugin(Star):
             "掉落": self.service.query_loot,
             "source": self.service.query_source,
             "来源": self.service.query_source,
+            "list": self.service.query_list,
+            "列表": self.service.query_list,
+            "alias": self.service.query_alias,
+            "别名": self.service.query_alias,
         }
 
         handler = mapping.get(subcommand)
@@ -159,6 +178,10 @@ class ArkAsaWikiPlugin(Star):
             result = self.service.query_loot(argument)
         elif mode == "source":
             result = self.service.query_source(argument)
+        elif mode == "list":
+            result = self.service.query_list(argument)
+        elif mode == "alias":
+            result = self.service.query_alias(argument)
         elif mode == "maps":
             result = self.service.query_maps(argument)
         else:

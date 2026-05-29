@@ -21,6 +21,10 @@ def _normalize(text: str) -> str:
     return value
 
 
+def _contains_cjk(text: str) -> bool:
+    return bool(re.search(r"[\u4e00-\u9fff]", text or ""))
+
+
 def _join(values: list[str], separator: str = "; ") -> str:
     cleaned = [str(value).strip() for value in values if str(value).strip()]
     return separator.join(cleaned) if cleaned else "暂无"
@@ -34,12 +38,22 @@ class ArkQueryService:
         show_source_url: bool = True,
         max_crate_items_display: int = 12,
         show_map_status: bool = True,
+        list_default_limit: int = 15,
+        allow_runtime_alias_edit: bool = True,
+        alias_storage_filename: str = "custom_aliases.json",
+        fuzzy_cjk_cutoff: float = 0.72,
+        fuzzy_latin_cutoff: float = 0.6,
     ):
         self.plugin_dir = plugin_dir
         self.max_suggestions = max(1, max_suggestions)
         self.show_source_url = show_source_url
         self.max_crate_items_display = max(3, max_crate_items_display)
         self.show_map_status = show_map_status
+        self.list_default_limit = max(5, list_default_limit)
+        self.allow_runtime_alias_edit = allow_runtime_alias_edit
+        self.alias_storage_filename = alias_storage_filename.strip() or "custom_aliases.json"
+        self.fuzzy_cjk_cutoff = min(0.95, max(0.4, fuzzy_cjk_cutoff))
+        self.fuzzy_latin_cutoff = min(0.95, max(0.4, fuzzy_latin_cutoff))
 
         self.creatures = self._load_merged_dataset(
             "creatures.json",
@@ -62,21 +76,9 @@ class ArkQueryService:
             key_fields=("name_en", "name_zh", "source_url"),
         )
         self.map_aliases = self._load_json("map_aliases.json")
-
-        self.creature_index = self._build_index(self.creatures)
-        self.item_index = self._build_index(self.items)
-        self.item_source_index = self._build_index(self.item_sources)
-        self.map_index = self._build_map_index()
-        self.map_display = self._build_display_map(self.maps, primary_key="name_zh", secondary_key="name_en")
-        self.resource_index = self._build_resource_index()
-        self.resource_display = self._build_resource_display_map()
-        self.crate_index = self._build_crate_index()
-        self.crate_display = self._build_crate_display_map()
-        self.loot_items_by_crate = self._build_loot_items_by_crate()
-
-        self.creature_display = self._build_display_map(self.creatures)
-        self.item_display = self._build_display_map(self.items)
-        self.item_source_display = self._build_display_map(self.item_sources)
+        self.custom_aliases = self._load_alias_store()
+        self._apply_custom_aliases()
+        self._rebuild_indexes()
 
     def _load_json(self, filename: str) -> list[dict[str, Any]] | dict[str, list[str]]:
         path = self.plugin_dir / "data" / filename
@@ -120,6 +122,68 @@ class ArkQueryService:
 
         return list(merged.values())
 
+    def _alias_store_path(self) -> Path:
+        return self.plugin_dir / "data" / self.alias_storage_filename
+
+    def _load_alias_store(self) -> dict[str, dict[str, list[str]]]:
+        default_store = {
+            "creature": {},
+            "item": {},
+            "resource": {},
+            "map": {},
+            "crate": {},
+        }
+        raw = self._load_optional_json(self.alias_storage_filename)
+        if not isinstance(raw, dict):
+            return default_store
+
+        store = dict(default_store)
+        for category, values in raw.items():
+            if category not in store or not isinstance(values, dict):
+                continue
+            normalized_values: dict[str, list[str]] = {}
+            for key, aliases in values.items():
+                if not str(key).strip():
+                    continue
+                if isinstance(aliases, list):
+                    cleaned = []
+                    for alias in aliases:
+                        alias_text = str(alias).strip()
+                        if alias_text and alias_text not in cleaned:
+                            cleaned.append(alias_text)
+                    if cleaned:
+                        normalized_values[str(key).strip()] = cleaned
+            store[category] = normalized_values
+        return store
+
+    def _save_alias_store(self) -> None:
+        path = self._alias_store_path()
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8") as file:
+            json.dump(self.custom_aliases, file, ensure_ascii=False, indent=2)
+            file.write("\n")
+
+    def _apply_custom_aliases(self) -> None:
+        for category, mapping in self.custom_aliases.items():
+            for target_key, aliases in mapping.items():
+                self._apply_aliases_for_category(category, target_key, aliases)
+
+    def _rebuild_indexes(self) -> None:
+        self.creature_index = self._build_index(self.creatures)
+        self.item_index = self._build_index(self.items)
+        self.item_source_index = self._build_index(self.item_sources)
+        self.map_index = self._build_map_index()
+        self.map_display = self._build_display_map(self.maps, primary_key="name_zh", secondary_key="name_en")
+        self.resource_index = self._build_resource_index()
+        self.resource_display = self._build_resource_display_map()
+        self.crate_index = self._build_crate_index()
+        self.crate_display = self._build_crate_display_map()
+        self.loot_items_by_crate = self._build_loot_items_by_crate()
+
+        self.creature_display = self._build_display_map(self.creatures)
+        self.item_display = self._build_display_map(self.items)
+        self.item_source_display = self._build_display_map(self.item_sources)
+
     def _build_index(
         self,
         rows: list[dict[str, Any]],
@@ -128,12 +192,16 @@ class ArkQueryService:
     ) -> dict[str, dict[str, Any]]:
         index: dict[str, dict[str, Any]] = {}
         for row in rows:
-            names = [row.get(primary_key, ""), row.get(secondary_key, "")]
-            names.extend(row.get("aliases", []))
-            for name in names:
+            canonical_names = [row.get(primary_key, ""), row.get(secondary_key, "")]
+            alias_names = list(row.get("aliases", []))
+            for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
                     index[key] = row
+            for name in alias_names:
+                key = _normalize(str(name))
+                if key:
+                    index.setdefault(key, row)
         return index
 
     def _build_display_map(
@@ -145,12 +213,16 @@ class ArkQueryService:
         display: dict[str, str] = {}
         for row in rows:
             label = row.get(primary_key) or row.get(secondary_key) or "未知条目"
-            names = [row.get(primary_key, ""), row.get(secondary_key, "")]
-            names.extend(row.get("aliases", []))
-            for name in names:
+            canonical_names = [row.get(primary_key, ""), row.get(secondary_key, "")]
+            alias_names = list(row.get("aliases", []))
+            for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
                     display[key] = str(label)
+            for name in alias_names:
+                key = _normalize(str(name))
+                if key:
+                    display.setdefault(key, str(label))
         return display
 
     def _row_merge_key(self, row: dict[str, Any], key_fields: tuple[str, ...]) -> str:
@@ -175,6 +247,122 @@ class ArkQueryService:
                 merged[key] = value
         return merged
 
+    def _dataset_for_category(self, category: str) -> list[dict[str, Any]]:
+        mapping = {
+            "creature": self.creatures,
+            "item": self.items,
+            "resource": self.resources,
+            "map": self.maps,
+            "crate": self.loot_crates,
+        }
+        return mapping[category]
+
+    def _match_row_for_category(self, category: str, row: dict[str, Any], target_key: str) -> bool:
+        normalized_target = _normalize(target_key)
+        if not normalized_target:
+            return False
+
+        candidate_fields = {
+            "creature": ("name_zh", "name_en"),
+            "item": ("name_zh", "name_en"),
+            "resource": ("resource_name",),
+            "map": ("name_zh", "name_en"),
+            "crate": ("crate_id", "name_zh", "name_en"),
+        }
+        for field in candidate_fields.get(category, ()):
+            value = row.get(field)
+            if _normalize(str(value)) == normalized_target:
+                return True
+
+        if category == "resource":
+            compound = f"{row.get('map_name', '')}::{row.get('resource_name', '')}"
+            return _normalize(compound) == normalized_target
+        if category == "crate":
+            compound = f"{row.get('map_name', '')}::{row.get('name_zh', '')}"
+            return _normalize(compound) == normalized_target
+        return False
+
+    def _row_storage_key(self, category: str, row: dict[str, Any]) -> str:
+        if category == "resource":
+            return f"{row.get('map_name', '')}::{row.get('resource_name', '')}"
+        if category == "crate":
+            crate_id = str(row.get("crate_id", "")).strip()
+            if crate_id:
+                return crate_id
+            return f"{row.get('map_name', '')}::{row.get('name_zh', '')}"
+        return str(row.get("name_en") or row.get("name_zh") or "").strip()
+
+    def _append_aliases_to_row(self, row: dict[str, Any], aliases: list[str]) -> None:
+        existing = row.setdefault("aliases", [])
+        if not isinstance(existing, list):
+            existing = []
+            row["aliases"] = existing
+
+        existing_keys = {_normalize(str(alias)) for alias in existing}
+        for alias in aliases:
+            alias_text = str(alias).strip()
+            alias_key = _normalize(alias_text)
+            if alias_key and alias_key not in existing_keys:
+                existing.append(alias_text)
+                existing_keys.add(alias_key)
+
+    def _remove_aliases_from_row(self, row: dict[str, Any], aliases: list[str]) -> None:
+        existing = row.get("aliases", [])
+        if not isinstance(existing, list):
+            return
+        alias_keys = {_normalize(str(alias)) for alias in aliases if str(alias).strip()}
+        row["aliases"] = [alias for alias in existing if _normalize(str(alias)) not in alias_keys]
+
+    def _apply_aliases_for_category(self, category: str, target_key: str, aliases: list[str]) -> None:
+        rows = self._dataset_for_category(category)
+        for row in rows:
+            if self._match_row_for_category(category, row, target_key):
+                self._append_aliases_to_row(row, aliases)
+
+        if category == "item":
+            for row in self.item_sources:
+                if self._match_row_for_category("item", row, target_key):
+                    self._append_aliases_to_row(row, aliases)
+
+    def _remove_aliases_for_category(self, category: str, target_key: str, aliases: list[str]) -> None:
+        rows = self._dataset_for_category(category)
+        for row in rows:
+            if self._match_row_for_category(category, row, target_key):
+                self._remove_aliases_from_row(row, aliases)
+
+        if category == "item":
+            for row in self.item_sources:
+                if self._match_row_for_category("item", row, target_key):
+                    self._remove_aliases_from_row(row, aliases)
+
+    def _resolve_category(self, raw_category: str) -> str | None:
+        normalized = _normalize(raw_category)
+        mapping = {
+            "creature": "creature",
+            "creatures": "creature",
+            "dino": "creature",
+            "生物": "creature",
+            "恐龙": "creature",
+            "龙": "creature",
+            "item": "item",
+            "items": "item",
+            "材料": "item",
+            "物品": "item",
+            "道具": "item",
+            "resource": "resource",
+            "resources": "resource",
+            "资源": "resource",
+            "map": "map",
+            "maps": "map",
+            "地图": "map",
+            "crate": "crate",
+            "crates": "crate",
+            "lootcrate": "crate",
+            "宝箱": "crate",
+            "补给箱": "crate",
+        }
+        return mapping.get(normalized)
+
     def _build_map_index(self) -> dict[str, dict[str, Any]]:
         index = self._build_index(self.maps)
         for canonical, aliases in self.map_aliases.items():
@@ -190,47 +378,63 @@ class ArkQueryService:
     def _build_resource_index(self) -> dict[str, list[dict[str, Any]]]:
         index: dict[str, list[dict[str, Any]]] = {}
         for row in self.resources:
-            names = [row.get("resource_name", "")]
-            names.extend(row.get("aliases", []))
-            for name in names:
+            canonical_names = [row.get("resource_name", "")]
+            alias_names = list(row.get("aliases", []))
+            for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
                     index.setdefault(key, []).append(row)
+            for name in alias_names:
+                key = _normalize(str(name))
+                if key and key not in index:
+                    index[key] = [row]
         return index
 
     def _build_resource_display_map(self) -> dict[str, str]:
         display: dict[str, str] = {}
         for row in self.resources:
             label = str(row.get("resource_name", "未知资源"))
-            names = [row.get("resource_name", "")]
-            names.extend(row.get("aliases", []))
-            for name in names:
+            canonical_names = [row.get("resource_name", "")]
+            alias_names = list(row.get("aliases", []))
+            for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
                     display[key] = label
+            for name in alias_names:
+                key = _normalize(str(name))
+                if key:
+                    display.setdefault(key, label)
         return display
 
     def _build_crate_index(self) -> dict[str, list[dict[str, Any]]]:
         index: dict[str, list[dict[str, Any]]] = {}
         for row in self.loot_crates:
-            names = [row.get("name_zh", ""), row.get("name_en", ""), row.get("crate_id", "")]
-            names.extend(row.get("aliases", []))
-            for name in names:
+            canonical_names = [row.get("name_zh", ""), row.get("name_en", ""), row.get("crate_id", "")]
+            alias_names = list(row.get("aliases", []))
+            for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
                     index.setdefault(key, []).append(row)
+            for name in alias_names:
+                key = _normalize(str(name))
+                if key and key not in index:
+                    index[key] = [row]
         return index
 
     def _build_crate_display_map(self) -> dict[str, str]:
         display: dict[str, str] = {}
         for row in self.loot_crates:
             label = f"{row.get('map_name', '未知地图')} - {row.get('name_zh', '未知宝箱')}"
-            names = [row.get("name_zh", ""), row.get("name_en", ""), row.get("crate_id", "")]
-            names.extend(row.get("aliases", []))
-            for name in names:
+            canonical_names = [row.get("name_zh", ""), row.get("name_en", ""), row.get("crate_id", "")]
+            alias_names = list(row.get("aliases", []))
+            for name in canonical_names:
                 key = _normalize(str(name))
                 if key:
                     display[key] = label
+            for name in alias_names:
+                key = _normalize(str(name))
+                if key:
+                    display.setdefault(key, label)
         return display
 
     def _build_loot_items_by_crate(self) -> dict[str, list[dict[str, Any]]]:
@@ -262,6 +466,8 @@ class ArkQueryService:
                     "/ark crate 孤岛 红色补给箱",
                     "/ark loot 十字弩",
                     "/ark source 长管步枪",
+                    "/ark list creature 高",
+                    "/ark alias 南方巨兽龙 南巨",
                     "",
                     "快捷指令：",
                     "/驯龙 霸王龙",
@@ -272,11 +478,13 @@ class ArkQueryService:
                     "/宝箱 畸变 蓝色地表补给箱",
                     "/掉落 泵动霰弹枪",
                     "/来源 十字弩",
+                    "/列表 creature 高",
+                    "/别名 南方巨兽龙 南巨",
                     "/地图列表",
                     "",
                     "说明：",
-                    "1. 当前插件已经支持地图、宝箱、宝箱掉落和反向来源索引的结构化查询。",
-                    "2. 接下来补全所有恐龙、所有地图和全量掉落时，优先继续扩 data 目录或跑同步脚本。",
+                    "1. 当前插件已经支持地图、宝箱、宝箱掉落、反向来源索引、列表浏览和运行期别名添加。",
+                    "2. 运行期新增的别名会写入 data/custom_aliases.json，重启后仍会保留。",
                 ]
             )
         )
@@ -424,6 +632,264 @@ class ArkQueryService:
             "提示：用 /ark maps 地图名 可查看单张地图详情",
         ]
         return QueryResult("\n".join(lines))
+
+    def query_list(self, raw_query: str) -> QueryResult:
+        raw_query = (raw_query or "").strip()
+        if not raw_query:
+            return QueryResult(
+                "\n".join(
+                    [
+                        "列表用法：",
+                        "/ark list creature [关键字]",
+                        "/ark list item [关键字]",
+                        "/ark list resource [关键字]",
+                        "/ark list map [关键字]",
+                        "/ark list crate [关键字]",
+                    ]
+                ),
+                found=False,
+            )
+
+        parts = raw_query.split(maxsplit=1)
+        category = self._resolve_category(parts[0])
+        if category is None:
+            return QueryResult(f"未识别的列表分类：{parts[0]}", found=False)
+
+        keyword = parts[1].strip() if len(parts) > 1 else ""
+        rows = self._list_rows_for_category(category, keyword)
+        if not rows:
+            return QueryResult(f"没有找到分类 {parts[0]} 下与“{keyword or '全部'}”匹配的条目。", found=False)
+
+        labels = [self._list_label_for_row(category, row) for row in rows[: self.list_default_limit]]
+        title_map = {
+            "creature": "生物列表",
+            "item": "物品列表",
+            "resource": "资源列表",
+            "map": "地图列表",
+            "crate": "宝箱列表",
+        }
+        lines = [f"{title_map[category]}（共 {len(rows)} 条，显示前 {min(len(rows), self.list_default_limit)} 条）"]
+        if keyword:
+            lines.append(f"筛选关键字：{keyword}")
+        lines.extend(f"- {label}" for label in labels)
+        if len(rows) > self.list_default_limit:
+            lines.append(f"提示：可在 AstrBot 配置里调大 list_default_limit，当前为 {self.list_default_limit}。")
+        return QueryResult("\n".join(lines))
+
+    def query_alias(self, raw_query: str) -> QueryResult:
+        raw_query = (raw_query or "").strip()
+        if not raw_query:
+            return QueryResult(
+                "\n".join(
+                    [
+                        "别名用法：",
+                        "/别名 南方巨兽龙 南巨",
+                        "/别名 南方巨兽龙",
+                        "/ark alias 南方巨兽龙 南巨",
+                        "/ark alias add creature Acrocanthosaurus = 高棘龙",
+                        "/ark alias list creature Acrocanthosaurus",
+                    ]
+                ),
+                found=False,
+            )
+
+        parts = raw_query.split(maxsplit=1)
+        action = parts[0].lower()
+        rest = parts[1].strip() if len(parts) > 1 else ""
+
+        if action in {"add", "新增", "添加"}:
+            return self._handle_alias_add(rest)
+        if action in {"list", "show", "查看"}:
+            return self._handle_alias_list(rest)
+        return self._handle_alias_shorthand(raw_query)
+
+    def _list_rows_for_category(self, category: str, keyword: str) -> list[dict[str, Any]]:
+        rows = list(self._dataset_for_category(category))
+        if category == "crate":
+            rows = sorted(rows, key=lambda row: (str(row.get("map_name", "")), str(row.get("name_zh", "") or row.get("name_en", ""))))
+        elif category == "resource":
+            rows = sorted(rows, key=lambda row: (str(row.get("resource_name", "")), str(row.get("map_name", ""))))
+        else:
+            rows = sorted(rows, key=lambda row: str(row.get("name_zh", "") or row.get("name_en", "") or row.get("resource_name", "")))
+
+        normalized_keyword = _normalize(keyword)
+        if not normalized_keyword:
+            return rows
+
+        filtered = []
+        for row in rows:
+            haystack = [
+                row.get("name_zh", ""),
+                row.get("name_en", ""),
+                row.get("resource_name", ""),
+                row.get("map_name", ""),
+                row.get("crate_id", ""),
+                *row.get("aliases", []),
+            ]
+            if any(normalized_keyword in _normalize(str(value)) for value in haystack if str(value).strip()):
+                filtered.append(row)
+        return filtered
+
+    def _list_label_for_row(self, category: str, row: dict[str, Any]) -> str:
+        if category == "creature":
+            return f"{row.get('name_zh') or row.get('name_en')} / {row.get('name_en', '')}"
+        if category == "item":
+            return f"{row.get('name_zh') or row.get('name_en')} / {row.get('name_en', '')}"
+        if category == "resource":
+            return f"{row.get('resource_name')} - {row.get('map_name')}"
+        if category == "map":
+            return f"{row.get('name_zh')} / {row.get('name_en')} ({row.get('status', '未知')})"
+        if category == "crate":
+            return f"{row.get('map_name')} - {row.get('name_zh') or row.get('name_en')}"
+        return str(row)
+
+    def _handle_alias_add(self, raw_query: str) -> QueryResult:
+        if not self.allow_runtime_alias_edit:
+            return QueryResult("当前配置已禁用运行期别名写入。", found=False)
+
+        if "=" not in raw_query:
+            return QueryResult("用法：/ark alias add <分类> <目标> = <别名>", found=False)
+
+        left, alias_text = raw_query.split("=", 1)
+        alias_text = alias_text.strip()
+        left_parts = left.strip().split(maxsplit=1)
+        if len(left_parts) < 2:
+            return QueryResult("用法：/ark alias add <分类> <目标> = <别名>", found=False)
+
+        category = self._resolve_category(left_parts[0])
+        target_query = left_parts[1].strip()
+        if category is None:
+            return QueryResult(f"未识别的别名分类：{left_parts[0]}", found=False)
+        if not alias_text:
+            return QueryResult("别名不能为空。", found=False)
+
+        row = self._find_row_for_alias(category, target_query)
+        if row is None:
+            return QueryResult(f"没有找到要添加别名的目标：{target_query}", found=False)
+
+        return self._add_alias_to_row(category, row, alias_text, target_query)
+
+    def _add_alias_to_row(
+        self,
+        category: str,
+        row: dict[str, Any],
+        alias_text: str,
+        target_query: str,
+    ) -> QueryResult:
+        storage_key = self._row_storage_key(category, row)
+        alias_bucket = self.custom_aliases.setdefault(category, {})
+        existing_aliases = alias_bucket.setdefault(storage_key, [])
+        if any(_normalize(existing) == _normalize(alias_text) for existing in existing_aliases):
+            return QueryResult(f"别名“{alias_text}”已经存在于 {target_query}。", found=False)
+
+        existing_aliases.append(alias_text)
+        self._apply_aliases_for_category(category, storage_key, [alias_text])
+        self._rebuild_indexes()
+        try:
+            self._save_alias_store()
+        except OSError as exc:
+            existing_aliases.pop()
+            if not existing_aliases:
+                alias_bucket.pop(storage_key, None)
+            self._remove_aliases_for_category(category, storage_key, [alias_text])
+            self._rebuild_indexes()
+            return QueryResult(f"添加别名失败，无法写入文件：{exc}", found=False)
+
+        label = self._list_label_for_row(category, row)
+        return QueryResult(f"已为 {label} 添加别名：{alias_text}")
+
+    def _render_alias_list(self, category: str, row: dict[str, Any]) -> QueryResult:
+        aliases = [str(alias).strip() for alias in row.get("aliases", []) if str(alias).strip()]
+        label = self._list_label_for_row(category, row)
+        return QueryResult(f"{label}\n别名：{_join(aliases, ', ')}")
+
+    def _handle_alias_list(self, raw_query: str) -> QueryResult:
+        parts = raw_query.split(maxsplit=1)
+        if len(parts) < 2:
+            return QueryResult("用法：/ark alias list <分类> <目标>", found=False)
+
+        category = self._resolve_category(parts[0])
+        target_query = parts[1].strip()
+        if category is None:
+            return QueryResult(f"未识别的别名分类：{parts[0]}", found=False)
+
+        row = self._find_row_for_alias(category, target_query)
+        if row is None:
+            return QueryResult(f"没有找到目标：{target_query}", found=False)
+
+        return self._render_alias_list(category, row)
+
+    def _handle_alias_shorthand(self, raw_query: str) -> QueryResult:
+        compact = raw_query.strip()
+        if not compact:
+            return QueryResult("用法：/别名 南方巨兽龙 南巨", found=False)
+
+        direct_target = self._infer_alias_target(compact)
+        if not isinstance(direct_target, QueryResult):
+            category, row = direct_target
+            return self._render_alias_list(category, row)
+
+        parts = compact.rsplit(maxsplit=1)
+        if len(parts) == 1:
+            return QueryResult(f"没有找到“{parts[0].strip()}”对应的可加别名目标。", found=False)
+
+        target_query = parts[0].strip()
+        alias_text = parts[1].strip()
+        inferred = self._infer_alias_target(target_query)
+        if isinstance(inferred, QueryResult):
+            return inferred
+        category, row = inferred
+        return self._add_alias_to_row(category, row, alias_text, target_query)
+
+    def _infer_alias_target(self, target_query: str) -> tuple[str, dict[str, Any]] | QueryResult:
+        if not target_query:
+            return QueryResult("别名目标不能为空。", found=False)
+
+        matches: list[tuple[str, dict[str, Any]]] = []
+        search_order = ("creature", "item", "map", "resource", "crate")
+        for category in search_order:
+            row = self._find_row_for_alias(category, target_query)
+            if row is not None:
+                matches.append((category, row))
+
+        if not matches:
+            return QueryResult(f"没有找到“{target_query}”对应的可加别名目标。", found=False)
+
+        unique_matches: list[tuple[str, dict[str, Any]]] = []
+        seen: set[tuple[str, str]] = set()
+        for category, row in matches:
+            identity = (category, self._row_storage_key(category, row))
+            if identity in seen:
+                continue
+            seen.add(identity)
+            unique_matches.append((category, row))
+
+        if len(unique_matches) == 1:
+            return unique_matches[0]
+
+        choices = [f"{category}: {self._list_label_for_row(category, row)}" for category, row in unique_matches[: self.max_suggestions]]
+        return QueryResult(
+            "这个目标命中了多个分类，请改用显式写法："
+            f"/ark alias add <分类> <目标> = <别名>\n候选：{_join(choices, ', ')}",
+            found=False,
+        )
+
+    def _find_row_for_alias(self, category: str, target_query: str) -> dict[str, Any] | None:
+        if category == "creature":
+            return self._find_one(target_query, self.creature_index, allow_fuzzy=False)
+        if category == "item":
+            return self._find_one(target_query, self.item_index, allow_fuzzy=False)
+        if category == "map":
+            return self._find_one(target_query, self.map_index, allow_fuzzy=False)
+        if category == "resource":
+            keys = self._match_keys(target_query, self.resource_index, allow_fuzzy=False)
+            rows = self.resource_index.get(keys[0], []) if keys else []
+            return rows[0] if rows else None
+        if category == "crate":
+            keys = self._match_keys(target_query, self.crate_index, allow_fuzzy=False)
+            rows = self.crate_index.get(keys[0], []) if keys else []
+            return rows[0] if rows else None
+        return None
 
     def query_map_info(self, raw_query: str) -> QueryResult:
         map_row = self._find_one(raw_query, self.map_index)
@@ -636,14 +1102,15 @@ class ArkQueryService:
         if key in index:
             return [key]
 
-        partial = [alias for alias in index if key in alias or alias in key]
+        partial = [alias for alias in index if alias.startswith(key)]
         if partial:
             return partial[: self.max_suggestions]
 
         if not allow_fuzzy:
             return []
 
-        return get_close_matches(key, list(index.keys()), n=self.max_suggestions, cutoff=0.45)
+        cutoff = self.fuzzy_cjk_cutoff if _contains_cjk(key) else self.fuzzy_latin_cutoff
+        return get_close_matches(key, list(index.keys()), n=self.max_suggestions, cutoff=cutoff)
 
     def _suggest_labels(
         self,

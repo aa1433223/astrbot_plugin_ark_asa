@@ -1,7 +1,7 @@
 {
   "max_suggestions": {
     "description": "模糊匹配候选数量",
-    "hint": "当没有精确命中时，最多返回几个建议关键词。",
+    "hint": "没有精确命中时，最多返回多少个建议关键词。",
     "type": "int",
     "slider": {
       "min": 1,
@@ -32,5 +32,40 @@
     "hint": "资源查询时显示地图是否已上线、待定或计划中。",
     "type": "bool",
     "default": true
+  },
+  "list_default_limit": {
+    "description": "列表默认显示数量",
+    "hint": "使用 /ark list 时，默认最多展示多少条结果。",
+    "type": "int",
+    "slider": {
+      "min": 5,
+      "max": 50,
+      "step": 1
+    },
+    "default": 15
+  },
+  "allow_runtime_alias_edit": {
+    "description": "允许运行期新增别名",
+    "hint": "关闭后将禁用 /ark alias add，插件只读数据文件。",
+    "type": "bool",
+    "default": true
+  },
+  "alias_storage_filename": {
+    "description": "别名存储文件名",
+    "hint": "运行期新增的别名会写入 data 目录下的这个 JSON 文件。",
+    "type": "string",
+    "default": "custom_aliases.json"
+  },
+  "fuzzy_cjk_cutoff": {
+    "description": "中文模糊匹配阈值",
+    "hint": "数值越高越严格，越不容易把相近名称误判到一起。",
+    "type": "float",
+    "default": 0.72
+  },
+  "fuzzy_latin_cutoff": {
+    "description": "英文模糊匹配阈值",
+    "hint": "用于英文或拼音类关键词的模糊匹配阈值。",
+    "type": "float",
+    "default": 0.6
   }
 }

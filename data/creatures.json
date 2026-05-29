@@ -166,5 +166,19 @@
     "blueprint_path": "Trike_Character_BP_C",
     "full_blueprint": "\"Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'\"",
     "source_url": "https://ark.wiki.gg/wiki/Triceratops"
+  },
+  {
+    "name_zh": "高棘龙",
+    "name_en": "Acrocanthosaurus",
+    "aliases": ["高棘", "高棘龙", "acro", "acrocanthosaurus"],
+    "tame_type": "特殊击晕驯服",
+    "tame_food": "特优饲料 > 生羊肉 > 优质生肉",
+    "knockout": "无法用普通远程麻醉直接击晕。需要抓准它怒吼张嘴时，向口中投喂黑果、麻醉药或生物毒素来累积眩晕值。",
+    "saddle": "可装备 Acro Saddle。",
+    "maps": [],
+    "notes": "高风险大型肉食龙，建议提前布置场地并准备充足麻醉消耗品。",
+    "blueprint_path": "Acrocanthosaurus_Character_BP_C",
+    "full_blueprint": "",
+    "source_url": "https://ark.wiki.gg/wiki/Acrocanthosaurus"
   }
 ]

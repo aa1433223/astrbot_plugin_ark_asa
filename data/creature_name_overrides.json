@@ -50,5 +50,9 @@
   "Aberrant Ankylosaurus": {
     "name_zh": "畸变甲龙",
     "aliases": ["畸变甲龙", "畸变anky"]
+  },
+  "Acrocanthosaurus": {
+    "name_zh": "高棘龙",
+    "aliases": ["高棘", "高棘龙", "acro"]
   }
 }

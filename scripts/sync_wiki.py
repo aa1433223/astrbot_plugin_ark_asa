@@ -22,6 +22,179 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_PROFILE_PATH = SCRIPT_DIR / "sync_profiles.json"
 DEFAULT_USER_AGENT = "astrbot-plugin-ark-asa-sync/0.3 (+https://github.com/aa1433223/astrbot_plugin_ark_asa)"
 SIMPLIFIED_CONVERTER = OpenCC("t2s") if OpenCC else None
+ENGLISH_BASE_ALIASES = {
+    "trex": "Rex",
+    "mosasaur": "Mosasaurus",
+    "spinosaurus": "Spino",
+}
+MANUAL_CREATURE_ZH = {
+    "Abominable Snowman": "雪怪",
+    "Amargasaurus": "阿玛加龙",
+    "Andrewsarchus": "安氏中兽",
+    "Archelon": "古巨龟",
+    "Armadoggo": "犰狳狗",
+    "Astrocetus": "星鲸",
+    "Astrodelphis": "星海豚",
+    "Attack Drone": "攻击无人机",
+    "Aureliax": "奥瑞利亚克斯",
+    "Beyla": "贝拉",
+    "Beyla Spawn": "贝拉召唤物",
+    "Bison": "野牛",
+    "Bloodstalker": "血蛛",
+    "Boaratos": "博阿拉托斯",
+    "Bronto": "雷龙",
+    "Burrowbuck": "掘穴鹿",
+    "Carcharodontosaurus": "鲨齿龙",
+    "Cat": "猫",
+    "Cat (Feline Form Skill)": "猫（猫形态技能）",
+    "Ceratosaurus": "角鼻龙",
+    "Cerberax": "刻耳柏拉克斯",
+    "Chrysaora": "海刺水母",
+    "Cosmo": "科斯莫",
+    "Corrupted Avatar": "腐化化身",
+    "Corrupted Master Controller": "腐化主控者",
+    "Corrupted Survivor": "腐化幸存者",
+    "Cryolophosaurus": "冰脊龙",
+    "Cymathoa": "锡马托亚",
+    "Dakosaurus": "达科龙",
+    "Defense Unit": "防御单元",
+    "Deinonychus": "恐爪龙",
+    "Deinosuchus": "帝鳄",
+    "Deinotherium": "恐象",
+    "Desmodus": "吸血蝠",
+    "Desert Titan Flock": "沙漠泰坦群",
+    "Dinopithecus": "恐猿",
+    "Dinopithecus King": "恐猿之王",
+    "Dire Polar Bear": "凶暴北极熊",
+    "Drakeling": "幼龙",
+    "Dreadmare": "惧魇马",
+    "Dreadnoughtus": "无畏龙",
+    "Eel Minion": "鳗鱼仆从",
+    "Elderclaw": "长老爪",
+    "Enforcer": "执法者",
+    "Enigmasaur": "谜龙",
+    "Erymanthian & Kalydonios": "厄律曼托斯与卡吕多尼俄斯",
+    "Exo-Mek": "外骨骼机甲",
+    "Experimental Giganotosaurus": "实验体南方巨兽龙",
+    "Fasolasuchus": "法索拉鳄",
+    "Fenrir": "芬里尔",
+    "Fenrisúlfr": "芬里斯狼",
+    "Ferox": "费洛克斯",
+    "Fjordhawk": "峡湾鹰",
+    "Flovis": "弗洛维斯",
+    "Fractalis": "弗拉克塔利斯",
+    "GachaClaus": "圣诞嘎查",
+    "Giant Queen Bee": "巨型蜂后",
+    "Giant Worker Bee": "巨型工蜂",
+    "Gigadesmodus": "巨型吸血蝠",
+    "Gigantoraptor": "巨盗龙",
+    "Gloon": "格隆",
+    "Grand Tortugar": "巨型托图加",
+    "Grendel": "格伦德尔",
+    "Hati and Sköll": "哈提与斯库尔",
+    "Helper Wisp (Wisp of Industry Skill)": "助手微光（工业微光技能）",
+    "Helicoprion": "螺旋齿鲨",
+    "Homarus": "龙虾",
+    "Hover Skiff": "悬浮艇",
+    "Hulking Revenant": "巨躯亡魂",
+    "Human": "人类",
+    "Hydraskos": "海德拉斯科斯",
+    "Iceworm Male": "公冰虫",
+    "Iceworm Queen": "冰虫女王",
+    "Insect Swarm": "虫群",
+    "Istiophorus": "旗鱼",
+    "Jerboa Elf": "精灵跳鼠",
+    "Kathreptis": "卡斯雷普提斯",
+    "Kirayli": "基拉伊利",
+    "Lava Elemental": "熔岩元素",
+    "Lightning Infused Rex": "闪电灌注霸王龙",
+    "Love Bird": "爱心鸟",
+    "Love Bug": "爱心虫",
+    "Macro-Summoner": "巨型召唤师",
+    "Macrophage": "巨噬体",
+    "Maeguana": "梅瓜纳",
+    "Maewing": "护幼兽",
+    "Magmasaur": "岩浆龙",
+    "Malleocephalus": "马勒头龙",
+    "Malwyn": "马尔温",
+    "Mantis Shrimp": "虾蛄",
+    "Mega Mek": "巨型机甲",
+    "Megachelon": "巨龟",
+    "Megalodon": "巨齿鲨",
+    "Megaraptor": "巨盗龙",
+    "Mek": "机甲",
+    "Mek Knight": "机甲骑士",
+    "Minotarchos": "米诺塔科斯",
+    "Minotaur": "牛头怪",
+    "Moeder, Master of the Ocean": "海洋主宰莫德尔",
+    "Monodon": "独角鲸",
+    "Mouser": "捕鼠兽",
+    "Mudpuppy": "泥狗龙",
+    "Natrix": "纳特里克斯",
+    "Neophyte": "新徒",
+    "Noglin": "寄脑魔",
+    "Nunatak": "努纳塔克",
+    "Oasisaur": "绿洲龙",
+    "Ocepechelon": "奥赛佩凯龙",
+    "Onchopristis": "锯鳐",
+    "Ossidon": "奥西登",
+    "Palaeoctopus": "古章鱼",
+    "Parakeet Fish School": "鹦嘴鱼群",
+    "Party Dodo": "派对渡渡鸟",
+    "Pegomastax Grouch": "暴躁似鸡龙",
+    "Piercer": "穿刺者",
+    "Polar Bear": "北极熊",
+    "Pulmonoscorpius Monarch": "肺蝎君主",
+    "Pygocentrus": "食人鱼",
+    "Pyromane": "炎鬃",
+    "Qarmoutus": "卡尔穆图斯",
+    "Rare X-Sabertooth Salmon": "稀有X-剑齿鲑鱼",
+    "Reindeer": "驯鹿",
+    "Rhyniognatha": "莱尼虫",
+    "Rhyniognatha Drone": "莱尼虫工蜂",
+    "Riftcrawler": "裂隙爬行者",
+    "Riftwalker": "裂隙行者",
+    "Rubble Bear": "碎岩熊",
+    "Santa's Big Helper": "圣诞老人的大帮手",
+    "Scout": "侦察者",
+    "Salmon": "鲑鱼",
+    "Scrap Golem": "废料魔像",
+    "Seahorse": "海马",
+    "Shadowmane": "影鬃",
+    "Shastasaurus": "萨斯特鱼龙",
+    "Sinomacrops": "中国大翼兽",
+    "Sir-5rM8": "西尔-5rM8",
+    "Snarer": "诱捕者",
+    "Skeleton": "骷髅",
+    "Stego": "剑龙",
+    "Solwyn": "索尔温",
+    "Spirit Direwolf (Spirit Beasts Skill)": "灵魂恐狼（灵兽技能）",
+    "Steinbjörn": "斯坦比约恩",
+    "Stereolepis": "巨鲈",
+    "Summoner": "召唤师",
+    "Super Turkey": "超级火鸡",
+    "Takifugu": "河豚",
+    "Tek Stryder": "泰克机甲牛",
+    "Thanatos": "塔纳托斯",
+    "Thodes": "索德斯",
+    "Thunnus": "金枪鱼",
+    "Tidepup": "潮汐幼崽",
+    "Tiktaalik": "提塔利克鱼",
+    "Trike": "三角龙",
+    "Tridacna": "砗磲",
+    "Tropeognathus": "喙嘴翼龙",
+    "Unicorn": "独角兽",
+    "Valentines Coelacanth": "情人节腔棘鱼",
+    "Veilwyn": "维尔温",
+    "Voidwyrm": "虚空飞龙",
+    "Vulcanite": "武尔卡耐特",
+    "Vulcanithys": "武尔卡尼西斯",
+    "Warden": "守卫者",
+    "Xiphactinus": "剑射鱼",
+    "Yeti": "雪怪",
+    "Yi Ling": "翼灵",
+    "Zomdodo": "僵尸渡渡鸟",
+}
 
 
 class WikiClient:
@@ -489,10 +662,7 @@ def build_creature_name_overrides_from_base_map(
         manual_overrides = json.loads(manual_overrides_input.read_text(encoding="utf-8"))
 
     overrides: dict[str, Any] = {}
-    base_name_map = {
-        name_en: entry.get("simplified") or entry.get("traditional") or ""
-        for name_en, entry in base_map.items()
-    }
+    base_name_map = _build_combined_base_name_map(base_map, manual_overrides)
 
     for row in creatures:
         name_en = str(row.get("name_en", "")).strip()
@@ -551,6 +721,90 @@ def merge_creature_translations(
 
     write_json(output_file, merged_rows)
     return merged_rows
+
+
+def build_creature_translation_report(
+    creatures_input: Path,
+    translated_input: Path,
+    output_file: Path,
+    template_output: Path | None = None,
+) -> dict[str, Any]:
+    original_rows = json.loads(creatures_input.read_text(encoding="utf-8"))
+    translated_rows = json.loads(translated_input.read_text(encoding="utf-8"))
+    translated_map = {
+        str(row.get("name_en", "")).strip(): row
+        for row in translated_rows
+        if str(row.get("name_en", "")).strip()
+    }
+
+    unresolved_plain: list[str] = []
+    unresolved_variant: list[str] = []
+    untranslated_names: list[str] = []
+    prefix_counts: dict[str, int] = {}
+    manual_template: dict[str, Any] = {}
+
+    translated_count = 0
+    for row in original_rows:
+        name_en = str(row.get("name_en", "")).strip()
+        if not name_en:
+            continue
+        translated_row = translated_map.get(name_en, row)
+        name_zh = str(translated_row.get("name_zh", "")).strip()
+        if name_zh and name_zh != name_en:
+            translated_count += 1
+            continue
+
+        untranslated_names.append(name_en)
+        first_token = name_en.split(" ", 1)[0] if " " in name_en else "(plain)"
+        prefix_counts[first_token] = prefix_counts.get(first_token, 0) + 1
+        if " " in name_en or "(" in name_en or "-" in name_en:
+            unresolved_variant.append(name_en)
+        else:
+            unresolved_plain.append(name_en)
+        manual_template[name_en] = {"name_zh": "", "aliases": []}
+
+    total = len([row for row in original_rows if str(row.get("name_en", "")).strip()])
+    report = {
+        "total": total,
+        "translated": translated_count,
+        "untranslated": len(untranslated_names),
+        "coverage_ratio": round((translated_count / total), 4) if total else 0,
+        "untranslated_prefix_counts": dict(sorted(prefix_counts.items(), key=lambda item: (-item[1], item[0]))),
+        "untranslated_names": untranslated_names,
+        "unresolved_plain_names": unresolved_plain,
+        "unresolved_variant_names": unresolved_variant,
+    }
+
+    write_json(output_file, report)
+    if template_output:
+        write_json(template_output, manual_template)
+    return report
+
+
+def autofill_creature_translations(
+    creatures_input: Path,
+    dossiers_input: Path,
+    manual_overrides_input: Path | None,
+    base_map_output: Path,
+    overrides_output: Path,
+    translated_output: Path,
+    report_output: Path,
+    template_output: Path | None = None,
+) -> dict[str, Any]:
+    base_map = extract_dossiers_creature_map(dossiers_input, creatures_input, base_map_output)
+    build_creature_name_overrides_from_base_map(
+        creatures_input,
+        base_map_output,
+        manual_overrides_input,
+        overrides_output,
+    )
+    merge_creature_translations(creatures_input, overrides_output, translated_output)
+    return build_creature_translation_report(
+        creatures_input,
+        translated_output,
+        report_output,
+        template_output=template_output,
+    )
 
 
 def build_creatures_dataset(input_file: Path, output_file: Path) -> list[dict[str, Any]]:
@@ -722,6 +976,22 @@ def parse_args() -> argparse.Namespace:
     merge_translations_parser.add_argument("--overrides-input", required=True)
     merge_translations_parser.add_argument("--output", required=True)
 
+    translation_report_parser = subparsers.add_parser("build-creature-translation-report", help="Build a creature translation coverage report and optional manual template.")
+    translation_report_parser.add_argument("--creatures-input", required=True)
+    translation_report_parser.add_argument("--translated-input", required=True)
+    translation_report_parser.add_argument("--output", required=True)
+    translation_report_parser.add_argument("--template-output", default="")
+
+    autofill_translations_parser = subparsers.add_parser("autofill-creature-translations", help="Run the full creature Chinese translation autofill pipeline from Dossiers and manual overrides.")
+    autofill_translations_parser.add_argument("--creatures-input", required=True)
+    autofill_translations_parser.add_argument("--dossiers-input", required=True)
+    autofill_translations_parser.add_argument("--manual-overrides", default="")
+    autofill_translations_parser.add_argument("--base-map-output", required=True)
+    autofill_translations_parser.add_argument("--overrides-output", required=True)
+    autofill_translations_parser.add_argument("--translated-output", required=True)
+    autofill_translations_parser.add_argument("--report-output", required=True)
+    autofill_translations_parser.add_argument("--template-output", default="")
+
     loot_subpage_parser = subparsers.add_parser("parse-loot-subpage", help="Parse a loot-table subpage payload into crate-to-item rows.")
     loot_subpage_parser.add_argument("--input", required=True)
     loot_subpage_parser.add_argument("--page-name", required=True)
@@ -811,14 +1081,65 @@ def _to_simplified(text: str) -> str:
     return clean
 
 
-def _translate_variant_name(name_en: str, base_name_map: dict[str, str]) -> dict[str, list[str] | str]:
+def _normalize_english_lookup(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", str(text or "").lower())
+
+
+def _build_combined_base_name_map(
+    dossier_base_map: dict[str, dict[str, str]],
+    manual_overrides: dict[str, Any],
+) -> dict[str, str]:
+    base_name_map = {
+        name_en: entry.get("simplified") or entry.get("traditional") or ""
+        for name_en, entry in dossier_base_map.items()
+        if entry.get("simplified") or entry.get("traditional")
+    }
+    for name_en, override in manual_overrides.items():
+        zh_name = str(override.get("name_zh", "")).strip()
+        if zh_name:
+            base_name_map[name_en] = zh_name
+    return base_name_map
+
+
+def _lookup_base_name_zh(name_en: str, base_name_map: dict[str, str]) -> str:
+    direct = str(base_name_map.get(name_en, "")).strip()
+    if direct:
+        return direct
+
+    normalized = _normalize_english_lookup(name_en)
+    alias_target = ENGLISH_BASE_ALIASES.get(normalized, "")
+    if alias_target:
+        alias_value = str(base_name_map.get(alias_target, "")).strip()
+        if alias_value:
+            return alias_value
+
+    for key, value in base_name_map.items():
+        if _normalize_english_lookup(key) == normalized and str(value).strip():
+            return str(value).strip()
+
+    return ""
+
+
+def _translate_variant_name(name_en: str, base_name_map: dict[str, str], depth: int = 0) -> dict[str, list[str] | str]:
+    if depth > 6:
+        return {"name_zh": "", "aliases": []}
+
+    direct = _lookup_base_name_zh(name_en, base_name_map)
+    if direct:
+        return {"name_zh": direct, "aliases": [direct]}
+
     prefix_rules = [
         ("Aberrant ", "畸变"),
         ("Alpha ", "精英"),
+        ("Beta ", "贝塔"),
+        ("Gamma ", "伽马"),
         ("Corrupted ", "腐化"),
+        ("Experimental ", "实验体"),
         ("Tek ", "泰克"),
+        ("Malfunctioned ", "故障"),
         ("Enraged ", "狂暴"),
         ("Skeletal ", "骸骨"),
+        ("Skeleton ", "骸骨"),
         ("Ghost ", "幽灵"),
         ("Eerie ", "怪异"),
         ("Brute ", "残暴"),
@@ -830,39 +1151,146 @@ def _translate_variant_name(name_en: str, base_name_map: dict[str, str]) -> dict
         ("Demonic ", "恶魔"),
         ("Abyssal ", "深渊"),
         ("Mutated ", "变异"),
+        ("Astral ", "星界"),
+        ("Revenant ", "亡魂"),
+        ("Lightning ", "闪电"),
+        ("Fire ", "火焰"),
+        ("Water ", "水系"),
+        ("Poison ", "毒系"),
+        ("Crystal ", "水晶"),
+        ("Blood Crystal ", "血晶"),
+        ("Ember Crystal ", "余烬水晶"),
+        ("Tropical Crystal ", "热带水晶"),
+        ("Surface ", "地表"),
+        ("Rockwell ", "罗克韦尔"),
+        ("Lost ", "迷失"),
+        ("Winter ", "冬季"),
+        ("Summer ", "夏季"),
+        ("Autumn ", "秋季"),
+        ("Spring ", "春季"),
+        ("Golden ", "黄金"),
+        ("Giant ", "巨型"),
+        ("Bunny ", "兔子"),
+        ("Love ", "爱心"),
+        ("Zombie ", "僵尸"),
+        ("Elemental ", "元素"),
+        ("Subterranean ", "地下"),
+        ("Injured ", "受伤"),
+        ("Succumbed ", "堕化"),
+        ("Bloated ", "臃肿"),
+        ("Dire ", "凶暴"),
+        ("Golden Striped ", "金纹"),
+        ("Rare ", "稀有"),
+        ("Spirit ", "灵魂"),
+        ("Party ", "派对"),
+        ("Valentines ", "情人节"),
+        ("Dodo ", "渡渡"),
+        ("VR ", "VR "),
     ]
     suffix_rules = [
-        (" Ghost", "幽灵"),
+        (" Ghost", "幽灵", "prefix"),
+        (" (Alpha)", "（Alpha）", "suffix"),
+        (" (Beta)", "（Beta）", "suffix"),
+        (" (Gamma)", "（Gamma）", "suffix"),
     ]
     exact_rules = [
         ("X-", "X-"),
         ("R-", "R-"),
     ]
+    exact_name_rules = {
+        **MANUAL_CREATURE_ZH,
+        "DodoRex": "渡渡霸王龙",
+        "Crystal Wyvern": "水晶飞龙",
+        "Blood Crystal Wyvern": "血晶飞龙",
+        "Ember Crystal Wyvern": "余烬水晶飞龙",
+        "Tropical Crystal Wyvern": "热带水晶飞龙",
+        "Fire Wyvern": "火焰飞龙",
+        "Lightning Wyvern": "闪电飞龙",
+        "Poison Wyvern": "毒飞龙",
+        "Water Wyvern": "水飞龙",
+        "Dodo Wyvern": "渡渡飞龙",
+        "Forest Wyvern": "森林飞龙",
+        "Zombie Wyvern": "僵尸飞龙",
+        "Crystal Wyvern Queen": "水晶飞龙女王",
+        "Lost King": "迷失之王",
+        "Lost Queen": "迷失女王",
+        "Rockwell Node": "罗克韦尔节点",
+        "Rockwell Prime": "罗克韦尔本体",
+        "Reaper": "死神",
+        "Reaper King": "死神国王",
+        "Reaper Queen": "死神女王",
+        "Reaper Prince": "死神王子",
+        "Reaper Offspring": "死神后代",
+        "Thrall": "奴仆",
+        "Moeder, Master of the Ocean": "海洋主宰莫德尔",
+        "Revenant": "亡魂",
+    }
+    thrall_role_rules = {
+        "Archer": "弓箭手",
+        "Bounty Hunter": "赏金猎人",
+        "Cavalry Commander": "骑兵指挥官",
+        "Deadeye": "神射手",
+        "Demolisher": "爆破手",
+        "Enforcer": "执法者",
+        "Forgemaster": "铸造大师",
+        "Gunslinger": "枪手",
+        "Herald": "先驱",
+        "Marauder": "劫掠者",
+        "Marksman": "射手",
+        "Piercer": "穿刺者",
+        "Scattershot": "散射手",
+        "Snarer": "诱捕者",
+        "Subjugator": "征服者",
+        "Warden": "守卫者",
+    }
+
+    exact_name = exact_name_rules.get(name_en, "")
+    if exact_name:
+        return {"name_zh": exact_name, "aliases": [exact_name]}
+
+    if name_en.startswith("Thrall "):
+        role_name = name_en[len("Thrall ") :].strip()
+        role_zh = thrall_role_rules.get(role_name, "")
+        if role_zh:
+            display_name = f"奴仆{role_zh}"
+            return {"name_zh": display_name, "aliases": [display_name]}
+
+    if name_en.startswith("Revenant "):
+        suffix_name = name_en[len("Revenant ") :].strip()
+        if suffix_name:
+            translated = _translate_variant_name(suffix_name, base_name_map, depth + 1)
+            base_zh = str(translated.get("name_zh", "")).strip()
+            display_name = f"亡魂{base_zh or suffix_name}"
+            return {"name_zh": display_name, "aliases": [display_name]}
 
     for prefix, zh_prefix in prefix_rules:
         if name_en.startswith(prefix):
             base_name = name_en[len(prefix) :].strip()
-            base_zh = base_name_map.get(base_name, "")
+            translated = _translate_variant_name(base_name, base_name_map, depth + 1)
+            base_zh = str(translated.get("name_zh", "")).strip()
             if base_zh:
                 return {
                     "name_zh": f"{zh_prefix}{base_zh}",
                     "aliases": [f"{zh_prefix}{base_zh}"],
                 }
 
-    for suffix, zh_prefix in suffix_rules:
+    for suffix, zh_text, placement in suffix_rules:
         if name_en.endswith(suffix):
             base_name = name_en[: -len(suffix)].strip()
-            base_zh = base_name_map.get(base_name, "")
+            translated = _translate_variant_name(base_name, base_name_map, depth + 1)
+            base_zh = str(translated.get("name_zh", "")).strip()
             if base_zh:
+                display_name = f"{zh_text}{base_zh}" if placement == "prefix" else f"{base_zh}{zh_text}"
                 return {
-                    "name_zh": f"{zh_prefix}{base_zh}",
-                    "aliases": [f"{zh_prefix}{base_zh}"],
+                    "name_zh": display_name,
+                    "aliases": [display_name],
                 }
 
     for english_prefix, zh_prefix in exact_rules:
         if name_en.startswith(english_prefix):
             base_name = name_en[len(english_prefix) :].strip()
-            base_zh = base_name_map.get(base_name, "")
+            translated = _translate_variant_name(base_name, base_name_map, depth + 1)
+            base_zh = str(translated.get("name_zh", "")).strip()
             if base_zh:
                 return {
                     "name_zh": f"{zh_prefix}{base_zh}",
@@ -1005,6 +1433,38 @@ def main() -> int:
             Path(args.output),
         )
         print(f"generated {len(rows)} translated creature rows")
+        return 0
+
+    if args.command == "build-creature-translation-report":
+        report = build_creature_translation_report(
+            Path(args.creatures_input),
+            Path(args.translated_input),
+            Path(args.output),
+            template_output=Path(args.template_output) if args.template_output else None,
+        )
+        print(
+            f"generated creature translation report: "
+            f"{report['translated']}/{report['total']} translated "
+            f"({report['coverage_ratio']:.2%})"
+        )
+        return 0
+
+    if args.command == "autofill-creature-translations":
+        report = autofill_creature_translations(
+            Path(args.creatures_input),
+            Path(args.dossiers_input),
+            Path(args.manual_overrides) if args.manual_overrides else None,
+            Path(args.base_map_output),
+            Path(args.overrides_output),
+            Path(args.translated_output),
+            Path(args.report_output),
+            template_output=Path(args.template_output) if args.template_output else None,
+        )
+        print(
+            f"autofill complete: "
+            f"{report['translated']}/{report['total']} translated "
+            f"({report['coverage_ratio']:.2%})"
+        )
         return 0
 
     if args.command == "parse-loot-subpage":
