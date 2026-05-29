@@ -1138,6 +1138,126 @@ class ArkQueryService:
 
         return QueryResult(f"没识别出你的查询“{raw_query}”。可以试试：/ark help", found=False)
 
+    def build_llm_context(
+        self,
+        raw_query: str,
+        max_sections: int = 6,
+        max_chars: int = 4000,
+    ) -> str:
+        query = (raw_query or "").strip()
+        if not query:
+            return ""
+
+        sections: list[str] = []
+        seen_messages: set[str] = set()
+
+        def add_section(title: str, result: QueryResult | None) -> None:
+            if result is None or not result.found:
+                return
+            message = (result.message or "").strip()
+            if not message:
+                return
+            normalized_message = _normalize(message)
+            if normalized_message in seen_messages:
+                return
+            seen_messages.add(normalized_message)
+            sections.append(f"[{title}]\n{message}")
+
+        lowered = query.lower()
+        map_row = self._extract_best_row_from_text(query, self.map_index)
+        creature_row = self._extract_best_row_from_text(query, self.creature_index)
+        item_row = self._extract_best_row_from_text(query, self.item_index)
+        item_source_row = self._extract_best_row_from_text(query, self.item_source_index)
+        resource_key = self._extract_best_key_from_text(query, self.resource_index)
+        crate_key = self._extract_best_key_from_text(query, self.crate_index)
+
+        if map_row and resource_key:
+            resource_rows = self.resource_index.get(resource_key, [])
+            scoped_rows = [
+                row
+                for row in resource_rows
+                if self._matches_canonical_map(str(row.get("map_name", "")), str(map_row.get("name_zh", "")))
+            ]
+            if scoped_rows:
+                add_section(
+                    "地图资源",
+                    self.query_map(f"{map_row.get('name_zh') or map_row.get('name_en')} {scoped_rows[0].get('resource_name', '')}"),
+                )
+
+        if creature_row:
+            creature_name = str(creature_row.get("name_zh") or creature_row.get("name_en") or "").strip()
+            if any(keyword in lowered for keyword in ("code", "summon", "giveitem", "代码", "控制台", "指令")):
+                add_section("生物代码", self.query_code(creature_name))
+            add_section("驯服资料", self.query_tame(creature_name))
+
+        if item_row:
+            item_name = str(item_row.get("name_zh") or item_row.get("name_en") or "").strip()
+            if any(keyword in lowered for keyword in ("code", "giveitem", "blueprint", "代码", "控制台", "指令")):
+                add_section("物品代码", self.query_code(item_name))
+            add_section("物品资料", self.query_item(item_name))
+
+        if item_source_row:
+            item_name = str(item_source_row.get("name_zh") or item_source_row.get("name_en") or "").strip()
+            if any(keyword in lowered for keyword in ("loot", "crate", "source", "drop", "掉落", "宝箱", "哪里出", "来源", "获取")):
+                add_section("来源资料", self.query_source(item_name))
+
+        if resource_key:
+            resource_rows = self.resource_index.get(resource_key, [])
+            if resource_rows:
+                add_section("资源概览", self.query_resource(str(resource_rows[0].get("resource_name", ""))))
+
+        if crate_key:
+            crate_rows = self.crate_index.get(crate_key, [])
+            if crate_rows:
+                crate_row = crate_rows[0]
+                add_section(
+                    "宝箱资料",
+                    self.query_crate(f"{crate_row.get('map_name', '')} {crate_row.get('name_zh') or crate_row.get('name_en') or ''}".strip()),
+                )
+
+        add_section("直连查询", self.smart_query(query))
+
+        if not sections and map_row:
+            add_section("地图资料", self.query_map_info(str(map_row.get("name_zh") or map_row.get("name_en") or "")))
+
+        if not sections:
+            return ""
+
+        trimmed_sections: list[str] = []
+        current_length = 0
+        for section in sections[: max_sections]:
+            section_text = section.strip()
+            if not section_text:
+                continue
+            projected = current_length + len(section_text) + 2
+            if trimmed_sections and projected > max_chars:
+                break
+            if not trimmed_sections and len(section_text) > max_chars:
+                trimmed_sections.append(section_text[:max_chars])
+                break
+            trimmed_sections.append(section_text)
+            current_length = projected
+
+        return "\n\n".join(trimmed_sections)
+
+    def _extract_best_key_from_text(self, raw_query: str, index: dict[str, Any]) -> str:
+        normalized_query = _normalize(raw_query)
+        if not normalized_query:
+            return ""
+        best_key = ""
+        for key in index.keys():
+            if len(key) < 2:
+                continue
+            if key in normalized_query and len(key) > len(best_key):
+                best_key = key
+        return best_key
+
+    def _extract_best_row_from_text(self, raw_query: str, index: dict[str, dict[str, Any]]) -> dict[str, Any] | None:
+        best_key = self._extract_best_key_from_text(raw_query, index)
+        if not best_key:
+            return None
+        return index.get(best_key)
+
     def _find_one(
         self,
         raw_query: str,

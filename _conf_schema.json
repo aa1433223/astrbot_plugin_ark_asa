@@ -67,5 +67,45 @@
     "hint": "用于英文或拼音类关键词的模糊匹配阈值。",
     "type": "float",
     "default": 0.6
+  },
+  "enable_llm_query": {
+    "description": "启用 LLM 智能问答",
+    "hint": "开启后可通过 /ark ai 或 /方舟问答 用自然语言提问，插件会调用当前会话模型回答。",
+    "type": "bool",
+    "default": true
+  },
+  "llm_query_provider_id": {
+    "description": "LLM 问答指定 Provider",
+    "hint": "留空时自动使用当前会话的聊天模型；如需固定某个 Provider，可在这里填写它的 ID。",
+    "type": "string",
+    "default": ""
+  },
+  "llm_query_max_context_chars": {
+    "description": "LLM 参考资料最大字符数",
+    "hint": "发送给模型的本地资料上下文长度上限，越大越全但耗费更多上下文。",
+    "type": "int",
+    "slider": {
+      "min": 1000,
+      "max": 12000,
+      "step": 500
+    },
+    "default": 4000
+  },
+  "llm_query_max_sections": {
+    "description": "LLM 参考资料最大段数",
+    "hint": "一次智能问答最多拼接多少段本地查询结果供模型参考。",
+    "type": "int",
+    "slider": {
+      "min": 1,
+      "max": 12,
+      "step": 1
+    },
+    "default": 6
+  },
+  "llm_query_system_prompt": {
+    "description": "LLM 智能问答系统提示词",
+    "hint": "可自定义问答语气与约束；留默认值即可。",
+    "type": "string",
+    "default": "你是一个 ARK: Survival Ascended 中文助手。\n请优先根据插件提供的本地资料回答，保持简洁、准确、可执行。\n如果本地资料不足，请明确说明“以下部分基于通用经验推断”，不要把推断说成已确认事实。\n如果用户的问题本质上是在问驯服、代码、资源点、地图、宝箱、掉落或材料来源，请优先给出直接答案。"
   }
 }
