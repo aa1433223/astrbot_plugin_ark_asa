@@ -34,6 +34,8 @@ class ArkAsaWikiPlugin(Star):
             plugin_dir=Path(__file__).resolve().parent,
             max_suggestions=int(_safe_config_get(config, "max_suggestions", 3)),
             show_source_url=bool(_safe_config_get(config, "show_source_url", True)),
+            max_crate_items_display=int(_safe_config_get(config, "max_crate_items_display", 12)),
+            show_map_status=bool(_safe_config_get(config, "show_map_status", True)),
         )
         logger.info("[ARK ASA] plugin loaded")
 
@@ -72,6 +74,26 @@ class ArkAsaWikiPlugin(Star):
         async for result in self._run_simple(event, "map"):
             yield result
 
+    @filter.command("宝箱")
+    async def crate_command(self, event: AstrMessageEvent):
+        async for result in self._run_simple(event, "crate"):
+            yield result
+
+    @filter.command("掉落")
+    async def loot_command(self, event: AstrMessageEvent):
+        async for result in self._run_simple(event, "loot"):
+            yield result
+
+    @filter.command("来源")
+    async def source_command(self, event: AstrMessageEvent):
+        async for result in self._run_simple(event, "source"):
+            yield result
+
+    @filter.command("地图列表")
+    async def maps_command(self, event: AstrMessageEvent):
+        async for result in self._run_simple(event, "maps"):
+            yield result
+
     async def _dispatch_ark(self, event: AstrMessageEvent):
         raw = (event.message_str or "").strip()
         parts = raw.split(maxsplit=2)
@@ -95,8 +117,16 @@ class ArkAsaWikiPlugin(Star):
             "材料": self.service.query_item,
             "resource": self.service.query_resource,
             "资源": self.service.query_resource,
-            "map": self.service.query_map_resource,
-            "地图": self.service.query_map_resource,
+            "map": self.service.query_map,
+            "地图": self.service.query_map,
+            "maps": self.service.query_maps,
+            "地图列表": self.service.query_maps,
+            "crate": self.service.query_crate,
+            "宝箱": self.service.query_crate,
+            "loot": self.service.query_loot,
+            "掉落": self.service.query_loot,
+            "source": self.service.query_source,
+            "来源": self.service.query_source,
         }
 
         handler = mapping.get(subcommand)
@@ -122,7 +152,15 @@ class ArkAsaWikiPlugin(Star):
         elif mode == "resource":
             result = self.service.query_resource(argument)
         elif mode == "map":
-            result = self.service.query_map_resource(argument)
+            result = self.service.query_map(argument)
+        elif mode == "crate":
+            result = self.service.query_crate(argument)
+        elif mode == "loot":
+            result = self.service.query_loot(argument)
+        elif mode == "source":
+            result = self.service.query_source(argument)
+        elif mode == "maps":
+            result = self.service.query_maps(argument)
         else:
             result = self.service.help_result()
 

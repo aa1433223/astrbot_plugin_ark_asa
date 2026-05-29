@@ -4,3 +4,6 @@ __pycache__/
 *.pyd
 .DS_Store
 Thumbs.db
+data/*.generated.json
+exports/
+sync_probe/

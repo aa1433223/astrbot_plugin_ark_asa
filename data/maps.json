@@ -1,0 +1,152 @@
+[
+  {
+    "name_zh": "孤岛",
+    "name_en": "The Island",
+    "aliases": ["island"],
+    "status": "已上线",
+    "map_type": "官方正传地图",
+    "release_date": "2023-10-25",
+    "notes": "ASA 首发地图，资源和生态最均衡。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "焦土",
+    "name_en": "Scorched Earth",
+    "aliases": ["se"],
+    "status": "已上线",
+    "map_type": "官方正传地图",
+    "release_date": "2024-04-01",
+    "notes": "高温、沙暴和缺水是主要生存压力。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "中心岛",
+    "name_en": "The Center",
+    "aliases": ["center"],
+    "status": "已上线",
+    "map_type": "官方免费地图",
+    "release_date": "2024-06-04",
+    "notes": "大型地形复合图，矿点和洞穴路线很多。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "畸变",
+    "name_en": "Aberration",
+    "aliases": ["abb"],
+    "status": "已上线",
+    "map_type": "官方正传地图",
+    "release_date": "2024-09-05",
+    "notes": "地表、辐射区和无飞行生态构成主要玩法差异。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "灭绝",
+    "name_en": "Extinction",
+    "aliases": ["ext"],
+    "status": "已上线",
+    "map_type": "官方正传地图",
+    "release_date": "2024-12-20",
+    "notes": "轨道补给、泰坦和腐化生态是核心内容。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "阿斯特拉俄斯",
+    "name_en": "Astraeos",
+    "aliases": ["astraeos"],
+    "status": "已上线",
+    "map_type": "官方付费地图",
+    "release_date": "2025-02-13",
+    "notes": "ASA 新增付费地图，适合作为扩展资料对象。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "仙境",
+    "name_en": "Ragnarok",
+    "aliases": ["rag"],
+    "status": "已上线",
+    "map_type": "官方免费地图",
+    "release_date": "2025-06-20",
+    "notes": "资源丰富，区域跨度大，是高人气综合图。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "瓦尔盖罗",
+    "name_en": "Valguero",
+    "aliases": ["valg"],
+    "status": "已上线",
+    "map_type": "官方免费地图",
+    "release_date": "2025-10-07",
+    "notes": "生态混合度高，洞穴与高山路线都很多。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "创世纪1",
+    "name_en": "Genesis: Part 1",
+    "aliases": ["gen1", "genesis1"],
+    "status": "计划中",
+    "map_type": "官方正传地图",
+    "release_date": "2026-06-25",
+    "notes": "按照当前路线图，已公布具体日期但未正式上线。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "创世纪2",
+    "name_en": "Genesis: Part 2",
+    "aliases": ["gen2", "genesis2"],
+    "status": "计划中",
+    "map_type": "官方正传地图",
+    "release_date": "2027-Q2",
+    "notes": "当前路线图中仍处于远期规划阶段。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "菲尤尔",
+    "name_en": "Fjordur",
+    "aliases": ["fjordur"],
+    "status": "待定",
+    "map_type": "官方免费地图",
+    "release_date": "TBA",
+    "notes": "已出现在路线图待定列表中。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "水晶岛",
+    "name_en": "Crystal Isles",
+    "aliases": ["crystalisles"],
+    "status": "待定",
+    "map_type": "官方免费地图",
+    "release_date": "TBA",
+    "notes": "已出现在路线图待定列表中。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "失落之岛",
+    "name_en": "Lost Island",
+    "aliases": ["lostisland"],
+    "status": "待定",
+    "map_type": "官方免费地图",
+    "release_date": "TBA",
+    "notes": "已出现在路线图待定列表中。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "龙托邦",
+    "name_en": "Dragontopia",
+    "aliases": ["dragontopia"],
+    "status": "计划中",
+    "map_type": "官方付费地图",
+    "release_date": "2026-12",
+    "notes": "当前路线图中的新增付费扩展地图。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  },
+  {
+    "name_zh": "亚特兰蒂斯",
+    "name_en": "Atlantis",
+    "aliases": ["atlantis"],
+    "status": "计划中",
+    "map_type": "官方付费地图",
+    "release_date": "2027-Q1",
+    "notes": "当前路线图中的水下主题地图。",
+    "source_url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+  }
+]

@@ -1,5 +1,17 @@
 {
   "孤岛": ["theisland", "the island", "island"],
   "焦土": ["scorched", "scorched earth", "se"],
-  "仙境": ["ragnarok", "rag", "仙境r"]
+  "中心岛": ["thecenter", "the center", "center"],
+  "畸变": ["aberration", "abb"],
+  "灭绝": ["extinction", "ext"],
+  "阿斯特拉俄斯": ["astraeos", "astraios"],
+  "仙境": ["ragnarok", "rag", "仙境r"],
+  "瓦尔盖罗": ["valguero", "valg"],
+  "创世纪1": ["genesis1", "gen1", "genesis part 1"],
+  "创世纪2": ["genesis2", "gen2", "genesis part 2"],
+  "菲尤尔": ["fjordur", "fjord"],
+  "水晶岛": ["crystal isles", "crystalisles"],
+  "失落之岛": ["lost island", "lostisland"],
+  "龙托邦": ["dragontopia"],
+  "亚特兰蒂斯": ["atlantis"]
 }

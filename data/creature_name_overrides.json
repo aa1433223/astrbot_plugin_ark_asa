@@ -1,0 +1,54 @@
+{
+  "Rex": {
+    "name_zh": "霸王龙",
+    "aliases": ["霸王", "暴龙", "rex"]
+  },
+  "Giganotosaurus": {
+    "name_zh": "南方巨兽龙",
+    "aliases": ["南巨", "giga"]
+  },
+  "Spino": {
+    "name_zh": "棘背龙",
+    "aliases": ["棘龙", "spino"]
+  },
+  "Quetzal": {
+    "name_zh": "风神翼龙",
+    "aliases": ["风神", "quetzal"]
+  },
+  "Argentavis": {
+    "name_zh": "阿根廷巨鹰",
+    "aliases": ["阿根廷", "巨鹰", "argy"]
+  },
+  "Therizinosaur": {
+    "name_zh": "镰刀龙",
+    "aliases": ["镰刀", "塞雷", "theri"]
+  },
+  "Yutyrannus": {
+    "name_zh": "羽暴龙",
+    "aliases": ["羽暴", "yuty"]
+  },
+  "Mosasaurus": {
+    "name_zh": "沧龙",
+    "aliases": ["沧龙", "mosa"]
+  },
+  "Raptor": {
+    "name_zh": "迅猛龙",
+    "aliases": ["迅猛", "raptor"]
+  },
+  "Pteranodon": {
+    "name_zh": "翼龙",
+    "aliases": ["无齿翼龙", "ptera"]
+  },
+  "Ankylosaurus": {
+    "name_zh": "甲龙",
+    "aliases": ["甲龙", "anky"]
+  },
+  "Triceratops": {
+    "name_zh": "角龙",
+    "aliases": ["三角龙", "trike"]
+  },
+  "Aberrant Ankylosaurus": {
+    "name_zh": "畸变甲龙",
+    "aliases": ["畸变甲龙", "畸变anky"]
+  }
+}

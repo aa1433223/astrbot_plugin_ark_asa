@@ -1,0 +1,207 @@
+[
+  {
+    "name_zh": "十字弩",
+    "name_en": "Crossbow",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "蓝色补给箱",
+        "quality": "普通到优秀",
+        "notes": "可能为成品或蓝图"
+      },
+      {
+        "map_name": "畸变",
+        "crate_name": "蓝色地表补给箱",
+        "quality": "优秀",
+        "notes": "畸变地表前期常见实用掉落"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "吉利鞋",
+    "name_en": "Ghillie Boots",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "蓝色补给箱",
+        "quality": "普通到优秀",
+        "notes": "可能为成品或蓝图"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "长管步枪",
+    "name_en": "Longneck Rifle",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "黄色补给箱",
+        "quality": "优秀到大师",
+        "notes": "可能为成品或蓝图"
+      },
+      {
+        "map_name": "畸变",
+        "crate_name": "红色地表补给箱",
+        "quality": "大师到传说",
+        "notes": "高品质蓝图来源之一"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "甲壳胸甲",
+    "name_en": "Flak Chestpiece",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "黄色补给箱",
+        "quality": "优秀到大师",
+        "notes": "常见护甲类奖励"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "霸王龙鞍",
+    "name_en": "Rex Saddle",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "红色补给箱",
+        "quality": "大师到传说",
+        "notes": "高品质蓝图较受欢迎"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "泵动霰弹枪",
+    "name_en": "Pump-Action Shotgun",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "红色补给箱",
+        "quality": "大师到传说",
+        "notes": "可能为成品或蓝图"
+      },
+      {
+        "map_name": "灭绝",
+        "crate_name": "红色轨道补给",
+        "quality": "传说",
+        "notes": "高阶轨道补给奖励示例"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "暴动胸甲",
+    "name_en": "Riot Chestpiece",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "深海宝箱",
+        "quality": "大师到传说",
+        "notes": "深海高品质掉落示例"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "工业熔炉蓝图",
+    "name_en": "Industrial Forge Blueprint",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "深海宝箱",
+        "quality": "高品质蓝图",
+        "notes": "高价值蓝图示例"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "防爆头盔",
+    "name_en": "Riot Helmet",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "灭绝",
+        "crate_name": "蓝色轨道补给",
+        "quality": "优秀到大师",
+        "notes": "波次奖励示例"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "风神翼龙平台鞍",
+    "name_en": "Quetz Platform Saddle",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "仙境",
+        "crate_name": "沙漠宝箱",
+        "quality": "大师到传说",
+        "notes": "仙境地图特殊高价值掉落示例"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "机床",
+    "name_en": "Fabricator",
+    "aliases": [],
+    "crafting": [],
+    "harvest": [],
+    "crate_sources": [
+      {
+        "map_name": "瓦尔盖罗",
+        "crate_name": "紫色补给箱",
+        "quality": "优秀到大师",
+        "notes": "成品或蓝图均可能出现"
+      }
+    ],
+    "notes": "由 loot_crate_items.json 自动生成的反向索引。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  }
+]

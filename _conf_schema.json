@@ -15,5 +15,22 @@
     "hint": "开启后会在回复底部附上 Wiki 页面来源。",
     "type": "bool",
     "default": true
+  },
+  "max_crate_items_display": {
+    "description": "宝箱掉落展示数量",
+    "hint": "单次查询宝箱时最多展示多少条掉落示例。",
+    "type": "int",
+    "slider": {
+      "min": 5,
+      "max": 30,
+      "step": 1
+    },
+    "default": 12
+  },
+  "show_map_status": {
+    "description": "显示地图状态",
+    "hint": "资源查询时显示地图是否已上线、待定或计划中。",
+    "type": "bool",
+    "default": true
   }
 }

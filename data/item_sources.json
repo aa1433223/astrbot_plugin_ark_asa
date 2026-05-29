@@ -1,0 +1,139 @@
+[
+  {
+    "name_zh": "十字弩",
+    "name_en": "Crossbow",
+    "aliases": ["十字", "crossbow"],
+    "crafting": ["铁匠台制作：木头、纤维、金属锭"],
+    "harvest": ["也可通过普通制作直接获得"],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "蓝色补给箱",
+        "quality": "普通到优秀",
+        "notes": "可能为成品或蓝图"
+      },
+      {
+        "map_name": "畸变",
+        "crate_name": "蓝色地表补给箱",
+        "quality": "优秀",
+        "notes": "夜晚地表掉落"
+      }
+    ],
+    "notes": "前中期高性价比远程武器，常见于制作和蓝色档补给箱。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "长管步枪",
+    "name_en": "Longneck Rifle",
+    "aliases": ["长管", "longneck"],
+    "crafting": ["铁匠台制作：金属锭、木头、纤维"],
+    "harvest": ["通常通过制作后搭配麻醉镖使用"],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "黄色补给箱",
+        "quality": "优秀到大师",
+        "notes": "常见中高品质成品或蓝图"
+      },
+      {
+        "map_name": "畸变",
+        "crate_name": "红色地表补给箱",
+        "quality": "大师到传说",
+        "notes": "高品质蓝图来源之一"
+      }
+    ],
+    "notes": "抓龙常用武器，本体可制作，高品质版本常依赖宝箱。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "泵动霰弹枪",
+    "name_en": "Pump-Action Shotgun",
+    "aliases": ["泵喷", "pump shotgun"],
+    "crafting": ["机床制作：金属锭、聚合物、水泥浆等"],
+    "harvest": ["通常不靠采集直接获得"],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "红色补给箱",
+        "quality": "大师到传说",
+        "notes": "可能为高质量成品或蓝图"
+      },
+      {
+        "map_name": "灭绝",
+        "crate_name": "红色轨道补给",
+        "quality": "传说",
+        "notes": "轨道高波次奖励"
+      }
+    ],
+    "notes": "PVE 与洞穴都很强，高品质版本很值得刷箱。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "霸王龙鞍",
+    "name_en": "Rex Saddle",
+    "aliases": ["霸王鞍", "rex saddle"],
+    "crafting": ["75 级前后可学习后制作"],
+    "harvest": ["通常不靠采集直接获得"],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "红色补给箱",
+        "quality": "大师到传说",
+        "notes": "常见高品质蓝图来源"
+      }
+    ],
+    "notes": "打 BOSS 常追求高护甲蓝图。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "风神翼龙平台鞍",
+    "name_en": "Quetz Platform Saddle",
+    "aliases": ["风神平台鞍", "quetz platform saddle"],
+    "crafting": ["高等级解锁后可制作"],
+    "harvest": ["通常不靠采集直接获得"],
+    "crate_sources": [
+      {
+        "map_name": "仙境",
+        "crate_name": "沙漠宝箱",
+        "quality": "大师到传说",
+        "notes": "高价值特殊掉落"
+      }
+    ],
+    "notes": "平台类鞍具价值高，适合在地图特殊箱路线中补齐。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "机床",
+    "name_en": "Fabricator",
+    "aliases": ["fabricator"],
+    "crafting": ["铁匠台制作：金属锭、水泥浆、火花粉等"],
+    "harvest": ["通常不靠采集直接获得"],
+    "crate_sources": [
+      {
+        "map_name": "瓦尔盖罗",
+        "crate_name": "紫色补给箱",
+        "quality": "优秀到大师",
+        "notes": "成品或蓝图均可能出现"
+      }
+    ],
+    "notes": "本体可制作，但蓝图/成品掉落有时能节省前期成本。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "name_zh": "工业熔炉蓝图",
+    "name_en": "Industrial Forge Blueprint",
+    "aliases": ["工业熔炉", "forge blueprint"],
+    "crafting": ["成品工业熔炉需要大量金属和水泥浆"],
+    "harvest": ["通常不靠采集直接获得蓝图"],
+    "crate_sources": [
+      {
+        "map_name": "孤岛",
+        "crate_name": "深海宝箱",
+        "quality": "高品质蓝图",
+        "notes": "深海高价值战利品"
+      }
+    ],
+    "notes": "偏后期蓝图类目标，适合深海刷箱路线。",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  }
+]

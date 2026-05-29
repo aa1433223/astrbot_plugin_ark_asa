@@ -1,0 +1,128 @@
+[
+  {
+    "crate_id": "island_blue_supply",
+    "item_name_zh": "十字弩",
+    "item_name_en": "Crossbow",
+    "quality": "普通到优秀",
+    "quantity": "1",
+    "notes": "可能为成品或蓝图",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "island_blue_supply",
+    "item_name_zh": "吉利鞋",
+    "item_name_en": "Ghillie Boots",
+    "quality": "普通到优秀",
+    "quantity": "1",
+    "notes": "可能为成品或蓝图",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "island_yellow_supply",
+    "item_name_zh": "长管步枪",
+    "item_name_en": "Longneck Rifle",
+    "quality": "优秀到大师",
+    "quantity": "1",
+    "notes": "可能为成品或蓝图",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "island_yellow_supply",
+    "item_name_zh": "甲壳胸甲",
+    "item_name_en": "Flak Chestpiece",
+    "quality": "优秀到大师",
+    "quantity": "1",
+    "notes": "常见护甲类奖励",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "island_red_supply",
+    "item_name_zh": "霸王龙鞍",
+    "item_name_en": "Rex Saddle",
+    "quality": "大师到传说",
+    "quantity": "1",
+    "notes": "高品质蓝图较受欢迎",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "island_red_supply",
+    "item_name_zh": "泵动霰弹枪",
+    "item_name_en": "Pump-Action Shotgun",
+    "quality": "大师到传说",
+    "quantity": "1",
+    "notes": "可能为成品或蓝图",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "island_deep_sea",
+    "item_name_zh": "暴动胸甲",
+    "item_name_en": "Riot Chestpiece",
+    "quality": "大师到传说",
+    "quantity": "1",
+    "notes": "深海高品质掉落示例",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "island_deep_sea",
+    "item_name_zh": "工业熔炉蓝图",
+    "item_name_en": "Industrial Forge Blueprint",
+    "quality": "高品质蓝图",
+    "quantity": "1",
+    "notes": "高价值蓝图示例",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "ab_surface_blue",
+    "item_name_zh": "十字弩",
+    "item_name_en": "Crossbow",
+    "quality": "优秀",
+    "quantity": "1",
+    "notes": "畸变地表前期常见实用掉落",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "ab_surface_red",
+    "item_name_zh": "长管步枪",
+    "item_name_en": "Longneck Rifle",
+    "quality": "大师到传说",
+    "quantity": "1",
+    "notes": "高品质蓝图来源之一",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "ext_osd_blue",
+    "item_name_zh": "防爆头盔",
+    "item_name_en": "Riot Helmet",
+    "quality": "优秀到大师",
+    "quantity": "1",
+    "notes": "波次奖励示例",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "ext_osd_red",
+    "item_name_zh": "泵动霰弹枪",
+    "item_name_en": "Pump-Action Shotgun",
+    "quality": "传说",
+    "quantity": "1",
+    "notes": "高阶轨道补给奖励示例",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "rag_desert_drop",
+    "item_name_zh": "风神翼龙平台鞍",
+    "item_name_en": "Quetz Platform Saddle",
+    "quality": "大师到传说",
+    "quantity": "1",
+    "notes": "仙境地图特殊高价值掉落示例",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  },
+  {
+    "crate_id": "valg_purple_supply",
+    "item_name_zh": "机床",
+    "item_name_en": "Fabricator",
+    "quality": "优秀到大师",
+    "quantity": "1",
+    "notes": "成品或蓝图均可能出现",
+    "source_url": "https://ark.wiki.gg/wiki/Loot_tables"
+  }
+]

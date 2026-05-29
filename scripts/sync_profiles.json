@@ -1,0 +1,69 @@
+{
+  "candidate_table_keywords": [
+    "creature",
+    "dino",
+    "spawn",
+    "resource",
+    "loot",
+    "crate",
+    "item",
+    "map"
+  ],
+  "known_pages": {
+    "loot": [
+      "Loot_tables"
+    ],
+    "resource_maps": [
+      "Resource_Map/The_Island",
+      "Resource_Map/Scorched_Earth",
+      "Resource_Map/The_Center",
+      "Resource_Map/Aberration",
+      "Resource_Map/Extinction",
+      "Resource_Map/Ragnarok",
+      "Resource_Map/Valguero"
+    ],
+    "spawn_maps": [
+      "Creature_Spawn_Map/The_Island",
+      "Creature_Spawn_Map/Scorched_Earth",
+      "Creature_Spawn_Map/The_Center",
+      "Creature_Spawn_Map/Aberration",
+      "Creature_Spawn_Map/Extinction",
+      "Creature_Spawn_Map/Ragnarok",
+      "Creature_Spawn_Map/Valguero"
+    ],
+    "asa_index": [
+      "ARK:_Survival_Ascended"
+    ]
+  },
+  "cargo_export_suggestions": [
+    {
+      "name": "tables_probe",
+      "description": "先探测全部 Cargo 表，再筛选 creature/item/loot/resource 相关表。"
+    },
+    {
+      "name": "fields_probe",
+      "description": "对筛选出的表逐个抓字段，生成 schema 快照。"
+    },
+    {
+      "name": "page_parse_fallback",
+      "description": "Cargo 不够时，改抓 Loot tables、Resource Map 和 Spawn Map 页面。"
+    }
+  ],
+  "export_presets": {
+    "creatures_core": {
+      "table": "Creatures",
+      "fields": "_pageName=Page,Name,WildMaps,Diet,Temperament,Tameable,Breedable,Rideable,Saddle,SaddleLevel,EntityId,ReleasedASA",
+      "description": "全生物基础资料导出"
+    },
+    "items_core": {
+      "table": "Items",
+      "fields": "_pageName=Page,ID,Blueprint,Category,stackSize,weight",
+      "description": "全物品基础资料导出"
+    },
+    "resources_core": {
+      "table": "Resources",
+      "fields": "_pageName=Page,Rarity,Renewable,Refineable,Combustible,OfficialGame",
+      "description": "全资源基础资料导出"
+    }
+  }
+}
