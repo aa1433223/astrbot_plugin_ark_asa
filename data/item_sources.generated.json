@@ -1,6 +1,6 @@
 [
   {
-    "name_zh": "Bow",
+    "name_zh": "弓",
     "name_en": "Bow",
     "aliases": [],
     "crafting": [],
@@ -143,7 +143,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Carbonemys Saddle",
+    "name_zh": "碳龟鞍",
     "name_en": "Carbonemys Saddle",
     "aliases": [],
     "crafting": [],
@@ -382,7 +382,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Cloth Boots",
+    "name_zh": "Cloth靴子",
     "name_en": "Cloth Boots",
     "aliases": [],
     "crafting": [],
@@ -477,7 +477,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Cloth Gloves",
+    "name_zh": "Cloth手套",
     "name_en": "Cloth Gloves",
     "aliases": [],
     "crafting": [],
@@ -572,7 +572,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Cloth Hat",
+    "name_zh": "Cloth帽子",
     "name_en": "Cloth Hat",
     "aliases": [],
     "crafting": [],
@@ -667,7 +667,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Cloth Pants",
+    "name_zh": "Cloth裤子",
     "name_en": "Cloth Pants",
     "aliases": [],
     "crafting": [],
@@ -762,7 +762,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Cloth Shirt",
+    "name_zh": "Cloth衬衫",
     "name_en": "Cloth Shirt",
     "aliases": [],
     "crafting": [],
@@ -857,7 +857,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Equus Saddle",
+    "name_zh": "庞马鞍",
     "name_en": "Equus Saddle",
     "aliases": [],
     "crafting": [],
@@ -1065,7 +1065,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Ichthyosaurus Saddle",
+    "name_zh": "鱼龙鞍",
     "name_en": "Ichthyosaurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -1154,7 +1154,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Pachy Saddle",
+    "name_zh": "肿头龙鞍",
     "name_en": "Pachy Saddle",
     "aliases": [],
     "crafting": [],
@@ -1261,7 +1261,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Parasaur Saddle",
+    "name_zh": "副栉龙鞍",
     "name_en": "Parasaur Saddle",
     "aliases": [],
     "crafting": [],
@@ -1380,7 +1380,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Phiomia Saddle",
+    "name_zh": "渐新象鞍",
     "name_en": "Phiomia Saddle",
     "aliases": [],
     "crafting": [],
@@ -1511,7 +1511,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Procoptodon Saddle",
+    "name_zh": "Procoptodon Bunny|复活节短面袋鼠鞍",
     "name_en": "Procoptodon Saddle",
     "aliases": [],
     "crafting": [],
@@ -1618,7 +1618,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Pulmonoscorpius Saddle",
+    "name_zh": "巨蝎（普莫诺蝎）鞍",
     "name_en": "Pulmonoscorpius Saddle",
     "aliases": [],
     "crafting": [],
@@ -1839,7 +1839,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Raptor Saddle",
+    "name_zh": "迅猛龙鞍",
     "name_en": "Raptor Saddle",
     "aliases": [],
     "crafting": [],
@@ -2179,7 +2179,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Stone Hatchet",
+    "name_zh": "石制斧子",
     "name_en": "Stone Hatchet",
     "aliases": [],
     "crafting": [],
@@ -2274,7 +2274,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Stone Pick",
+    "name_zh": "石制Pick",
     "name_en": "Stone Pick",
     "aliases": [],
     "crafting": [],
@@ -2357,7 +2357,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Trike Saddle",
+    "name_zh": "角龙鞍",
     "name_en": "Trike Saddle",
     "aliases": [],
     "crafting": [],
@@ -2596,7 +2596,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Wooden Club",
+    "name_zh": "木制木棒",
     "name_en": "Wooden Club",
     "aliases": [],
     "crafting": [],
@@ -2673,7 +2673,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Ankylo Saddle",
+    "name_zh": "Ankylo鞍",
     "name_en": "Ankylo Saddle",
     "aliases": [],
     "crafting": [],
@@ -3175,7 +3175,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Diplodocus Saddle",
+    "name_zh": "梁龙鞍",
     "name_en": "Diplodocus Saddle",
     "aliases": [],
     "crafting": [],
@@ -3468,7 +3468,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Doedicurus Saddle",
+    "name_zh": "星尾兽（槌尾雕兽）鞍",
     "name_en": "Doedicurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -3665,7 +3665,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Fur Boots",
+    "name_zh": "Fur靴子",
     "name_en": "Fur Boots",
     "aliases": [],
     "crafting": [],
@@ -3843,7 +3843,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Fur Chestpiece",
+    "name_zh": "Fur胸甲",
     "name_en": "Fur Chestpiece",
     "aliases": [],
     "crafting": [],
@@ -3932,7 +3932,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Fur Gauntlets",
+    "name_zh": "Fur护手",
     "name_en": "Fur Gauntlets",
     "aliases": [],
     "crafting": [],
@@ -4021,7 +4021,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Fur Leggings",
+    "name_zh": "Fur护腿",
     "name_en": "Fur Leggings",
     "aliases": [],
     "crafting": [],
@@ -4110,7 +4110,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Gallimimus Saddle",
+    "name_zh": "似鸡龙鞍",
     "name_en": "Gallimimus Saddle",
     "aliases": [],
     "crafting": [],
@@ -4283,7 +4283,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Hide Boots",
+    "name_zh": "兽皮靴子",
     "name_en": "Hide Boots",
     "aliases": [],
     "crafting": [],
@@ -4378,7 +4378,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Hide Gloves",
+    "name_zh": "兽皮手套",
     "name_en": "Hide Gloves",
     "aliases": [],
     "crafting": [],
@@ -4473,7 +4473,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Hide Hat",
+    "name_zh": "兽皮帽子",
     "name_en": "Hide Hat",
     "aliases": [],
     "crafting": [],
@@ -4568,7 +4568,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Hide Pants",
+    "name_zh": "兽皮裤子",
     "name_en": "Hide Pants",
     "aliases": [],
     "crafting": [],
@@ -4663,7 +4663,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Hide Shirt",
+    "name_zh": "兽皮衬衫",
     "name_en": "Hide Shirt",
     "aliases": [],
     "crafting": [],
@@ -4758,7 +4758,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Iguanodon Saddle",
+    "name_zh": "禽龙鞍",
     "name_en": "Iguanodon Saddle",
     "aliases": [],
     "crafting": [],
@@ -4937,7 +4937,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Kaprosuchus Saddle",
+    "name_zh": "猪鳄鞍",
     "name_en": "Kaprosuchus Saddle",
     "aliases": [],
     "crafting": [],
@@ -5696,7 +5696,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Mammoth Saddle",
+    "name_zh": "猛犸鞍",
     "name_en": "Mammoth Saddle",
     "aliases": [],
     "crafting": [],
@@ -5875,7 +5875,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Manta Saddle",
+    "name_zh": "蝠鲼鞍",
     "name_en": "Manta Saddle",
     "aliases": [],
     "crafting": [],
@@ -6030,7 +6030,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Megaloceros Saddle",
+    "name_zh": "大角鹿鞍",
     "name_en": "Megaloceros Saddle",
     "aliases": [],
     "crafting": [],
@@ -6227,7 +6227,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Hatchet",
+    "name_zh": "金属斧子",
     "name_en": "Metal Hatchet",
     "aliases": [],
     "crafting": [],
@@ -6454,7 +6454,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Pick",
+    "name_zh": "金属Pick",
     "name_en": "Metal Pick",
     "aliases": [],
     "crafting": [],
@@ -6693,7 +6693,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Sickle",
+    "name_zh": "金属Sickle",
     "name_en": "Metal Sickle",
     "aliases": [],
     "crafting": [],
@@ -7022,7 +7022,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Pachyrhinosaurus Saddle",
+    "name_zh": "厚鼻龙鞍",
     "name_en": "Pachyrhinosaurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -7530,7 +7530,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Pteranodon Saddle",
+    "name_zh": "翼龙鞍",
     "name_en": "Pteranodon Saddle",
     "aliases": [],
     "crafting": [],
@@ -7691,7 +7691,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Sarco Saddle",
+    "name_zh": "帝鳄（肌鳄）鞍",
     "name_en": "Sarco Saddle",
     "aliases": [],
     "crafting": [],
@@ -8265,7 +8265,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Simple Pistol",
+    "name_zh": "简易Pistol",
     "name_en": "Simple Pistol",
     "aliases": [],
     "crafting": [],
@@ -8588,7 +8588,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Stego Saddle",
+    "name_zh": "Stego鞍",
     "name_en": "Stego Saddle",
     "aliases": [],
     "crafting": [],
@@ -8899,7 +8899,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Terror Bird Saddle",
+    "name_zh": "骇鸟鞍",
     "name_en": "Terror Bird Saddle",
     "aliases": [],
     "crafting": [],
@@ -9078,7 +9078,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Wooden Shield",
+    "name_zh": "木制Shield",
     "name_en": "Wooden Shield",
     "aliases": [],
     "crafting": [],
@@ -9203,7 +9203,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Arthropluera Saddle",
+    "name_zh": "古马陆（节胸蜈蚣）鞍",
     "name_en": "Arthropluera Saddle",
     "aliases": [],
     "crafting": [],
@@ -9442,7 +9442,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Baryonyx Saddle",
+    "name_zh": "重爪龙鞍",
     "name_en": "Baryonyx Saddle",
     "aliases": [],
     "crafting": [],
@@ -9681,7 +9681,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Beelzebufo Saddle",
+    "name_zh": "魔鬼蛙鞍",
     "name_en": "Beelzebufo Saddle",
     "aliases": [],
     "crafting": [],
@@ -9842,7 +9842,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Carno Saddle",
+    "name_zh": "Carno鞍",
     "name_en": "Carno Saddle",
     "aliases": [],
     "crafting": [],
@@ -10081,7 +10081,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Chalicotherium Saddle",
+    "name_zh": "砂犷兽（砾爪兽）鞍",
     "name_en": "Chalicotherium Saddle",
     "aliases": [],
     "crafting": [],
@@ -10224,7 +10224,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Chitin Boots",
+    "name_zh": "Chitin靴子",
     "name_en": "Chitin Boots",
     "aliases": [],
     "crafting": [],
@@ -10493,7 +10493,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Chitin Chestpiece",
+    "name_zh": "Chitin胸甲",
     "name_en": "Chitin Chestpiece",
     "aliases": [],
     "crafting": [],
@@ -10762,7 +10762,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Chitin Gauntlets",
+    "name_zh": "Chitin护手",
     "name_en": "Chitin Gauntlets",
     "aliases": [],
     "crafting": [],
@@ -11031,7 +11031,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Chitin Helmet",
+    "name_zh": "Chitin头盔",
     "name_en": "Chitin Helmet",
     "aliases": [],
     "crafting": [],
@@ -11294,7 +11294,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Chitin Leggings",
+    "name_zh": "Chitin护腿",
     "name_en": "Chitin Leggings",
     "aliases": [],
     "crafting": [],
@@ -11563,7 +11563,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Dire Bear Saddle",
+    "name_zh": "恐熊鞍",
     "name_en": "Dire Bear Saddle",
     "aliases": [],
     "crafting": [],
@@ -11688,7 +11688,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Dunkleosteus Saddle",
+    "name_zh": "邓氏鱼鞍",
     "name_en": "Dunkleosteus Saddle",
     "aliases": [],
     "crafting": [],
@@ -12118,7 +12118,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Ghillie Chestpiece",
+    "name_zh": "Ghillie胸甲",
     "name_en": "Ghillie Chestpiece",
     "aliases": [],
     "crafting": [],
@@ -12417,7 +12417,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Ghillie Gauntlets",
+    "name_zh": "Ghillie护手",
     "name_en": "Ghillie Gauntlets",
     "aliases": [],
     "crafting": [],
@@ -12716,7 +12716,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Ghillie Leggings",
+    "name_zh": "Ghillie护腿",
     "name_en": "Ghillie Leggings",
     "aliases": [],
     "crafting": [],
@@ -13015,7 +13015,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Ghillie Mask",
+    "name_zh": "Ghillie面具",
     "name_en": "Ghillie Mask",
     "aliases": [],
     "crafting": [],
@@ -13314,7 +13314,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Megalodon Saddle",
+    "name_zh": "巨齿鲨鞍",
     "name_en": "Megalodon Saddle",
     "aliases": [],
     "crafting": [],
@@ -13427,7 +13427,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Megatherium Saddle",
+    "name_zh": "大地懒鞍",
     "name_en": "Megatherium Saddle",
     "aliases": [],
     "crafting": [],
@@ -13576,7 +13576,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Paracer Platform Saddle",
+    "name_zh": "Paracer平台鞍",
     "name_en": "Paracer Platform Saddle",
     "aliases": [],
     "crafting": [],
@@ -13719,7 +13719,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Paracer Saddle",
+    "name_zh": "Paracer鞍",
     "name_en": "Paracer Saddle",
     "aliases": [],
     "crafting": [],
@@ -14042,7 +14042,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Pelagornis Saddle",
+    "name_zh": "伪齿鸟（远洋鸟）鞍",
     "name_en": "Pelagornis Saddle",
     "aliases": [],
     "crafting": [],
@@ -14185,7 +14185,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Sabertooth Saddle",
+    "name_zh": "剑齿虎（刃齿虎）鞍",
     "name_en": "Sabertooth Saddle",
     "aliases": [],
     "crafting": [],
@@ -14328,7 +14328,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Thylacoleo Saddle",
+    "name_zh": "袋狮鞍",
     "name_en": "Thylacoleo Saddle",
     "aliases": [],
     "crafting": [],
@@ -14477,7 +14477,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Woolly Rhino Saddle",
+    "name_zh": "披毛犀鞍",
     "name_en": "Woolly Rhino Saddle",
     "aliases": [],
     "crafting": [],
@@ -14626,7 +14626,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Allosaurus Saddle",
+    "name_zh": "异龙鞍",
     "name_en": "Allosaurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -14733,7 +14733,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Argentavis Saddle",
+    "name_zh": "阿根廷巨鹰鞍",
     "name_en": "Argentavis Saddle",
     "aliases": [],
     "crafting": [],
@@ -14840,7 +14840,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Assault Rifle",
+    "name_zh": "Assault步枪",
     "name_en": "Assault Rifle",
     "aliases": [],
     "crafting": [],
@@ -15097,7 +15097,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Basilosaurus Saddle",
+    "name_zh": "龙王鲸鞍",
     "name_en": "Basilosaurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -15168,7 +15168,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Bronto Saddle",
+    "name_zh": "Bronto鞍",
     "name_en": "Bronto Saddle",
     "aliases": [],
     "crafting": [],
@@ -15257,7 +15257,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Castoroides Saddle",
+    "name_zh": "巨河狸鞍",
     "name_en": "Castoroides Saddle",
     "aliases": [],
     "crafting": [],
@@ -15346,7 +15346,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Compound Bow",
+    "name_zh": "Compound弓",
     "name_en": "Compound Bow",
     "aliases": [],
     "crafting": [],
@@ -15543,7 +15543,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Daeodon Saddle",
+    "name_zh": "凶齿豨鞍",
     "name_en": "Daeodon Saddle",
     "aliases": [],
     "crafting": [],
@@ -15919,7 +15919,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Flak Boots",
+    "name_zh": "Flak靴子",
     "name_en": "Flak Boots",
     "aliases": [],
     "crafting": [],
@@ -16403,7 +16403,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Flak Gauntlets",
+    "name_zh": "Flak护手",
     "name_en": "Flak Gauntlets",
     "aliases": [],
     "crafting": [],
@@ -16642,7 +16642,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Flak Helmet",
+    "name_zh": "Flak头盔",
     "name_en": "Flak Helmet",
     "aliases": [],
     "crafting": [],
@@ -16881,7 +16881,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Flak Leggings",
+    "name_zh": "Flak护腿",
     "name_en": "Flak Leggings",
     "aliases": [],
     "crafting": [],
@@ -17120,7 +17120,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Heavy Miner's Helmet",
+    "name_zh": "Heavy Miner's头盔",
     "name_en": "Heavy Miner's Helmet",
     "aliases": [],
     "crafting": [],
@@ -17185,7 +17185,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Megalania Saddle",
+    "name_zh": "古巨蜥鞍",
     "name_en": "Megalania Saddle",
     "aliases": [],
     "crafting": [],
@@ -17268,7 +17268,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Megalosaurus Saddle",
+    "name_zh": "斑龙（巨齿龙）鞍",
     "name_en": "Megalosaurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -17441,7 +17441,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Shield",
+    "name_zh": "金属Shield",
     "name_en": "Metal Shield",
     "aliases": [],
     "crafting": [],
@@ -17692,7 +17692,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Plesiosaur Saddle",
+    "name_zh": "蛇颈龙（薄片龙）鞍",
     "name_en": "Plesiosaur Saddle",
     "aliases": [],
     "crafting": [],
@@ -18032,7 +18032,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Quetz Saddle",
+    "name_zh": "Quetz鞍",
     "name_en": "Quetz Saddle",
     "aliases": [],
     "crafting": [],
@@ -18270,7 +18270,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Spino Saddle",
+    "name_zh": "棘背龙鞍",
     "name_en": "Spino Saddle",
     "aliases": [],
     "crafting": [],
@@ -18389,7 +18389,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Tapejara Saddle",
+    "name_zh": "古神翼龙鞍",
     "name_en": "Tapejara Saddle",
     "aliases": [],
     "crafting": [],
@@ -18526,7 +18526,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Therizinosaurus Saddle",
+    "name_zh": "Therizinosaurus鞍",
     "name_en": "Therizinosaurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -18633,7 +18633,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Yutyrannus Saddle",
+    "name_zh": "羽暴龙鞍",
     "name_en": "Yutyrannus Saddle",
     "aliases": [],
     "crafting": [],
@@ -18698,7 +18698,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Araneo Saddle",
+    "name_zh": "蜘蛛鞍",
     "name_en": "Araneo Saddle",
     "aliases": [],
     "crafting": [],
@@ -18805,7 +18805,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Bronto Platform Saddle",
+    "name_zh": "Bronto平台鞍",
     "name_en": "Bronto Platform Saddle",
     "aliases": [],
     "crafting": [],
@@ -18834,7 +18834,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Carcharo Saddle",
+    "name_zh": "Carcharo鞍",
     "name_en": "Carcharo Saddle",
     "aliases": [],
     "crafting": [],
@@ -18851,7 +18851,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Electric Prod",
+    "name_zh": "电Prod",
     "name_en": "Electric Prod",
     "aliases": [],
     "crafting": [],
@@ -18880,7 +18880,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Fabricated Sniper Rifle",
+    "name_zh": "Fabricated Sniper步枪",
     "name_en": "Fabricated Sniper Rifle",
     "aliases": [],
     "crafting": [],
@@ -18993,7 +18993,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Giganotosaurus Saddle",
+    "name_zh": "南方巨兽龙鞍",
     "name_en": "Giganotosaurus Saddle",
     "aliases": [],
     "crafting": [],
@@ -19040,7 +19040,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Mosasaur Platform Saddle",
+    "name_zh": "Mosasaur平台鞍",
     "name_en": "Mosasaur Platform Saddle",
     "aliases": [],
     "crafting": [],
@@ -19069,7 +19069,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Mosasaur Saddle",
+    "name_zh": "Mosasaur鞍",
     "name_en": "Mosasaur Saddle",
     "aliases": [],
     "crafting": [],
@@ -19134,7 +19134,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Plesiosaur Platform Saddle",
+    "name_zh": "蛇颈龙（薄片龙）平台鞍",
     "name_en": "Plesiosaur Platform Saddle",
     "aliases": [],
     "crafting": [],
@@ -19274,7 +19274,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "SCUBA Leggings",
+    "name_zh": "SCUBA护腿",
     "name_en": "SCUBA Leggings",
     "aliases": [],
     "crafting": [],
@@ -19303,7 +19303,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "SCUBA Mask",
+    "name_zh": "SCUBA面具",
     "name_en": "SCUBA Mask",
     "aliases": [],
     "crafting": [],
@@ -19361,7 +19361,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Sword",
+    "name_zh": "剑",
     "name_en": "Sword",
     "aliases": [],
     "crafting": [],
@@ -19678,7 +19678,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Advanced Bullet",
+    "name_zh": "高级子弹",
     "name_en": "Advanced Bullet",
     "aliases": [],
     "crafting": [],
@@ -19767,7 +19767,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Advanced Rifle Bullet",
+    "name_zh": "高级步枪子弹",
     "name_en": "Advanced Rifle Bullet",
     "aliases": [],
     "crafting": [],
@@ -19838,7 +19838,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Air Conditioner",
+    "name_zh": "空调",
     "name_en": "Air Conditioner",
     "aliases": [],
     "crafting": [],
@@ -19909,7 +19909,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Auto Turret",
+    "name_zh": "Auto炮塔",
     "name_en": "Auto Turret",
     "aliases": [],
     "crafting": [],
@@ -19980,7 +19980,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Behemoth Gate",
+    "name_zh": "巨型门",
     "name_en": "Behemoth Gate",
     "aliases": [],
     "crafting": [],
@@ -20057,7 +20057,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Behemoth Gateway",
+    "name_zh": "巨型门框",
     "name_en": "Behemoth Gateway",
     "aliases": [],
     "crafting": [],
@@ -21071,7 +21071,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Billboard",
+    "name_zh": "金属Billboard",
     "name_en": "Metal Billboard",
     "aliases": [],
     "crafting": [],
@@ -21160,7 +21160,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Catwalk",
+    "name_zh": "金属Catwalk",
     "name_en": "Metal Catwalk",
     "aliases": [],
     "crafting": [],
@@ -21249,7 +21249,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Dinosaur Gate",
+    "name_zh": "金属恐龙门",
     "name_en": "Metal Dinosaur Gate",
     "aliases": [],
     "crafting": [],
@@ -21344,7 +21344,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Dinosaur Gateway",
+    "name_zh": "金属恐龙门框",
     "name_en": "Metal Dinosaur Gateway",
     "aliases": [],
     "crafting": [],
@@ -21451,7 +21451,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Wall Sign",
+    "name_zh": "金属墙Sign",
     "name_en": "Metal Wall Sign",
     "aliases": [],
     "crafting": [],
@@ -21540,7 +21540,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Window",
+    "name_zh": "金属窗",
     "name_en": "Metal Window",
     "aliases": [],
     "crafting": [],
@@ -21629,7 +21629,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Metal Windowframe",
+    "name_zh": "金属窗框",
     "name_en": "Metal Windowframe",
     "aliases": [],
     "crafting": [],
@@ -21860,7 +21860,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Caves"
   },
   {
-    "name_zh": "Rocket Propelled Grenade",
+    "name_zh": "Rocket Propelled手雷",
     "name_en": "Rocket Propelled Grenade",
     "aliases": [],
     "crafting": [],
@@ -22203,7 +22203,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Campfire",
+    "name_zh": "篝火",
     "name_en": "Campfire",
     "aliases": [],
     "crafting": [],
@@ -22321,7 +22321,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Flare Gun",
+    "name_zh": "信号Gun",
     "name_en": "Flare Gun",
     "aliases": [],
     "crafting": [],
@@ -22445,7 +22445,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Hide",
+    "name_zh": "兽皮",
     "name_en": "Hide",
     "aliases": [],
     "crafting": [],
@@ -22516,7 +22516,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Hide Sleeping Bag",
+    "name_zh": "兽皮Sleeping Bag",
     "name_en": "Hide Sleeping Bag",
     "aliases": [],
     "crafting": [],
@@ -22563,7 +22563,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Note",
+    "name_zh": "笔记",
     "name_en": "Note",
     "aliases": [],
     "crafting": [],
@@ -22610,7 +22610,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Raw Meat",
+    "name_zh": "生肉",
     "name_en": "Raw Meat",
     "aliases": [],
     "crafting": [],
@@ -22657,7 +22657,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Simple Bed",
+    "name_zh": "简易Bed",
     "name_en": "Simple Bed",
     "aliases": [],
     "crafting": [],
@@ -22692,7 +22692,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Sparkpowder",
+    "name_zh": "火花粉",
     "name_en": "Sparkpowder",
     "aliases": [],
     "crafting": [],
@@ -22839,7 +22839,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Stone",
+    "name_zh": "石制",
     "name_en": "Stone",
     "aliases": [],
     "crafting": [],
@@ -22946,7 +22946,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Storage Box",
+    "name_zh": "Storage箱",
     "name_en": "Storage Box",
     "aliases": [],
     "crafting": [],
@@ -23052,7 +23052,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Thatch Ceiling",
+    "name_zh": "Thatch天花板",
     "name_en": "Thatch Ceiling",
     "aliases": [],
     "crafting": [],
@@ -23087,7 +23087,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Thatch Door",
+    "name_zh": "Thatch门",
     "name_en": "Thatch Door",
     "aliases": [],
     "crafting": [],
@@ -23122,7 +23122,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Thatch Doorframe",
+    "name_zh": "Thatch门框",
     "name_en": "Thatch Doorframe",
     "aliases": [],
     "crafting": [],
@@ -23157,7 +23157,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Thatch Foundation",
+    "name_zh": "Thatch地基",
     "name_en": "Thatch Foundation",
     "aliases": [],
     "crafting": [],
@@ -23192,7 +23192,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Thatch Wall",
+    "name_zh": "Thatch墙",
     "name_en": "Thatch Wall",
     "aliases": [],
     "crafting": [],
@@ -23451,7 +23451,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Sign",
+    "name_zh": "木制Sign",
     "name_en": "Wooden Sign",
     "aliases": [],
     "crafting": [],
@@ -23486,7 +23486,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Blood Extraction Syringe",
+    "name_zh": "血Extraction Syringe",
     "name_en": "Blood Extraction Syringe",
     "aliases": [],
     "crafting": [],
@@ -23627,7 +23627,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Large Storage Box",
+    "name_zh": "大型Storage箱",
     "name_en": "Large Storage Box",
     "aliases": [],
     "crafting": [],
@@ -23815,7 +23815,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Parachute",
+    "name_zh": "降落伞",
     "name_en": "Parachute",
     "aliases": [],
     "crafting": [],
@@ -23993,7 +23993,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Small Crop Plot",
+    "name_zh": "小型Crop Plot",
     "name_en": "Small Crop Plot",
     "aliases": [],
     "crafting": [],
@@ -24140,7 +24140,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Stone Arrow",
+    "name_zh": "石制Arrow",
     "name_en": "Stone Arrow",
     "aliases": [],
     "crafting": [],
@@ -24540,7 +24540,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Billboard",
+    "name_zh": "木制Billboard",
     "name_en": "Wooden Billboard",
     "aliases": [],
     "crafting": [],
@@ -24575,7 +24575,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Catwalk",
+    "name_zh": "木制Catwalk",
     "name_en": "Wooden Catwalk",
     "aliases": [],
     "crafting": [],
@@ -24610,7 +24610,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Ceiling",
+    "name_zh": "木制天花板",
     "name_en": "Wooden Ceiling",
     "aliases": [],
     "crafting": [],
@@ -24645,7 +24645,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Door",
+    "name_zh": "木制门",
     "name_en": "Wooden Door",
     "aliases": [],
     "crafting": [],
@@ -24680,7 +24680,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Doorframe",
+    "name_zh": "木制门框",
     "name_en": "Wooden Doorframe",
     "aliases": [],
     "crafting": [],
@@ -24715,7 +24715,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Fence Foundation",
+    "name_zh": "木制栅栏地基",
     "name_en": "Wooden Fence Foundation",
     "aliases": [],
     "crafting": [],
@@ -24750,7 +24750,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Foundation",
+    "name_zh": "木制地基",
     "name_en": "Wooden Foundation",
     "aliases": [],
     "crafting": [],
@@ -24791,7 +24791,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Hatchframe",
+    "name_zh": "木制天窗框",
     "name_en": "Wooden Hatchframe",
     "aliases": [],
     "crafting": [],
@@ -24826,7 +24826,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Ladder",
+    "name_zh": "木制梯子",
     "name_en": "Wooden Ladder",
     "aliases": [],
     "crafting": [],
@@ -24861,7 +24861,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Pillar",
+    "name_zh": "木制柱子",
     "name_en": "Wooden Pillar",
     "aliases": [],
     "crafting": [],
@@ -24902,7 +24902,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Ramp",
+    "name_zh": "木制坡道",
     "name_en": "Wooden Ramp",
     "aliases": [],
     "crafting": [],
@@ -24937,7 +24937,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Trapdoor",
+    "name_zh": "木制活板门",
     "name_en": "Wooden Trapdoor",
     "aliases": [],
     "crafting": [],
@@ -24972,7 +24972,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Wall",
+    "name_zh": "木制墙",
     "name_en": "Wooden Wall",
     "aliases": [],
     "crafting": [],
@@ -25007,7 +25007,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Wall Sign",
+    "name_zh": "木制墙Sign",
     "name_en": "Wooden Wall Sign",
     "aliases": [],
     "crafting": [],
@@ -25042,7 +25042,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Window",
+    "name_zh": "木制窗",
     "name_en": "Wooden Window",
     "aliases": [],
     "crafting": [],
@@ -25077,7 +25077,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Wooden Windowframe",
+    "name_zh": "木制窗框",
     "name_en": "Wooden Windowframe",
     "aliases": [],
     "crafting": [],
@@ -25207,7 +25207,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Dinosaur Gate",
+    "name_zh": "恐龙门",
     "name_en": "Dinosaur Gate",
     "aliases": [],
     "crafting": [],
@@ -25314,7 +25314,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Dinosaur Gateway",
+    "name_zh": "恐龙门框",
     "name_en": "Dinosaur Gateway",
     "aliases": [],
     "crafting": [],
@@ -25558,7 +25558,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Ceiling",
+    "name_zh": "金属天花板",
     "name_en": "Metal Ceiling",
     "aliases": [],
     "crafting": [],
@@ -25593,7 +25593,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Door",
+    "name_zh": "金属门",
     "name_en": "Metal Door",
     "aliases": [],
     "crafting": [],
@@ -25628,7 +25628,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Doorframe",
+    "name_zh": "金属门框",
     "name_en": "Metal Doorframe",
     "aliases": [],
     "crafting": [],
@@ -25663,7 +25663,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Foundation",
+    "name_zh": "金属地基",
     "name_en": "Metal Foundation",
     "aliases": [],
     "crafting": [],
@@ -25710,7 +25710,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Sign",
+    "name_zh": "金属Sign",
     "name_en": "Metal Sign",
     "aliases": [],
     "crafting": [],
@@ -25745,7 +25745,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Wall",
+    "name_zh": "金属墙",
     "name_en": "Metal Wall",
     "aliases": [],
     "crafting": [],
@@ -25887,7 +25887,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Water Jar",
+    "name_zh": "水罐",
     "name_en": "Water Jar",
     "aliases": [],
     "crafting": [],
@@ -26166,7 +26166,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Grenade",
+    "name_zh": "手雷",
     "name_en": "Grenade",
     "aliases": [],
     "crafting": [],
@@ -26279,7 +26279,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Large Crop Plot",
+    "name_zh": "大型Crop Plot",
     "name_en": "Large Crop Plot",
     "aliases": [],
     "crafting": [],
@@ -26380,7 +26380,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Fence Foundation",
+    "name_zh": "金属栅栏地基",
     "name_en": "Metal Fence Foundation",
     "aliases": [],
     "crafting": [],
@@ -26475,7 +26475,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Hatchframe",
+    "name_zh": "金属天窗框",
     "name_en": "Metal Hatchframe",
     "aliases": [],
     "crafting": [],
@@ -27140,7 +27140,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Ladder",
+    "name_zh": "金属梯子",
     "name_en": "Metal Ladder",
     "aliases": [],
     "crafting": [],
@@ -27235,7 +27235,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Pillar",
+    "name_zh": "金属柱子",
     "name_en": "Metal Pillar",
     "aliases": [],
     "crafting": [],
@@ -27342,7 +27342,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Ramp",
+    "name_zh": "金属坡道",
     "name_en": "Metal Ramp",
     "aliases": [],
     "crafting": [],
@@ -27437,7 +27437,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Metal Trapdoor",
+    "name_zh": "金属活板门",
     "name_en": "Metal Trapdoor",
     "aliases": [],
     "crafting": [],
@@ -27722,7 +27722,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Simple Bullet",
+    "name_zh": "简易子弹",
     "name_en": "Simple Bullet",
     "aliases": [],
     "crafting": [],
@@ -27817,7 +27817,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Simple Rifle Ammo",
+    "name_zh": "简易步枪Ammo",
     "name_en": "Simple Rifle Ammo",
     "aliases": [],
     "crafting": [],
@@ -27912,7 +27912,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Simple Shotgun Ammo",
+    "name_zh": "简易Shotgun Ammo",
     "name_en": "Simple Shotgun Ammo",
     "aliases": [],
     "crafting": [],
@@ -28007,7 +28007,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Tropeognathus Saddle",
+    "name_zh": "喙嘴翼龙鞍",
     "name_en": "Tropeognathus Saddle",
     "aliases": [],
     "crafting": [],
@@ -28042,7 +28042,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Supply_Crates"
   },
   {
-    "name_zh": "Gas Mask",
+    "name_zh": "Gas面具",
     "name_en": "Gas Mask",
     "aliases": [],
     "crafting": [],
@@ -28065,7 +28065,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Deep_Sea"
   },
   {
-    "name_zh": "Night Vision Goggles",
+    "name_zh": "Night Vision护目镜",
     "name_en": "Night Vision Goggles",
     "aliases": [],
     "crafting": [],
@@ -28088,7 +28088,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Deep_Sea"
   },
   {
-    "name_zh": "Riot Boots",
+    "name_zh": "Riot靴子",
     "name_en": "Riot Boots",
     "aliases": [],
     "crafting": [],
@@ -28200,7 +28200,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Deep_Sea"
   },
   {
-    "name_zh": "Riot Gauntlets",
+    "name_zh": "Riot护手",
     "name_en": "Riot Gauntlets",
     "aliases": [],
     "crafting": [],
@@ -28312,7 +28312,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Deep_Sea"
   },
   {
-    "name_zh": "Riot Leggings",
+    "name_zh": "Riot护腿",
     "name_en": "Riot Leggings",
     "aliases": [],
     "crafting": [],
@@ -28365,7 +28365,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/The_Island/Deep_Sea"
   },
   {
-    "name_zh": "Tusoteuthis Saddle",
+    "name_zh": "托斯特巨鱿鞍",
     "name_en": "Tusoteuthis Saddle",
     "aliases": [],
     "crafting": [],
@@ -28477,7 +28477,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Desert Cloth Boots",
+    "name_zh": "Desert Cloth靴子",
     "name_en": "Desert Cloth Boots",
     "aliases": [],
     "crafting": [],
@@ -28518,7 +28518,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Desert Cloth Gloves",
+    "name_zh": "Desert Cloth手套",
     "name_en": "Desert Cloth Gloves",
     "aliases": [],
     "crafting": [],
@@ -28559,7 +28559,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Desert Cloth Pants",
+    "name_zh": "Desert Cloth裤子",
     "name_en": "Desert Cloth Pants",
     "aliases": [],
     "crafting": [],
@@ -28600,7 +28600,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Desert Cloth Shirt",
+    "name_zh": "Desert Cloth衬衫",
     "name_en": "Desert Cloth Shirt",
     "aliases": [],
     "crafting": [],
@@ -28641,7 +28641,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Desert Goggles and Hat",
+    "name_zh": "Desert护目镜and帽子",
     "name_en": "Desert Goggles and Hat",
     "aliases": [],
     "crafting": [],
@@ -28682,7 +28682,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Lymantria Saddle",
+    "name_zh": "沙蛾（荒漠毒蛾）鞍",
     "name_en": "Lymantria Saddle",
     "aliases": [],
     "crafting": [],
@@ -28735,7 +28735,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Morellatops Saddle",
+    "name_zh": "驼峰兽（莫雷拉角龙）鞍",
     "name_en": "Morellatops Saddle",
     "aliases": [],
     "crafting": [],
@@ -28824,7 +28824,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Thorny Dragon Saddle",
+    "name_zh": "棘蜥（魔蜥）鞍",
     "name_en": "Thorny Dragon Saddle",
     "aliases": [],
     "crafting": [],
@@ -29060,7 +29060,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Mantis Saddle",
+    "name_zh": "螳螂（锥螳）鞍",
     "name_en": "Mantis Saddle",
     "aliases": [],
     "crafting": [],
@@ -29107,7 +29107,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Oil Jar",
+    "name_zh": "Oil罐",
     "name_en": "Oil Jar",
     "aliases": [],
     "crafting": [],
@@ -29166,7 +29166,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Plant Species Y Trap",
+    "name_zh": "Plant物种Y Trap",
     "name_en": "Plant Species Y Trap",
     "aliases": [],
     "crafting": [],
@@ -29237,7 +29237,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Caves"
   },
   {
-    "name_zh": "Cluster Grenade",
+    "name_zh": "Cluster手雷",
     "name_en": "Cluster Grenade",
     "aliases": [],
     "crafting": [],
@@ -29435,7 +29435,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Raw Salt",
+    "name_zh": "生Salt",
     "name_en": "Raw Salt",
     "aliases": [],
     "crafting": [],
@@ -29528,7 +29528,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Ceiling",
+    "name_zh": "土坯天花板",
     "name_en": "Adobe Ceiling",
     "aliases": [],
     "crafting": [],
@@ -29599,7 +29599,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Door",
+    "name_zh": "土坯门",
     "name_en": "Adobe Door",
     "aliases": [],
     "crafting": [],
@@ -29670,7 +29670,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Doorframe",
+    "name_zh": "土坯门框",
     "name_en": "Adobe Doorframe",
     "aliases": [],
     "crafting": [],
@@ -29741,7 +29741,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Fence Foundation",
+    "name_zh": "土坯栅栏地基",
     "name_en": "Adobe Fence Foundation",
     "aliases": [],
     "crafting": [],
@@ -29788,7 +29788,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Foundation",
+    "name_zh": "土坯地基",
     "name_en": "Adobe Foundation",
     "aliases": [],
     "crafting": [],
@@ -29859,7 +29859,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Hatchframe",
+    "name_zh": "土坯天窗框",
     "name_en": "Adobe Hatchframe",
     "aliases": [],
     "crafting": [],
@@ -29906,7 +29906,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Pillar",
+    "name_zh": "土坯柱子",
     "name_en": "Adobe Pillar",
     "aliases": [],
     "crafting": [],
@@ -29977,7 +29977,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Ramp",
+    "name_zh": "土坯坡道",
     "name_en": "Adobe Ramp",
     "aliases": [],
     "crafting": [],
@@ -30024,7 +30024,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Trapdoor",
+    "name_zh": "土坯活板门",
     "name_en": "Adobe Trapdoor",
     "aliases": [],
     "crafting": [],
@@ -30071,7 +30071,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Wall",
+    "name_zh": "土坯墙",
     "name_en": "Adobe Wall",
     "aliases": [],
     "crafting": [],
@@ -30142,7 +30142,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Window",
+    "name_zh": "土坯窗",
     "name_en": "Adobe Window",
     "aliases": [],
     "crafting": [],
@@ -30189,7 +30189,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Windowframe",
+    "name_zh": "土坯窗框",
     "name_en": "Adobe Windowframe",
     "aliases": [],
     "crafting": [],
@@ -30236,7 +30236,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Water Well",
+    "name_zh": "水Well",
     "name_en": "Water Well",
     "aliases": [],
     "crafting": [],
@@ -30307,7 +30307,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Dinosaur Gate",
+    "name_zh": "土坯恐龙门",
     "name_en": "Adobe Dinosaur Gate",
     "aliases": [],
     "crafting": [],
@@ -30366,7 +30366,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Dinosaur Gateway",
+    "name_zh": "土坯恐龙门框",
     "name_en": "Adobe Dinosaur Gateway",
     "aliases": [],
     "crafting": [],
@@ -30425,7 +30425,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Giant Adobe Hatchframe",
+    "name_zh": "Giant土坯天窗框",
     "name_en": "Giant Adobe Hatchframe",
     "aliases": [],
     "crafting": [],
@@ -30484,7 +30484,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Giant Adobe Trapdoor",
+    "name_zh": "Giant土坯活板门",
     "name_en": "Giant Adobe Trapdoor",
     "aliases": [],
     "crafting": [],
@@ -30720,7 +30720,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Ladder",
+    "name_zh": "土坯梯子",
     "name_en": "Adobe Ladder",
     "aliases": [],
     "crafting": [],
@@ -30755,7 +30755,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Adobe Railing",
+    "name_zh": "土坯栏杆",
     "name_en": "Adobe Railing",
     "aliases": [],
     "crafting": [],
@@ -30790,7 +30790,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Behemoth Adobe Dinosaur Gate",
+    "name_zh": "巨型土坯恐龙门",
     "name_en": "Behemoth Adobe Dinosaur Gate",
     "aliases": [],
     "crafting": [],
@@ -30825,7 +30825,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Behemoth Adobe Dinosaur Gateway",
+    "name_zh": "巨型土坯恐龙门框",
     "name_en": "Behemoth Adobe Dinosaur Gateway",
     "aliases": [],
     "crafting": [],
@@ -30895,7 +30895,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Sloped Adobe Roof",
+    "name_zh": "斜面土坯屋顶",
     "name_en": "Sloped Adobe Roof",
     "aliases": [],
     "crafting": [],
@@ -30930,7 +30930,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Sloped Adobe Wall Left",
+    "name_zh": "斜面土坯墙Left",
     "name_en": "Sloped Adobe Wall Left",
     "aliases": [],
     "crafting": [],
@@ -30965,7 +30965,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Sloped Adobe Wall Right",
+    "name_zh": "斜面土坯墙Right",
     "name_en": "Sloped Adobe Wall Right",
     "aliases": [],
     "crafting": [],
@@ -31035,7 +31035,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Rock Golem Saddle",
+    "name_zh": "Rock Golem鞍",
     "name_en": "Rock Golem Saddle",
     "aliases": [],
     "crafting": [],
@@ -31093,7 +31093,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Scorched_Earth/Supply_Crates"
   },
   {
-    "name_zh": "Aggeravic Mushroom",
+    "name_zh": "Aggeravic蘑菇",
     "name_en": "Aggeravic Mushroom",
     "aliases": [],
     "crafting": [],
@@ -31116,7 +31116,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Aquatic Mushroom",
+    "name_zh": "水生蘑菇",
     "name_en": "Aquatic Mushroom",
     "aliases": [],
     "crafting": [],
@@ -31139,7 +31139,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Ascerbic Mushroom",
+    "name_zh": "Ascerbic蘑菇",
     "name_en": "Ascerbic Mushroom",
     "aliases": [],
     "crafting": [],
@@ -31162,7 +31162,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Auric Mushroom",
+    "name_zh": "Auric蘑菇",
     "name_en": "Auric Mushroom",
     "aliases": [],
     "crafting": [],
@@ -31327,7 +31327,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Ravager Saddle",
+    "name_zh": "劫掠者（劫掠魔犬）鞍",
     "name_en": "Ravager Saddle",
     "aliases": [],
     "crafting": [],
@@ -31470,7 +31470,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Shag Rug",
+    "name_zh": "Shag地毯",
     "name_en": "Shag Rug",
     "aliases": [],
     "crafting": [],
@@ -31541,7 +31541,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Stone Cliff Platform",
+    "name_zh": "石制Cliff平台",
     "name_en": "Stone Cliff Platform",
     "aliases": [],
     "crafting": [],
@@ -31773,7 +31773,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Green Gem",
+    "name_zh": "绿色Gem",
     "name_en": "Green Gem",
     "aliases": [],
     "crafting": [],
@@ -31868,7 +31868,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Plant Species Z Fruit",
+    "name_zh": "Plant物种Z Fruit",
     "name_en": "Plant Species Z Fruit",
     "aliases": [],
     "crafting": [],
@@ -31927,7 +31927,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Portable Rope Ladder",
+    "name_zh": "Portable Rope梯子",
     "name_en": "Portable Rope Ladder",
     "aliases": [],
     "crafting": [],
@@ -31986,7 +31986,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Roll Rat Saddle",
+    "name_zh": "翻滚鼠（翻滚巨裸鼹）鞍",
     "name_en": "Roll Rat Saddle",
     "aliases": [],
     "crafting": [],
@@ -32176,7 +32176,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Blue Gem",
+    "name_zh": "蓝色Gem",
     "name_en": "Blue Gem",
     "aliases": [],
     "crafting": [],
@@ -32543,7 +32543,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Hazard Suit Boots",
+    "name_zh": "Hazard套装靴子",
     "name_en": "Hazard Suit Boots",
     "aliases": [],
     "crafting": [],
@@ -32620,7 +32620,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Hazard Suit Gloves",
+    "name_zh": "Hazard套装手套",
     "name_en": "Hazard Suit Gloves",
     "aliases": [],
     "crafting": [],
@@ -32697,7 +32697,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Hazard Suit Hat",
+    "name_zh": "Hazard套装帽子",
     "name_en": "Hazard Suit Hat",
     "aliases": [],
     "crafting": [],
@@ -32774,7 +32774,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Hazard Suit Pants",
+    "name_zh": "Hazard套装裤子",
     "name_en": "Hazard Suit Pants",
     "aliases": [],
     "crafting": [],
@@ -32851,7 +32851,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Hazard Suit Shirt",
+    "name_zh": "Hazard套装衬衫",
     "name_en": "Hazard Suit Shirt",
     "aliases": [],
     "crafting": [],
@@ -32928,7 +32928,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Karkinos Saddle",
+    "name_zh": "巨蟹鞍",
     "name_en": "Karkinos Saddle",
     "aliases": [],
     "crafting": [],
@@ -32999,7 +32999,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Metal Cliff Platform",
+    "name_zh": "金属Cliff平台",
     "name_en": "Metal Cliff Platform",
     "aliases": [],
     "crafting": [],
@@ -33105,7 +33105,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Rock Drake Saddle",
+    "name_zh": "岩龙鞍",
     "name_en": "Rock Drake Saddle",
     "aliases": [],
     "crafting": [],
@@ -33176,7 +33176,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Advanced Sniper Bullet",
+    "name_zh": "高级Sniper子弹",
     "name_en": "Advanced Sniper Bullet",
     "aliases": [],
     "crafting": [],
@@ -33199,7 +33199,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Basilisk Saddle",
+    "name_zh": "毒蜥（帝蟒）鞍",
     "name_en": "Basilisk Saddle",
     "aliases": [],
     "crafting": [],
@@ -33240,7 +33240,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Caves"
   },
   {
-    "name_zh": "Element Ore",
+    "name_zh": "元素矿石",
     "name_en": "Element Ore",
     "aliases": [],
     "crafting": [],
@@ -33380,7 +33380,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Earthquake"
   },
   {
-    "name_zh": "Metal",
+    "name_zh": "金属",
     "name_en": "Metal",
     "aliases": [],
     "crafting": [],
@@ -33462,7 +33462,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Earthquake"
   },
   {
-    "name_zh": "Rare Mushroom",
+    "name_zh": "Rare蘑菇",
     "name_en": "Rare Mushroom",
     "aliases": [],
     "crafting": [],
@@ -33532,7 +33532,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Aberration/Earthquake"
   },
   {
-    "name_zh": "Gacha Saddle",
+    "name_zh": "嘎查（大树妖地懒）鞍",
     "name_en": "Gacha Saddle",
     "aliases": [],
     "crafting": [],
@@ -33573,7 +33573,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Caves"
   },
   {
-    "name_zh": "Gasbags Saddle",
+    "name_zh": "气囊虫鞍",
     "name_en": "Gasbags Saddle",
     "aliases": [],
     "crafting": [],
@@ -33614,7 +33614,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Caves"
   },
   {
-    "name_zh": "Managarmr Saddle",
+    "name_zh": "玛纳加尔姆（寒风飞龙）鞍",
     "name_en": "Managarmr Saddle",
     "aliases": [],
     "crafting": [],
@@ -33655,7 +33655,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Caves"
   },
   {
-    "name_zh": "Snow Owl Saddle",
+    "name_zh": "雪鸮鞍",
     "name_en": "Snow Owl Saddle",
     "aliases": [],
     "crafting": [],
@@ -33725,7 +33725,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Caves"
   },
   {
-    "name_zh": "Velonasaur Saddle",
+    "name_zh": "棘面穿针龙鞍",
     "name_en": "Velonasaur Saddle",
     "aliases": [],
     "crafting": [],
@@ -33766,7 +33766,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Caves"
   },
   {
-    "name_zh": "Behemoth Reinforced Dinosaur Gate",
+    "name_zh": "巨型Reinforced恐龙门",
     "name_en": "Behemoth Reinforced Dinosaur Gate",
     "aliases": [],
     "crafting": [],
@@ -33801,7 +33801,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Behemoth Stone Dinosaur Gateway",
+    "name_zh": "巨型石制恐龙门框",
     "name_en": "Behemoth Stone Dinosaur Gateway",
     "aliases": [],
     "crafting": [],
@@ -33853,7 +33853,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Metal Tree Platform",
+    "name_zh": "金属Tree平台",
     "name_en": "Metal Tree Platform",
     "aliases": [],
     "crafting": [],
@@ -33870,7 +33870,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Metal Water Reservoir",
+    "name_zh": "金属水Reservoir",
     "name_en": "Metal Water Reservoir",
     "aliases": [],
     "crafting": [],
@@ -33887,7 +33887,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Reinforced Dinosaur Gate",
+    "name_zh": "Reinforced恐龙门",
     "name_en": "Reinforced Dinosaur Gate",
     "aliases": [],
     "crafting": [],
@@ -33916,7 +33916,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Stone Dinosaur Gateway",
+    "name_zh": "石制恐龙门框",
     "name_en": "Stone Dinosaur Gateway",
     "aliases": [],
     "crafting": [],
@@ -33979,7 +33979,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Water Reservoir",
+    "name_zh": "水Reservoir",
     "name_en": "Water Reservoir",
     "aliases": [],
     "crafting": [],
@@ -34013,7 +34013,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Wooden Tree Platform",
+    "name_zh": "木制Tree平台",
     "name_en": "Wooden Tree Platform",
     "aliases": [],
     "crafting": [],
@@ -34030,7 +34030,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Birthday Suit Pants Skin",
+    "name_zh": "Birthday套装裤子皮肤",
     "name_en": "Birthday Suit Pants Skin",
     "aliases": [],
     "crafting": [],
@@ -34047,7 +34047,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Birthday Suit Shirt Skin",
+    "name_zh": "Birthday套装衬衫皮肤",
     "name_en": "Birthday Suit Shirt Skin",
     "aliases": [],
     "crafting": [],
@@ -34064,7 +34064,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Dino Party Hat Skin",
+    "name_zh": "Dino派对帽子皮肤",
     "name_en": "Dino Party Hat Skin",
     "aliases": [],
     "crafting": [],
@@ -34098,7 +34098,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Fireworks Flaregun Skin",
+    "name_zh": "Fireworks Flaregun皮肤",
     "name_en": "Fireworks Flaregun Skin",
     "aliases": [],
     "crafting": [],
@@ -34132,7 +34132,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Gift Box",
+    "name_zh": "Gift箱",
     "name_en": "Gift Box",
     "aliases": [],
     "crafting": [],
@@ -34200,7 +34200,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Party Hat Skin",
+    "name_zh": "派对帽子皮肤",
     "name_en": "Party Hat Skin",
     "aliases": [],
     "crafting": [],
@@ -34234,7 +34234,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Top Hat Skin",
+    "name_zh": "上装帽子皮肤",
     "name_en": "Top Hat Skin",
     "aliases": [],
     "crafting": [],
@@ -34268,7 +34268,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Allosaurus",
+    "name_zh": "迷你异龙",
     "name_en": "Chibi-Allosaurus",
     "aliases": [],
     "crafting": [],
@@ -34285,7 +34285,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Ankylosaurus",
+    "name_zh": "迷你甲龙",
     "name_en": "Chibi-Ankylosaurus",
     "aliases": [],
     "crafting": [],
@@ -34302,7 +34302,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Argentavis",
+    "name_zh": "迷你阿根廷巨鹰",
     "name_en": "Chibi-Argentavis",
     "aliases": [],
     "crafting": [],
@@ -34319,7 +34319,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Baryonyx",
+    "name_zh": "迷你重爪龙",
     "name_en": "Chibi-Baryonyx",
     "aliases": [],
     "crafting": [],
@@ -34336,7 +34336,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Bloodstalker",
+    "name_zh": "迷你血蛛",
     "name_en": "Chibi-Bloodstalker",
     "aliases": [],
     "crafting": [],
@@ -34353,7 +34353,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Brontosaurus",
+    "name_zh": "迷你雷龙",
     "name_en": "Chibi-Brontosaurus",
     "aliases": [],
     "crafting": [],
@@ -34370,7 +34370,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Carbonemys",
+    "name_zh": "迷你碳龟",
     "name_en": "Chibi-Carbonemys",
     "aliases": [],
     "crafting": [],
@@ -34387,7 +34387,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Carno",
+    "name_zh": "迷你-Carno",
     "name_en": "Chibi-Carno",
     "aliases": [],
     "crafting": [],
@@ -34404,7 +34404,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Castroides",
+    "name_zh": "迷你-Castroides",
     "name_en": "Chibi-Castroides",
     "aliases": [],
     "crafting": [],
@@ -34421,7 +34421,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Daeodon",
+    "name_zh": "迷你凶齿豨",
     "name_en": "Chibi-Daeodon",
     "aliases": [],
     "crafting": [],
@@ -34438,7 +34438,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Direwolf",
+    "name_zh": "迷你恐狼",
     "name_en": "Chibi-Direwolf",
     "aliases": [],
     "crafting": [],
@@ -34455,7 +34455,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Doedicurus",
+    "name_zh": "迷你星尾兽（槌尾雕兽）",
     "name_en": "Chibi-Doedicurus",
     "aliases": [],
     "crafting": [],
@@ -34472,7 +34472,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Equus",
+    "name_zh": "迷你庞马",
     "name_en": "Chibi-Equus",
     "aliases": [],
     "crafting": [],
@@ -34489,7 +34489,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Ferox (Large)",
+    "name_zh": "迷你Ferox（大型）",
     "name_en": "Chibi-Ferox (Large)",
     "aliases": [],
     "crafting": [],
@@ -34506,7 +34506,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Ferox (Small)",
+    "name_zh": "迷你Ferox（小型）",
     "name_en": "Chibi-Ferox (Small)",
     "aliases": [],
     "crafting": [],
@@ -34523,7 +34523,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Gasbag",
+    "name_zh": "迷你-Gasbag",
     "name_en": "Chibi-Gasbag",
     "aliases": [],
     "crafting": [],
@@ -34540,7 +34540,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Giganotosaurus",
+    "name_zh": "迷你南方巨兽龙",
     "name_en": "Chibi-Giganotosaurus",
     "aliases": [],
     "crafting": [],
@@ -34557,7 +34557,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Gigantopithecus",
+    "name_zh": "迷你巨猿",
     "name_en": "Chibi-Gigantopithecus",
     "aliases": [],
     "crafting": [],
@@ -34574,7 +34574,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Iguanodon",
+    "name_zh": "迷你禽龙",
     "name_en": "Chibi-Iguanodon",
     "aliases": [],
     "crafting": [],
@@ -34591,7 +34591,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Kentrosaurus",
+    "name_zh": "迷你肯氏龙（钉状龙）",
     "name_en": "Chibi-Kentrosaurus",
     "aliases": [],
     "crafting": [],
@@ -34608,7 +34608,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Magmasaur",
+    "name_zh": "迷你岩浆龙",
     "name_en": "Chibi-Magmasaur",
     "aliases": [],
     "crafting": [],
@@ -34625,7 +34625,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Mammoth",
+    "name_zh": "迷你猛犸",
     "name_en": "Chibi-Mammoth",
     "aliases": [],
     "crafting": [],
@@ -34642,7 +34642,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Megalania",
+    "name_zh": "迷你古巨蜥",
     "name_en": "Chibi-Megalania",
     "aliases": [],
     "crafting": [],
@@ -34659,7 +34659,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Megaloceros",
+    "name_zh": "迷你大角鹿",
     "name_en": "Chibi-Megaloceros",
     "aliases": [],
     "crafting": [],
@@ -34676,7 +34676,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Megatherium",
+    "name_zh": "迷你大地懒",
     "name_en": "Chibi-Megatherium",
     "aliases": [],
     "crafting": [],
@@ -34693,7 +34693,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Moschops",
+    "name_zh": "迷你麝足兽",
     "name_en": "Chibi-Moschops",
     "aliases": [],
     "crafting": [],
@@ -34710,7 +34710,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Oviraptor",
+    "name_zh": "迷你窃蛋龙",
     "name_en": "Chibi-Oviraptor",
     "aliases": [],
     "crafting": [],
@@ -34727,7 +34727,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Ovis",
+    "name_zh": "迷你绵羊",
     "name_en": "Chibi-Ovis",
     "aliases": [],
     "crafting": [],
@@ -34744,7 +34744,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Paraceratherium",
+    "name_zh": "迷你副巨犀",
     "name_en": "Chibi-Paraceratherium",
     "aliases": [],
     "crafting": [],
@@ -34761,7 +34761,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Parasaur",
+    "name_zh": "迷你副栉龙",
     "name_en": "Chibi-Parasaur",
     "aliases": [],
     "crafting": [],
@@ -34778,7 +34778,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Phiomia",
+    "name_zh": "迷你渐新象",
     "name_en": "Chibi-Phiomia",
     "aliases": [],
     "crafting": [],
@@ -34795,7 +34795,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Phoenix",
+    "name_zh": "迷你凤凰",
     "name_en": "Chibi-Phoenix",
     "aliases": [],
     "crafting": [],
@@ -34812,7 +34812,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Procoptodon",
+    "name_zh": "迷你Procoptodon Bunny|复活节短面袋鼠",
     "name_en": "Chibi-Procoptodon",
     "aliases": [],
     "crafting": [],
@@ -34829,7 +34829,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Pteranodon",
+    "name_zh": "迷你翼龙",
     "name_en": "Chibi-Pteranodon",
     "aliases": [],
     "crafting": [],
@@ -34846,7 +34846,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Pulmonoscorpius",
+    "name_zh": "迷你巨蝎（普莫诺蝎）",
     "name_en": "Chibi-Pulmonoscorpius",
     "aliases": [],
     "crafting": [],
@@ -34863,7 +34863,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Quetzal",
+    "name_zh": "迷你风神翼龙",
     "name_en": "Chibi-Quetzal",
     "aliases": [],
     "crafting": [],
@@ -34880,7 +34880,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Raptor",
+    "name_zh": "迷你迅猛龙",
     "name_en": "Chibi-Raptor",
     "aliases": [],
     "crafting": [],
@@ -34897,7 +34897,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Reaper",
+    "name_zh": "迷你死神",
     "name_en": "Chibi-Reaper",
     "aliases": [],
     "crafting": [],
@@ -34914,7 +34914,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Rex",
+    "name_zh": "迷你霸王龙",
     "name_en": "Chibi-Rex",
     "aliases": [],
     "crafting": [],
@@ -34931,7 +34931,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Rhino",
+    "name_zh": "迷你-Rhino",
     "name_en": "Chibi-Rhino",
     "aliases": [],
     "crafting": [],
@@ -34948,7 +34948,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Rock Drake",
+    "name_zh": "迷你岩龙",
     "name_en": "Chibi-Rock Drake",
     "aliases": [],
     "crafting": [],
@@ -34965,7 +34965,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Rock Golem",
+    "name_zh": "迷你-Rock Golem",
     "name_en": "Chibi-Rock Golem",
     "aliases": [],
     "crafting": [],
@@ -34982,7 +34982,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Rollrat",
+    "name_zh": "迷你翻滚鼠（翻滚巨裸鼹）",
     "name_en": "Chibi-Rollrat",
     "aliases": [],
     "crafting": [],
@@ -34999,7 +34999,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Sabertooth",
+    "name_zh": "迷你剑齿虎（刃齿虎）",
     "name_en": "Chibi-Sabertooth",
     "aliases": [],
     "crafting": [],
@@ -35016,7 +35016,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Snow Owl",
+    "name_zh": "迷你雪鸮",
     "name_en": "Chibi-Snow Owl",
     "aliases": [],
     "crafting": [],
@@ -35033,7 +35033,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Spino",
+    "name_zh": "迷你棘背龙",
     "name_en": "Chibi-Spino",
     "aliases": [],
     "crafting": [],
@@ -35050,7 +35050,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Stego",
+    "name_zh": "迷你-Stego",
     "name_en": "Chibi-Stego",
     "aliases": [],
     "crafting": [],
@@ -35067,7 +35067,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Tapejara",
+    "name_zh": "迷你古神翼龙",
     "name_en": "Chibi-Tapejara",
     "aliases": [],
     "crafting": [],
@@ -35084,7 +35084,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Terror Bird",
+    "name_zh": "迷你骇鸟",
     "name_en": "Chibi-Terror Bird",
     "aliases": [],
     "crafting": [],
@@ -35101,7 +35101,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Therizino",
+    "name_zh": "迷你-Therizino",
     "name_en": "Chibi-Therizino",
     "aliases": [],
     "crafting": [],
@@ -35118,7 +35118,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Thylacoleo",
+    "name_zh": "迷你袋狮",
     "name_en": "Chibi-Thylacoleo",
     "aliases": [],
     "crafting": [],
@@ -35135,7 +35135,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Trike",
+    "name_zh": "迷你角龙",
     "name_en": "Chibi-Trike",
     "aliases": [],
     "crafting": [],
@@ -35152,7 +35152,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Wyvern",
+    "name_zh": "迷你飞龙",
     "name_en": "Chibi-Wyvern",
     "aliases": [],
     "crafting": [],
@@ -35169,7 +35169,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Chibi-Yutyrannus",
+    "name_zh": "迷你羽暴龙",
     "name_en": "Chibi-Yutyrannus",
     "aliases": [],
     "crafting": [],
@@ -35186,7 +35186,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Extinction/Gacha"
   },
   {
-    "name_zh": "Armadoggo Armor",
+    "name_zh": "Armadoggo护甲",
     "name_en": "Armadoggo Armor",
     "aliases": [],
     "crafting": [],
@@ -35325,7 +35325,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Cooked Lamb Chop",
+    "name_zh": "熟Lamb Chop",
     "name_en": "Cooked Lamb Chop",
     "aliases": [],
     "crafting": [],
@@ -35360,7 +35360,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Cooked Meat Jerky",
+    "name_zh": "熟肉肉干",
     "name_en": "Cooked Meat Jerky",
     "aliases": [],
     "crafting": [],
@@ -35447,7 +35447,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Dreadnoughtus Platform Saddle",
+    "name_zh": "无畏龙平台鞍",
     "name_en": "Dreadnoughtus Platform Saddle",
     "aliases": [],
     "crafting": [],
@@ -35482,7 +35482,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Element Dust",
+    "name_zh": "元素粉尘",
     "name_en": "Element Dust",
     "aliases": [],
     "crafting": [],
@@ -35692,7 +35692,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Focal Chili",
+    "name_zh": "Focal辣椒",
     "name_en": "Focal Chili",
     "aliases": [],
     "crafting": [],
@@ -35797,7 +35797,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Maeguana Saddle",
+    "name_zh": "梅瓜纳鞍",
     "name_en": "Maeguana Saddle",
     "aliases": [],
     "crafting": [],
@@ -35902,7 +35902,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Stone Foundation",
+    "name_zh": "石制地基",
     "name_en": "Stone Foundation",
     "aliases": [],
     "crafting": [],
@@ -35937,7 +35937,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Stone Pillar",
+    "name_zh": "石制柱子",
     "name_en": "Stone Pillar",
     "aliases": [],
     "crafting": [],
@@ -35972,7 +35972,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Sweet Vegetable Cake",
+    "name_zh": "Sweet Vegetable蛋糕",
     "name_en": "Sweet Vegetable Cake",
     "aliases": [],
     "crafting": [],
@@ -36024,7 +36024,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Wooden Spike Wall",
+    "name_zh": "木制尖刺墙",
     "name_en": "Wooden Spike Wall",
     "aliases": [],
     "crafting": [],
@@ -36099,7 +36099,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Rhyniognatha Saddle",
+    "name_zh": "莱尼虫鞍",
     "name_en": "Rhyniognatha Saddle",
     "aliases": [],
     "crafting": [],
@@ -36128,7 +36128,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Scrap Metal Ingot",
+    "name_zh": "Scrap金属Ingot",
     "name_en": "Scrap Metal Ingot",
     "aliases": [],
     "crafting": [],
@@ -36157,7 +36157,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Stone Wall",
+    "name_zh": "石制墙",
     "name_en": "Stone Wall",
     "aliases": [],
     "crafting": [],
@@ -36232,7 +36232,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Deinotherium Saddle",
+    "name_zh": "恐象鞍",
     "name_en": "Deinotherium Saddle",
     "aliases": [],
     "crafting": [],
@@ -36255,7 +36255,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Glider Suit Skin",
+    "name_zh": "Glider套装皮肤",
     "name_en": "Glider Suit Skin",
     "aliases": [],
     "crafting": [],
@@ -36289,7 +36289,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Metal Spike Wall",
+    "name_zh": "金属尖刺墙",
     "name_en": "Metal Spike Wall",
     "aliases": [],
     "crafting": [],
@@ -36312,7 +36312,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Boots",
+    "name_zh": "泰克靴子",
     "name_en": "Tek Boots",
     "aliases": [],
     "crafting": [],
@@ -36335,7 +36335,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Chestpiece",
+    "name_zh": "泰克胸甲",
     "name_en": "Tek Chestpiece",
     "aliases": [],
     "crafting": [],
@@ -36358,7 +36358,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Gauntlets",
+    "name_zh": "泰克护手",
     "name_en": "Tek Gauntlets",
     "aliases": [],
     "crafting": [],
@@ -36381,7 +36381,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Helmet",
+    "name_zh": "泰克头盔",
     "name_en": "Tek Helmet",
     "aliases": [],
     "crafting": [],
@@ -36404,7 +36404,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Leggings",
+    "name_zh": "泰克护腿",
     "name_en": "Tek Leggings",
     "aliases": [],
     "crafting": [],
@@ -36427,7 +36427,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Railgun",
+    "name_zh": "泰克Railgun",
     "name_en": "Tek Railgun",
     "aliases": [],
     "crafting": [],
@@ -36450,7 +36450,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Rifle",
+    "name_zh": "泰克步枪",
     "name_en": "Tek Rifle",
     "aliases": [],
     "crafting": [],
@@ -36473,7 +36473,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Tek Sword",
+    "name_zh": "泰克剑",
     "name_en": "Tek Sword",
     "aliases": [],
     "crafting": [],
@@ -36536,7 +36536,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Bison Saddle",
+    "name_zh": "野牛鞍",
     "name_en": "Bison Saddle",
     "aliases": [],
     "crafting": [],
@@ -36570,7 +36570,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Megaraptor Saddle",
+    "name_zh": "巨盗龙鞍",
     "name_en": "Megaraptor Saddle",
     "aliases": [],
     "crafting": [],
@@ -36587,7 +36587,7 @@
     "source_url": "https://ark.wiki.gg/wiki/Loot_tables/Astraeos/Orbital_Supply_Drops"
   },
   {
-    "name_zh": "Deinonychus Saddle",
+    "name_zh": "恐爪龙鞍",
     "name_en": "Deinonychus Saddle",
     "aliases": [],
     "crafting": [],

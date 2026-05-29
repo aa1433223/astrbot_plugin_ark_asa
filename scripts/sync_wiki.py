@@ -54,6 +54,322 @@ MAP_NAME_EN_TO_ZH = {
     "Ragnarok": "仙境",
     "Valguero": "瓦尔盖罗",
 }
+ARTIFACT_NAME_ZH = {
+    "Artifact of Chaos": "混沌神器",
+    "Artifact of Growth": "生长神器",
+    "Artifact of the Brute": "强壮神器",
+    "Artifact of the Clever": "聪明神器",
+    "Artifact of the Crag": "峭壁神器",
+    "Artifact of the Cunning": "狡诈神器",
+    "Artifact of the Depths": "深渊神器",
+    "Artifact of the Destroyer": "毁灭者神器",
+    "Artifact of the Devious": "诡计神器",
+    "Artifact of the Devourer": "吞噬神器",
+    "Artifact of the Fallen": "陨落神器",
+    "Artifact of the Gatekeeper": "守门人神器",
+    "Artifact of the Hunter": "猎手神器",
+    "Artifact of the Immune": "免疫神器",
+    "Artifact of the Lost": "失落神器",
+    "Artifact of the Massive": "巨型神器",
+    "Artifact of the Mighty": "强大神器",
+    "Artifact of the Pack": "群狼神器",
+    "Artifact of the Seeking": "追寻者神器",
+    "Artifact of the Shadows": "暗影神器",
+    "Artifact of the Skylord": "天主神器",
+    "Artifact of the Stalker": "潜行者神器",
+    "Artifact of the Strong": "强者神器",
+    "Artifact of the Void": "虚空神器",
+    "Artifact Pedestal": "神器底座",
+}
+KIBBLE_NAME_ZH = {
+    "Basic Kibble": "基础饲料",
+    "Simple Kibble": "简易饲料",
+    "Regular Kibble": "普通饲料",
+    "Superior Kibble": "上等饲料",
+    "Exceptional Kibble": "卓越饲料",
+    "Extraordinary Kibble": "非凡饲料",
+}
+ITEM_FIXED_TRANSLATIONS = {
+    "Absorbent Substrate": "吸收基质",
+    "Achatina Paste": "玛瑙螺黏液",
+    "Ambergris": "龙涎香",
+    "Ammonite Bile": "菊石胆汁",
+    "AnglerGel": "鮟鱇鱼发光凝胶",
+    "Barnacle": "藤壶",
+    "Element Dust": "元素粉尘",
+    "Element Ore": "元素矿石",
+    "Metal Ingot": "金属锭",
+    "Organic Polymer": "有机聚合物",
+    "Polymer": "聚合物",
+    "Propellant": "推进剂",
+    "Silica Pearls": "硅珍珠",
+    "Sparkpowder": "火花粉",
+}
+ITEM_PHRASE_TRANSLATIONS = {
+    "Primitive Plus": "Primitive Plus",
+    "Platform Saddle": "平台鞍",
+    "Tek Saddle": "泰克鞍",
+    "Starwing Saddle": "星翼鞍",
+    "Ghost Costume": "幽灵服装",
+    "Bone Costume": "骨骼服装",
+    "Bionic Costume": "仿生服装",
+    "Corrupted Costume": "腐化服装",
+    "Double Doorframe": "双门框",
+    "Double Door": "双开门",
+    "Dinosaur Gateway": "恐龙门框",
+    "Dinosaur Gate": "恐龙门",
+    "Fence Foundation": "栅栏地基",
+    "Fence Support": "栅栏支柱",
+    "Triangle Ceiling": "三角天花板",
+    "Triangle Foundation": "三角地基",
+    "Triangle Roof": "三角屋顶",
+    "Windowframe": "窗框",
+    "Doorframe": "门框",
+    "Hatchframe": "天窗框",
+    "Trapdoor": "活板门",
+    "Swim Bottom Skin": "泳装下装皮肤",
+    "Swim Shorts Skin": "泳裤皮肤",
+    "Swim Top Skin": "泳装上衣皮肤",
+    "Hat Skin": "帽子皮肤",
+    "Helmet Skin": "头盔皮肤",
+    "Shirt Skin": "衬衫皮肤",
+    "Pants Skin": "裤子皮肤",
+    "Mask Skin": "面具皮肤",
+    "Club Skin": "木棒皮肤",
+    "Sword Skin": "剑皮肤",
+    "Pickaxe Skin": "镐子皮肤",
+    "Hatchet Skin": "斧子皮肤",
+    "Parachute Skin": "降落伞皮肤",
+    "Rod Skin": "鱼竿皮肤",
+    "Wall-Mount": "壁挂",
+    "Mail Box": "邮箱",
+    "Air Conditioner": "空调",
+    "Ammo Box": "弹药箱",
+    "Egg Incubator": "孵化器",
+}
+ITEM_TOKEN_TRANSLATIONS = {
+    "Aberrant": "畸变",
+    "Adobe": "土坯",
+    "Advanced": "高级",
+    "Admin": "管理员",
+    "Air": "空气",
+    "Alpha": "精英",
+    "Animated": "动画版",
+    "Aquatic": "水生",
+    "Arctic": "极地",
+    "ARK": "ARK",
+    "Armor": "护甲",
+    "Axe": "斧",
+    "Backflip": "后空翻",
+    "Baked": "烘焙",
+    "Balloon": "气球",
+    "Banner": "横幅",
+    "Barrel": "桶",
+    "Basic": "基础",
+    "Battle": "战斗",
+    "BearHug": "抱抱熊",
+    "Behemoth": "巨型",
+    "Belly": "肚皮",
+    "Big": "大型",
+    "Bionic": "仿生",
+    "Blink": "闪现",
+    "Blue": "蓝色",
+    "Blood": "血",
+    "Boat": "船",
+    "Bone": "骨骼",
+    "Boots": "靴子",
+    "Bottom": "下装",
+    "Bow": "弓",
+    "Box": "箱",
+    "Brick": "砖",
+    "Broth": "肉汤",
+    "Bullet": "子弹",
+    "Bunny": "兔子",
+    "Cage": "笼",
+    "Cake": "蛋糕",
+    "Camo": "迷彩",
+    "Campfire": "篝火",
+    "Candle": "蜡烛",
+    "Candy": "糖果",
+    "Cane": "甘蔗",
+    "Captain's": "船长",
+    "Caroling": "颂歌",
+    "Ceiling": "天花板",
+    "Chestpiece": "胸甲",
+    "Chibi": "迷你",
+    "Chick": "小鸡",
+    "Chieftan": "酋长",
+    "Chili": "辣椒",
+    "Clap": "鼓掌",
+    "Claw": "爪",
+    "Club": "木棒",
+    "Coat": "外套",
+    "Coloring": "染料",
+    "Companion": "伙伴",
+    "Cooked": "熟",
+    "Cool": "酷炫",
+    "Corrupted": "腐化",
+    "Costume": "服装",
+    "Cupid": "丘比特",
+    "Dance": "舞蹈",
+    "Deal": "墨镜",
+    "Dev": "开发者",
+    "Door": "门",
+    "Dough": "面团",
+    "Double": "双",
+    "Drums": "鼓",
+    "Egg": "蛋",
+    "Ears": "耳朵",
+    "Easter": "复活节",
+    "Elderclaw": "老爪",
+    "Electric": "电",
+    "Emote": "表情动作",
+    "Exceptional": "卓越",
+    "Extraordinary": "非凡",
+    "Eyes": "眼睛",
+    "Feather": "羽毛",
+    "Fence": "栅栏",
+    "Festive": "节庆",
+    "File": "文件",
+    "Fishing": "钓鱼",
+    "Flag": "旗帜",
+    "Flare": "信号",
+    "Flex": "秀肌肉",
+    "Foundation": "地基",
+    "Fresh": "新鲜",
+    "Gauntlets": "护手",
+    "Gate": "门",
+    "Gateway": "门框",
+    "Ghost": "幽灵",
+    "Gloves": "手套",
+    "Goggles": "护目镜",
+    "Graft": "嫁接",
+    "Green": "绿色",
+    "Greenhouse": "温室",
+    "Grenade": "手雷",
+    "Gunpowder": "火药",
+    "Hair": "发型",
+    "Happy": "开心",
+    "Hat": "帽子",
+    "Hatchet": "斧子",
+    "Head": "头",
+    "Heart": "爱心",
+    "Helmet": "头盔",
+    "Hide": "兽皮",
+    "Honey": "蜂蜜",
+    "Hop": "跳跃",
+    "Hug": "拥抱",
+    "Hula": "呼啦",
+    "Human": "人类",
+    "Incubator": "孵化器",
+    "Industrial": "工业",
+    "Jar": "罐",
+    "Jaws": "颚骨",
+    "Jerky": "肉干",
+    "Juice": "果汁",
+    "Kibble": "饲料",
+    "King": "国王",
+    "Kit": "套件",
+    "Knock": "敲门",
+    "Ladder": "梯子",
+    "Large": "大型",
+    "Leg": "腿",
+    "Leggings": "护腿",
+    "Lovely": "可爱",
+    "Lost": "失落",
+    "Lumber": "木材",
+    "Mailbox": "邮箱",
+    "Mail": "邮件",
+    "Mask": "面具",
+    "Mead": "蜂蜜酒",
+    "Meat": "肉",
+    "Metal": "金属",
+    "Mobile": "Mobile",
+    "Modern": "现代",
+    "Mosh": "摇滚",
+    "Mount": "底座",
+    "Mushroom": "蘑菇",
+    "Noglin-Print": "诺格林印花",
+    "Note": "笔记",
+    "Nutcracker": "胡桃夹子",
+    "Oven": "烤炉",
+    "Panic": "惊慌",
+    "Pants": "裤子",
+    "Parachute": "降落伞",
+    "Party": "派对",
+    "Pedestal": "底座",
+    "Pickaxe": "镐子",
+    "Pillar": "柱子",
+    "Pit": "舞池",
+    "Platform": "平台",
+    "Print": "印花",
+    "Proto": "原型",
+    "Railing": "栏杆",
+    "Ramp": "坡道",
+    "Raw": "生",
+    "Reindeer": "驯鹿",
+    "Regular": "普通",
+    "Rex": "霸王龙",
+    "Rifle": "步枪",
+    "Rig": "战车",
+    "Roof": "屋顶",
+    "Rub": "抚摸",
+    "Rug": "地毯",
+    "Saddle": "鞍",
+    "Santa": "圣诞老人",
+    "Scare": "惊吓",
+    "Scout": "侦察兵",
+    "Section": "段",
+    "Seed": "种子",
+    "Self": "自己",
+    "Series": "系列",
+    "Shirt": "衬衫",
+    "Shorts": "短裤",
+    "Simple": "简易",
+    "Skin": "皮肤",
+    "Slice": "切片",
+    "Sloped": "斜面",
+    "Small": "小型",
+    "Smooch": "亲吻",
+    "Snowball": "雪球",
+    "Species": "物种",
+    "Spike": "尖刺",
+    "Stairs": "楼梯",
+    "Staircase": "楼梯",
+    "Statue": "雕像",
+    "Stone": "石制",
+    "Stronghold": "堡垒",
+    "Sugar": "糖",
+    "Suit": "套装",
+    "Support": "支柱",
+    "Surprise": "惊喜",
+    "Survivor's": "幸存者",
+    "Sword": "剑",
+    "Table": "工作台",
+    "Tail": "尾巴",
+    "Tea": "茶",
+    "Tek": "泰克",
+    "Tester": "测试员",
+    "Top": "上装",
+    "Tophat": "高礼帽",
+    "Trapdoor": "活板门",
+    "Triangle": "三角",
+    "Trophy": "战利品",
+    "Turret": "炮塔",
+    "Wall": "墙",
+    "Wall-Mount": "壁挂",
+    "Water": "水",
+    "Weapon": "武器",
+    "Whistle": "口哨",
+    "Wiggle": "摇摆",
+    "Wildcard": "Wildcard",
+    "Window": "窗",
+    "Winter": "冬季",
+    "Wooden": "木制",
+    "Work": "工作",
+    "Workbench": "工作台",
+    "Zombie": "僵尸",
+}
 MANUAL_CREATURE_ZH = {
     "Abominable Snowman": "雪怪",
     "Amargasaurus": "阿玛加龙",
@@ -663,10 +979,163 @@ def _build_manual_item_name_map(manual_items: list[dict[str, Any]]) -> dict[str,
     return mapping
 
 
+def _build_creature_name_lookup(creatures_rows: list[dict[str, Any]]) -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    for row in creatures_rows:
+        name_zh = str(row.get("name_zh", "")).strip()
+        if not name_zh:
+            continue
+        candidates = [row.get("name_en", ""), *row.get("aliases", [])]
+        for candidate in candidates:
+            key = _normalize_english_lookup(candidate)
+            if key and key not in lookup:
+                lookup[key] = name_zh
+    return lookup
+
+
+def _lookup_creature_item_name_zh(name_en: str, creature_lookup: dict[str, str]) -> str:
+    direct = creature_lookup.get(_normalize_english_lookup(name_en), "")
+    if direct:
+        return direct
+
+    normalized = _normalize_english_lookup(name_en)
+    for key, value in creature_lookup.items():
+        if key == normalized:
+            return value
+    return ""
+
+
+def _translate_tokenized_item_name(name_en: str) -> str:
+    result = str(name_en).strip()
+    if not result:
+        return ""
+
+    for english, chinese in sorted(ITEM_PHRASE_TRANSLATIONS.items(), key=lambda item: len(item[0]), reverse=True):
+        result = re.sub(rf"\b{re.escape(english)}\b", chinese, result)
+
+    for english, chinese in sorted(ITEM_TOKEN_TRANSLATIONS.items(), key=lambda item: len(item[0]), reverse=True):
+        result = re.sub(rf"\b{re.escape(english)}\b", chinese, result)
+
+    result = re.sub(r"\s+", " ", result).strip()
+    result = result.replace(" (", "（").replace(")", "）")
+    result = result.replace(" - ", "-").replace(" :", ":")
+    result = result.replace("Chibi-", "迷你")
+    result = result.replace("Chibi ", "迷你")
+    result = result.replace("Mobile:", "Mobile:")
+    result = re.sub(r"(?<=[\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])", "", result)
+    result = re.sub(r"(?<=[\u4e00-\u9fff])\s+(?=[A-Za-z0-9])", "", result)
+    result = re.sub(r"(?<=[A-Za-z0-9])\s+(?=[\u4e00-\u9fff])", "", result)
+    return result.strip()
+
+
+def _looks_translated_item_name(name_en: str, candidate: str) -> bool:
+    clean_candidate = str(candidate).strip()
+    if not clean_candidate or clean_candidate == name_en:
+        return False
+    if not re.search(r"[\u4e00-\u9fff]", clean_candidate):
+        return False
+
+    english_words = re.findall(r"[A-Za-z]{3,}", clean_candidate)
+    allowed_words = {"ARK", "Mobile", "Plus", "Primitive"}
+    blocked = [word for word in english_words if word not in allowed_words]
+    return len(blocked) <= 2
+
+
+def _generate_item_name_zh(name_en: str, creature_lookup: dict[str, str]) -> tuple[str, list[str]]:
+    clean_name = str(name_en or "").strip()
+    if not clean_name:
+        return "", []
+
+    if clean_name in ITEM_FIXED_TRANSLATIONS:
+        value = ITEM_FIXED_TRANSLATIONS[clean_name]
+        return value, [value]
+
+    if clean_name in ARTIFACT_NAME_ZH:
+        value = ARTIFACT_NAME_ZH[clean_name]
+        return value, [value]
+
+    if clean_name in KIBBLE_NAME_ZH:
+        value = KIBBLE_NAME_ZH[clean_name]
+        return value, [value]
+
+    primitive_plus_suffix = " (Primitive Plus)"
+    if clean_name.endswith(primitive_plus_suffix):
+        base_name = clean_name[: -len(primitive_plus_suffix)].strip()
+        translated, aliases = _generate_item_name_zh(base_name, creature_lookup)
+        if translated:
+            value = f"{translated}（Primitive Plus）"
+            return value, _dedupe_list([value, *aliases])
+
+    kibble_match = re.fullmatch(r"Kibble \((.+?) Egg\)", clean_name)
+    if kibble_match:
+        creature_name = kibble_match.group(1).strip()
+        creature_zh = _lookup_creature_item_name_zh(creature_name, creature_lookup)
+        if creature_zh:
+            value = f"{creature_zh}蛋饲料"
+            return value, [value]
+
+    for suffix, suffix_zh in [
+        (" Platform Saddle", "平台鞍"),
+        (" Tek Saddle", "泰克鞍"),
+        (" Starwing Saddle", "星翼鞍"),
+        (" Saddle", "鞍"),
+        (" Egg", "蛋"),
+        (" Trophy", "战利品"),
+        (" Brain", "大脑"),
+        (" Talon", "爪"),
+        (" Claw", "爪"),
+        (" Claws", "爪"),
+        (" Fang", "獠牙"),
+        (" Tooth", "牙"),
+        (" Arm", "手臂"),
+        (" Skull", "头骨"),
+        (" Barb", "刺"),
+        (" Fin", "鳍"),
+        (" Eye", "眼"),
+        (" Blubber", "脂"),
+        (" Scale", "鳞片"),
+        (" Horn", "角"),
+        (" Horns", "角"),
+        (" Spike", "尖刺"),
+        (" Bile", "胆汁"),
+        (" Gland", "腺体"),
+        (" Pheromone", "信息素"),
+        (" Ghost Costume", "幽灵服装"),
+        (" Bone Costume", "骨骼服装"),
+        (" Bionic Costume", "仿生服装"),
+        (" Corrupted Costume", "腐化服装"),
+        (" Costume", "服装"),
+    ]:
+        if clean_name.endswith(suffix):
+            base_name = clean_name[: -len(suffix)].strip()
+            creature_zh = _lookup_creature_item_name_zh(base_name, creature_lookup)
+            if creature_zh:
+                value = f"{creature_zh}{suffix_zh}"
+                return value, [value]
+
+    if clean_name.startswith("Chibi-") or clean_name.startswith("Chibi "):
+        base_name = clean_name.replace("Chibi-", "", 1).replace("Chibi ", "", 1).strip()
+        translated_base = _lookup_creature_item_name_zh(base_name, creature_lookup) or _translate_tokenized_item_name(base_name)
+        if translated_base and _looks_translated_item_name(base_name, translated_base):
+            value = f"迷你{translated_base}"
+            return value, [value]
+
+    translated = _translate_tokenized_item_name(clean_name)
+    if _looks_translated_item_name(clean_name, translated):
+        aliases = [translated]
+        no_space_variant = translated.replace(" ", "")
+        if no_space_variant != translated:
+            aliases.append(no_space_variant)
+        return translated, _dedupe_list(aliases)
+
+    return "", []
+
+
 def merge_item_translations(
     items_input: Path,
     langlinks_input: Path,
     manual_items_input: Path | None,
+    creatures_input: Path | None,
     output_file: Path,
 ) -> list[dict[str, Any]]:
     items = json.loads(items_input.read_text(encoding="utf-8"))
@@ -675,6 +1144,10 @@ def merge_item_translations(
     if manual_items_input and manual_items_input.exists():
         manual_items = json.loads(manual_items_input.read_text(encoding="utf-8"))
     manual_lookup = _build_manual_item_name_map(manual_items)
+    creatures_rows = []
+    if creatures_input and creatures_input.exists():
+        creatures_rows = json.loads(creatures_input.read_text(encoding="utf-8"))
+    creature_lookup = _build_creature_name_lookup(creatures_rows)
 
     merged_rows: list[dict[str, Any]] = []
     for row in items:
@@ -683,8 +1156,10 @@ def merge_item_translations(
         translated = str(langlinks.get(name_en, "")).replace("_", " ").strip()
         manual_entry = manual_lookup.get(name_en, {})
         manual_name_zh = str(manual_entry.get("name_zh", "")).strip()
-        zh_name = translated or manual_name_zh or str(current.get("name_zh", "")).strip()
+        generated_name_zh, generated_aliases = _generate_item_name_zh(name_en, creature_lookup)
+        zh_name = translated or manual_name_zh or generated_name_zh or str(current.get("name_zh", "")).strip()
         aliases = _dedupe_list(list(current.get("aliases", [])) + list(manual_entry.get("aliases", [])))
+        aliases = _dedupe_list(aliases + generated_aliases)
         if zh_name:
             current["name_zh"] = zh_name
             aliases = _dedupe_list([zh_name, *aliases])
@@ -737,6 +1212,7 @@ def autofill_item_translations(
     client: WikiClient,
     items_input: Path,
     manual_items_input: Path | None,
+    creatures_input: Path | None,
     langlinks_output: Path,
     translated_output: Path,
     report_output: Path,
@@ -750,7 +1226,7 @@ def autofill_item_translations(
     ]
     mapping = fetch_langlinks_for_titles(client, titles, "zh")
     write_json(langlinks_output, mapping)
-    merge_item_translations(items_input, langlinks_output, manual_items_input, translated_output)
+    merge_item_translations(items_input, langlinks_output, manual_items_input, creatures_input, translated_output)
     return build_item_translation_report(
         items_input,
         translated_output,
@@ -1556,6 +2032,7 @@ def parse_args() -> argparse.Namespace:
     merge_item_translations_parser.add_argument("--items-input", required=True)
     merge_item_translations_parser.add_argument("--langlinks-input", required=True)
     merge_item_translations_parser.add_argument("--manual-items", default="")
+    merge_item_translations_parser.add_argument("--creatures-input", default="")
     merge_item_translations_parser.add_argument("--output", required=True)
 
     item_translation_report_parser = subparsers.add_parser("build-item-translation-report", help="Build an item translation coverage report and optional manual template.")
@@ -1567,6 +2044,7 @@ def parse_args() -> argparse.Namespace:
     autofill_item_translations_parser = subparsers.add_parser("autofill-item-translations", help="Run the full item Chinese translation autofill pipeline from langlinks and manual item names.")
     autofill_item_translations_parser.add_argument("--items-input", required=True)
     autofill_item_translations_parser.add_argument("--manual-items", default="")
+    autofill_item_translations_parser.add_argument("--creatures-input", default="")
     autofill_item_translations_parser.add_argument("--langlinks-output", required=True)
     autofill_item_translations_parser.add_argument("--translated-output", required=True)
     autofill_item_translations_parser.add_argument("--report-output", required=True)
@@ -2046,6 +2524,7 @@ def main() -> int:
             Path(args.items_input),
             Path(args.langlinks_input),
             Path(args.manual_items) if args.manual_items else None,
+            Path(args.creatures_input) if args.creatures_input else None,
             Path(args.output),
         )
         print(f"generated {len(rows)} translated item rows")
@@ -2070,6 +2549,7 @@ def main() -> int:
             client,
             Path(args.items_input),
             Path(args.manual_items) if args.manual_items else None,
+            Path(args.creatures_input) if args.creatures_input else None,
             Path(args.langlinks_output),
             Path(args.translated_output),
             Path(args.report_output),
