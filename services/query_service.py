@@ -522,29 +522,45 @@ class ArkQueryService:
 
     def help_text(self) -> str:
         return self.help_result().message
-
     def help_result(self) -> QueryResult:
         return QueryResult(
             "\n".join(
                 [
-                    "ARK 生存飞升资料查询插件",
+                    "ARK: Survival Ascended 资料查询插件",
                     "",
                     "基础查询：",
                     "/ark tame 南方巨兽龙",
-                    "/ark code 霸王龙",
-                    "/ark item 水泥浆",
+                    "/ark code 高棘龙",
+                    "/ark item 水泥膏",
                     "/ark resource 金属",
                     "/ark map 孤岛 水晶",
                     "/ark maps",
                     "",
-                    "宝箱与掉落：",
+                    "宝箱与来源：",
                     "/ark crate 孤岛 红色补给箱",
                     "/ark loot 十字弩",
                     "/ark source 长管步枪",
-                    "/ark list creature 高",
-                    "/ark alias 南方巨兽龙 南巨",
                     "",
-                    "快捷指令：",
+                    "列表与翻页：",
+                    "/ark list creature",
+                    "/ark list creature 2",
+                    "/ark list creature 高 2",
+                    "/ark list item 珍珠",
+                    "/ark list crate 孤岛 2",
+                    "",
+                    "别名：",
+                    "/别名 南方巨兽龙 南巨",
+                    "/别名 南方巨兽龙",
+                    "/ark alias add creature Acrocanthosaurus = 高棘龙",
+                    "/ark alias list creature Acrocanthosaurus",
+                    "",
+                    "智能问答：",
+                    "/ark ai 高棘龙怎么驯",
+                    "/ark ask 孤岛金属矿主要在哪",
+                    "/方舟问答 泰克步枪从哪里出",
+                    "/arkai 南巨代码是什么",
+                    "",
+                    "中文快捷命令：",
                     "/驯龙 霸王龙",
                     "/代码 聚合物",
                     "/材料 黑珍珠",
@@ -553,13 +569,13 @@ class ArkQueryService:
                     "/宝箱 畸变 蓝色地表补给箱",
                     "/掉落 泵动霰弹枪",
                     "/来源 十字弩",
-                    "/列表 creature 高",
-                    "/别名 南方巨兽龙 南巨",
+                    "/列表 creature 高 2",
                     "/地图列表",
                     "",
                     "说明：",
-                    "1. 当前插件已经支持地图、宝箱、宝箱掉落、反向来源索引、列表浏览和运行期别名添加。",
+                    "1. /ark 后可直接接子命令；未识别的内容会尝试智能匹配到生物、物品、资源、地图或宝箱。",
                     "2. 运行期新增的别名会写入 data/custom_aliases.json，重启后仍会保留。",
+                    "3. 列表翻页格式为：/ark list <分类> [关键字] [页码]，最后一个纯数字会被识别为页码。",
                 ]
             )
         )
@@ -707,7 +723,6 @@ class ArkQueryService:
             "提示：用 /ark maps 地图名 可查看单张地图详情",
         ]
         return QueryResult("\n".join(lines))
-
     def query_list(self, raw_query: str) -> QueryResult:
         raw_query = (raw_query or "").strip()
         if not raw_query:
@@ -715,27 +730,53 @@ class ArkQueryService:
                 "\n".join(
                     [
                         "列表用法：",
-                        "/ark list creature [关键字]",
-                        "/ark list item [关键字]",
-                        "/ark list resource [关键字]",
-                        "/ark list map [关键字]",
-                        "/ark list crate [关键字]",
+                        "/ark list creature",
+                        "/ark list creature 2",
+                        "/ark list creature 高 2",
+                        "/ark list item 珍珠",
+                        "/ark list resource 金属 3",
+                        "/ark list map",
+                        "/ark list crate 孤岛 2",
                     ]
                 ),
                 found=False,
             )
 
-        parts = raw_query.split(maxsplit=1)
-        category = self._resolve_category(parts[0])
+        parts = raw_query.split()
+        category_token = parts[0]
+        category = self._resolve_category(category_token)
         if category is None:
-            return QueryResult(f"未识别的列表分类：{parts[0]}", found=False)
+            return QueryResult(f"未识别的列表分类：{category_token}", found=False)
 
-        keyword = parts[1].strip() if len(parts) > 1 else ""
+        page = 1
+        keyword_tokens = parts[1:]
+        if keyword_tokens and keyword_tokens[-1].isdigit():
+            parsed_page = int(keyword_tokens[-1])
+            if parsed_page < 1:
+                return QueryResult("页码必须大于等于 1。", found=False)
+            page = parsed_page
+            keyword_tokens = keyword_tokens[:-1]
+
+        keyword = " ".join(keyword_tokens).strip()
         rows = self._list_rows_for_category(category, keyword)
         if not rows:
-            return QueryResult(f"没有找到分类 {parts[0]} 下与“{keyword or '全部'}”匹配的条目。", found=False)
+            return QueryResult(f"没有找到分类 {category_token} 下与“{keyword or '全部'}”匹配的条目。", found=False)
 
-        labels = [self._list_label_for_row(category, row) for row in rows[: self.list_default_limit]]
+        page_size = self.list_default_limit
+        total = len(rows)
+        total_pages = max(1, (total + page_size - 1) // page_size)
+        if page > total_pages:
+            base_hint = f"/ark list {category_token}"
+            if keyword:
+                base_hint = f"{base_hint} {keyword}"
+            return QueryResult(
+                f"页码超出范围：当前共 {total_pages} 页，请使用 {base_hint} {total_pages}",
+                found=False,
+            )
+
+        start = (page - 1) * page_size
+        end = min(start + page_size, total)
+        labels = [self._list_label_for_row(category, row) for row in rows[start:end]]
         title_map = {
             "creature": "生物列表",
             "item": "物品列表",
@@ -743,12 +784,21 @@ class ArkQueryService:
             "map": "地图列表",
             "crate": "宝箱列表",
         }
-        lines = [f"{title_map[category]}（共 {len(rows)} 条，显示前 {min(len(rows), self.list_default_limit)} 条）"]
+        lines = [f"{title_map[category]}（共 {total} 条，第 {page}/{total_pages} 页，显示第 {start + 1}-{end} 条）"]
         if keyword:
             lines.append(f"筛选关键字：{keyword}")
         lines.extend(f"- {label}" for label in labels)
-        if len(rows) > self.list_default_limit:
-            lines.append(f"提示：可在 AstrBot 配置里调大 list_default_limit，当前为 {self.list_default_limit}。")
+
+        base_parts = ["/ark", "list", category_token]
+        if keyword:
+            base_parts.append(keyword)
+        base_command = " ".join(base_parts)
+        if total_pages > 1 and page > 1:
+            lines.append(f"上一页：{base_command} {page - 1}")
+        if total_pages > 1 and page < total_pages:
+            lines.append(f"下一页：{base_command} {page + 1}")
+        if total_pages > 1:
+            lines.append(f"每页数量：{page_size}（可通过 AstrBot 配置项 list_default_limit 调整）")
         return QueryResult("\n".join(lines))
 
     def query_alias(self, raw_query: str) -> QueryResult:
