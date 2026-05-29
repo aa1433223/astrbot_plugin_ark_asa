@@ -1,4 +1,6 @@
-# AstrBot 方舟生存飞升资料查询插件
+# astrbot_plugin_ark_asa
+
+方舟生存飞升资料查询插件。
 
 这是一个面向 `ARK: Survival Ascended` 的 AstrBot 本地资料查询插件，首版支持：
 
