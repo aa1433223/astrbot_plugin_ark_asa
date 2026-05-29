@@ -1,0 +1,7 @@
+name: ark_asa_wiki
+display_name: 方舟生存飞升资料查询
+desc: 查询方舟生存飞升的生物驯养、控制台代码、材料获取和地图资源点。
+version: v0.1.0
+author: Codex
+repo: ""
+astrbot_version: ">=4.10.4"

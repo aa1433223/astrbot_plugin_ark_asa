@@ -1,0 +1,19 @@
+{
+  "max_suggestions": {
+    "description": "模糊匹配候选数量",
+    "hint": "当没有精确命中时，最多返回几个建议关键词。",
+    "type": "int",
+    "slider": {
+      "min": 1,
+      "max": 8,
+      "step": 1
+    },
+    "default": 3
+  },
+  "show_source_url": {
+    "description": "显示来源链接",
+    "hint": "开启后会在回复底部附上 Wiki 页面来源。",
+    "type": "bool",
+    "default": true
+  }
+}

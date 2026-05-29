@@ -1,0 +1,122 @@
+[
+  {
+    "name_zh": "金属锭",
+    "name_en": "Metal Ingot",
+    "aliases": ["铁锭", "锭", "metal ingot"],
+    "obtain_methods": ["金属矿石在熔炉或工业熔炉中烧制", "富金属地图用甲龙采集效率最高"],
+    "harvest_from": ["金属矿石", "丰富金属矿石"],
+    "best_tools": ["甲龙", "岩石元素兽", "工业熔炉"],
+    "item_code": 74,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'\"",
+    "notes": "大部分中后期装备和建筑的基础材料。",
+    "source_url": "https://ark.wiki.gg/wiki/Metal_Ingot"
+  },
+  {
+    "name_zh": "水泥浆",
+    "name_en": "Cementing Paste",
+    "aliases": ["水泥", "cp", "cementing paste"],
+    "obtain_methods": ["研磨器制作：石头 + 几丁质/角质", "河狸坝直接搜刮", "巨型海狸附近常见"],
+    "harvest_from": ["海狸坝", "昆虫和甲壳类掉落的几丁质", "三叶虫"],
+    "best_tools": ["研磨器", "甲龙采石", "剑龙或野兽采几丁质"],
+    "item_code": 144,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste'\"",
+    "notes": "前中期极缺，做枪械、鞍具和工业设备都很常用。",
+    "source_url": "https://ark.wiki.gg/wiki/Cementing_Paste"
+  },
+  {
+    "name_zh": "聚合物",
+    "name_en": "Polymer",
+    "aliases": ["聚合", "polymer"],
+    "obtain_methods": ["黑曜石 + 水泥浆在机床制作", "后期可大量工业化生产"],
+    "harvest_from": ["黑曜石", "水泥浆"],
+    "best_tools": ["甲龙采黑曜石", "机床"],
+    "item_code": 161,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer.PrimalItemResource_Polymer'\"",
+    "notes": "用于高阶枪械、防具、科技设备和高级鞍。",
+    "source_url": "https://ark.wiki.gg/wiki/Polymer"
+  },
+  {
+    "name_zh": "有机聚合物",
+    "name_en": "Organic Polymer",
+    "aliases": ["有机聚合", "op", "organic polymer"],
+    "obtain_methods": ["采集企鹅、螳螂、凯鲁库等生物", "部分地图可从特定生物高效获取"],
+    "harvest_from": ["企鹅", "螳螂", "蜂巢附近生物"],
+    "best_tools": ["电锯", "棍棒类高采集工具", "剑齿虎"],
+    "item_code": 374,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'\"",
+    "notes": "可替代聚合物使用，但会腐坏，适合短期周转。",
+    "source_url": "https://ark.wiki.gg/wiki/Organic_Polymer"
+  },
+  {
+    "name_zh": "黑珍珠",
+    "name_en": "Black Pearl",
+    "aliases": ["黑珠", "black pearl", "bp"],
+    "obtain_methods": ["深海生物掉落", "深海采集节点", "仙境海沟或深海区域获取"],
+    "harvest_from": ["海蝎", "菊石", "深海节点", "死亡蠕虫战利品"],
+    "best_tools": ["水下坐骑", "采集效率高的海生物"],
+    "item_code": 439,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'\"",
+    "notes": "泰克和高级鞍常用材料，价值很高。",
+    "source_url": "https://ark.wiki.gg/wiki/Black_Pearl"
+  },
+  {
+    "name_zh": "硅珍珠",
+    "name_en": "Silica Pearls",
+    "aliases": ["珍珠", "白珍珠", "silica pearl", "pearls"],
+    "obtain_methods": ["海底贝类节点", "河流浅水床", "部分地图雪地区湖泊可采集"],
+    "harvest_from": ["水下珍珠节点", "双壳贝", "部分生物掉落"],
+    "best_tools": ["水下坐骑", "徒手快速采集"],
+    "item_code": 146,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'\"",
+    "notes": "电子元件和高级设备的重要材料。",
+    "source_url": "https://ark.wiki.gg/wiki/Silica_Pearls"
+  },
+  {
+    "name_zh": "石油",
+    "name_en": "Oil",
+    "aliases": ["油", "oil"],
+    "obtain_methods": ["深海油石节点", "雪山油石", "甲壳生物尸体", "油井平台采集"],
+    "harvest_from": ["石油节点", "三叶虫", "海洋生物"],
+    "best_tools": ["甲龙", "风神平台采集", "深海坐骑"],
+    "item_code": 159,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'\"",
+    "notes": "汽油和工业设备链条的上游材料。",
+    "source_url": "https://ark.wiki.gg/wiki/Oil"
+  },
+  {
+    "name_zh": "水晶",
+    "name_en": "Crystal",
+    "aliases": ["crystal", "晶体"],
+    "obtain_methods": ["山顶、洞穴和雪山矿点采集", "飞行坐骑运输最方便"],
+    "harvest_from": ["水晶矿点"],
+    "best_tools": ["金属镐", "甲龙", "巨鹰运输"],
+    "item_code": 77,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal'\"",
+    "notes": "望远镜、发电机和许多高级制作都需要。",
+    "source_url": "https://ark.wiki.gg/wiki/Crystal"
+  },
+  {
+    "name_zh": "黑曜石",
+    "name_en": "Obsidian",
+    "aliases": ["obsidian", "黑石"],
+    "obtain_methods": ["火山区、雪山山顶和高海拔矿区采集"],
+    "harvest_from": ["黑曜石矿点"],
+    "best_tools": ["甲龙", "金属镐"],
+    "item_code": 150,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian'\"",
+    "notes": "聚合物生产的核心原料之一。",
+    "source_url": "https://ark.wiki.gg/wiki/Obsidian"
+  },
+  {
+    "name_zh": "电子元件",
+    "name_en": "Electronics",
+    "aliases": ["电子", "electronics"],
+    "obtain_methods": ["机床制作：硅珍珠 + 金属锭", "科技战利品拆解也可能获得"],
+    "harvest_from": ["硅珍珠", "金属锭"],
+    "best_tools": ["机床", "深海采珍珠", "工业熔炉烧锭"],
+    "item_code": 156,
+    "blueprint_path": "\"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics'\"",
+    "notes": "枪械附件、发电设备和泰克前置材料。",
+    "source_url": "https://ark.wiki.gg/wiki/Electronics"
+  }
+]

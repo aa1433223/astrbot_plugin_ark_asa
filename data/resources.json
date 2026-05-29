@@ -1,0 +1,142 @@
+[
+  {
+    "map_name": "孤岛",
+    "resource_name": "金属",
+    "aliases": ["metal", "金属矿", "铁"],
+    "areas": ["火山口与火山外圈", "雪山主峰", "远峰山脉"],
+    "coordinates": ["火山约 41,39", "雪山北侧约 30,50", "东北山脉约 25,68"],
+    "risk_level": "中到高，常有食肉龙和极端气候。",
+    "notes": "推荐巨鹰抓甲龙上山采集，火山与雪山矿点最稳定。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(The_Island)"
+  },
+  {
+    "map_name": "孤岛",
+    "resource_name": "水晶",
+    "aliases": ["crystal"],
+    "areas": ["火山高处", "雪山矿区", "北方洞穴周边"],
+    "coordinates": ["火山约 42,37", "雪山约 29,57", "北方区域约 18,50"],
+    "risk_level": "中，部分区域有飞龙或狼群风险。",
+    "notes": "雪山水晶点密度高，适合中期飞行采集。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(The_Island)"
+  },
+  {
+    "map_name": "孤岛",
+    "resource_name": "黑曜石",
+    "aliases": ["obsidian", "黑石"],
+    "areas": ["火山山顶", "雪山山脊"],
+    "coordinates": ["火山约 43,39", "雪山约 28,58"],
+    "risk_level": "高，火山地形复杂且危险生物多。",
+    "notes": "优先用甲龙采，和金属路线可以一起跑。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(The_Island)"
+  },
+  {
+    "map_name": "孤岛",
+    "resource_name": "石油",
+    "aliases": ["oil"],
+    "areas": ["雪山油石区", "北海深海区域"],
+    "coordinates": ["雪山约 30,62", "西北海域多处深海点"],
+    "risk_level": "高，低温和深海威胁明显。",
+    "notes": "初期可从雪山油石获取，后期转深海路线。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(The_Island)"
+  },
+  {
+    "map_name": "孤岛",
+    "resource_name": "黑珍珠",
+    "aliases": ["black pearl", "黑珠"],
+    "areas": ["深海海沟", "部分海底生物刷新区"],
+    "coordinates": ["西北深海和东北深海多见"],
+    "risk_level": "很高，需要成熟水下装备和坐骑。",
+    "notes": "主要依赖深海击杀和节点采集，不适合新手单刷。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(The_Island)"
+  },
+  {
+    "map_name": "焦土",
+    "resource_name": "金属",
+    "aliases": ["metal", "金属矿", "铁"],
+    "areas": ["大红方尖碑周边山脉", "峡谷高地", "地图边缘山体"],
+    "coordinates": ["中北部高山约 50,40", "东北山地约 75,25"],
+    "risk_level": "中到高，炎热天气和飞龙区域要小心。",
+    "notes": "焦土采矿更依赖耐热和飞行转运能力。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Scorched_Earth)"
+  },
+  {
+    "map_name": "焦土",
+    "resource_name": "水晶",
+    "aliases": ["crystal"],
+    "areas": ["高山山脊", "峡谷边缘高地"],
+    "coordinates": ["东北高山约 78,20", "中部山脊约 52,42"],
+    "risk_level": "中，主要是高温和地形问题。",
+    "notes": "和金属点大多重叠，适合同路采集。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Scorched_Earth)"
+  },
+  {
+    "map_name": "焦土",
+    "resource_name": "黑曜石",
+    "aliases": ["obsidian", "黑石"],
+    "areas": ["高山尖峰", "边缘火成岩地带"],
+    "coordinates": ["东北山巅约 80,18"],
+    "risk_level": "中到高，飞行转运更稳。",
+    "notes": "数量不如仙境和孤岛集中，建议和水晶顺路采。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Scorched_Earth)"
+  },
+  {
+    "map_name": "焦土",
+    "resource_name": "石油",
+    "aliases": ["oil"],
+    "areas": ["沙漠油田", "地图边缘荒地"],
+    "coordinates": ["西南荒地约 20,70", "中南油点约 50,75"],
+    "risk_level": "中，高温和沙暴会显著拖慢效率。",
+    "notes": "焦土石油节点相对好找，但运输要注意负重和缺水。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Scorched_Earth)"
+  },
+  {
+    "map_name": "仙境",
+    "resource_name": "金属",
+    "aliases": ["metal", "金属矿", "铁"],
+    "areas": ["高地雪山", "维京湾北侧山脉", "沙漠山体"],
+    "coordinates": ["西北雪山约 20,30", "中北山脉约 35,45", "沙漠边约 75,40"],
+    "risk_level": "中，矿点丰富但地形跨度大。",
+    "notes": "仙境金属点非常多，是首版地图里最舒服的采矿图之一。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Ragnarok)"
+  },
+  {
+    "map_name": "仙境",
+    "resource_name": "水晶",
+    "aliases": ["crystal"],
+    "areas": ["雪山矿区", "沙漠峡谷", "高地山体"],
+    "coordinates": ["西北雪山约 18,28", "沙漠峡谷约 79,32"],
+    "risk_level": "中，沙漠区域需注意高温和死亡虫。",
+    "notes": "仙境水晶点密集，飞龙或狮鹫搬运都很顺手。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Ragnarok)"
+  },
+  {
+    "map_name": "仙境",
+    "resource_name": "黑曜石",
+    "aliases": ["obsidian", "黑石"],
+    "areas": ["龙谷高地", "雪山山巅", "火山地带"],
+    "coordinates": ["龙谷附近约 22,65", "雪山约 17,30"],
+    "risk_level": "高，龙谷路线危险较大。",
+    "notes": "建议后期飞行坐骑加甲龙采集，效率很高。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Ragnarok)"
+  },
+  {
+    "map_name": "仙境",
+    "resource_name": "石油",
+    "aliases": ["oil"],
+    "areas": ["雪原冰湖周边", "沙漠深处油石点"],
+    "coordinates": ["西北雪原约 16,40", "沙漠约 82,25"],
+    "risk_level": "中到高，气候和敌对生物都比较麻烦。",
+    "notes": "冰湖附近路线更稳定，适合中期采集。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Ragnarok)"
+  },
+  {
+    "map_name": "仙境",
+    "resource_name": "黑珍珠",
+    "aliases": ["black pearl", "黑珠"],
+    "areas": ["深海海沟", "沙漠死亡虫相关战利品", "海底危险区域"],
+    "coordinates": ["西南深海和东南近海海沟多见"],
+    "risk_level": "很高，需要成型水下或高战力配置。",
+    "notes": "仙境拿黑珍珠路线较多，但都不算新手友好。",
+    "source_url": "https://ark.wiki.gg/wiki/Resource_Map_(Ragnarok)"
+  }
+]
